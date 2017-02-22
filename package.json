@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DmsChrisPena/babel-nodejs-setup.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DmsChrisPena/babel-nodejs-setup/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/DmsChrisPena/babel-nodejs-setup#readme",
+  "homepage": "",
   "devDependencies": {
     "babel-cli": "^6.22.2",
     "babel-preset-es2015": "^6.22.0",
@@ -31,6 +31,7 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "nightmare": "^2.9.1"
   }
 }
