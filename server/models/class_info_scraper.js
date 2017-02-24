@@ -12,9 +12,13 @@ var async = require("async");
   }
 
   returnRoster(){
-    return this.getClasses().then((data)=>{
-      return this.rosterLinks;
-    })
+    this.getClasses();
+    return new Promise(function(resolve, reject){
+      //hackish but it works, will wait 20 secs, hopefully enough time to be done scraping.
+    setTimeout(function(){
+        resolve(this.rosterLinks);
+    }, 20000);
+});
   }
 
   getClasses(){
@@ -25,19 +29,22 @@ var async = require("async");
     .evaluate(
     ()=>
       {
-        const classes = document.querySelectorAll('#_4_1termCourses_noterm ul.courseListing a');
+        const classes = document.querySelectorAll('#_4_1termCourses_noterm ul.coursefakeclass a');
+        const studentName = document.querySelector("#global-nav-link").innerHTML.match(/\>(.*)\<span id=/).pop();
         var arr = [];
         for(var i=0; i< classes.length; i++){
-          var extract = classes[i].href.match(/\id=(.*)\&url/).pop();
-          var className = classes[i].innerHTML;
-          arr.push({'id': extract, 'className': className});
+          if(classes[i].href.match(/\id=(.*)\&url/)){
+            var extract = classes[i].href.match(/\id=(.*)\&url/).pop();
+            var className = classes[i].innerHTML;
+            arr.push({'class_id': extract, 'studentName': studentName,'className': className});
+          }
         }
         return arr;
       }
 )
   .then((links)=> {
     this.rosterLinks = links;
-    // console.log(links);
+    console.log(links);
     nightmare
       .wait(1000)
       .then((links)=> {
@@ -45,22 +52,27 @@ var async = require("async");
       });
   });
   }
-
+// `https://bbhosted.cuny.edu/webapps/blackboard/execute/searchRoster?courseId=${this.rosterLinks[i].id}&course_id=${this.rosterLinks[i].id}&action=search&userInfoSearchKeyString=FIRSTNAME&userInfoSearchOperatorString=Contains&userInfoSearchText=`
   runNext(i){
       nightmare
-      .goto(`https://bbhosted.cuny.edu/webapps/blackboard/execute/searchRoster?courseId=${this.rosterLinks[i].id}&course_id=${this.rosterLinks[i].id}&action=search&userInfoSearchKeyString=FIRSTNAME&userInfoSearchOperatorString=Contains&userInfoSearchText=`)
+      .goto(`https://bbhosted.cuny.edu/webapps/blackboard/execute/displayEmail?navItem=email_select_students&course_id=${this.rosterLinks[i].id}`)
       .wait(2000)
       .screenshot(`${this.rosterLinks[i].id}WORKED.png`)
       .evaluate(
         ()=>{
           var students = [];
-          var studentRoster = document.querySelectorAll('#listContainer_databody tr');
+          // var studentRoster = document.querySelectorAll('#listContainer_databody tr');
+          var studentRoster = document.querySelectorAll('#USERS_AVAIL  option');
           console.log(studentRoster);
-          for(var z=0; z<studentRoster.length;z++){
-            var firstName = studentRoster[z].children[1].innerHTML.replace(/\s/g, '');
-            var lastname = studentRoster[z].children[0].children[0].innerHTML.replace(/\<(.*)\>/,"").replace(/\s/g, '');
-            var fullName = firstName + " " + lastname;
-            students.push(fullName);
+          // for(var z=0; z<studentRoster.length;z++){
+          //   var firstName = studentRoster[z].children[1].innerHTML.replace(/\s/g, '');
+          //   var lastname = studentRoster[z].children[0].children[0].innerHTML.replace(/\<(.*)\>/,"").replace(/\s/g, '');
+          //   var fullName = firstName + " " + lastname;
+          //   students.push(fullName);
+          // }
+          for(var z=0; z<studentRoster.length; z++){
+            var name = studentRoster[z].innerHTML;
+            students.push(name);
           }
             return students;
         }
@@ -75,7 +87,6 @@ var async = require("async");
         } else {
             console.log(this.rosterLinks);
             console.log("End");
-            // this.returnRoster();
             nightmare.halt();
         }
      })
@@ -86,5 +97,3 @@ var async = require("async");
 
 }
 export default ClassInfoScraper;
-// var scrapper = new ClassInfoScraper('isuru0123','509973006');
-// scrapper.getClasses();
