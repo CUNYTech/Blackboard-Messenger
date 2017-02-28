@@ -100,3 +100,4 @@ export default ClassInfoScraper;
 // var scrapper = new ClassInfoScraper('isuru0123','509973006');
 // scrapper.getClasses();
 // {"username":"mmalek1421","password": "Gleo1421"}
+// "start": "nodemon bin/dev"
