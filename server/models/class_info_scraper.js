@@ -13,9 +13,9 @@ var async = require("async");
 
   returnRoster(){
     this.getClasses();
-    return new Promise(function(resolve, reject){
-      //hackish but it works, will wait 20 secs, hopefully enough time to be done scraping.
-    setTimeout(function(){
+    return new Promise((resolve, reject)=>{
+      //hacksh but it works, will wait 20 secs, hopefully enough time to be done scraping.
+    setTimeout(()=>{
         resolve(this.rosterLinks);
     }, 20000);
 });
@@ -55,9 +55,9 @@ var async = require("async");
 // `https://bbhosted.cuny.edu/webapps/blackboard/execute/searchRoster?courseId=${this.rosterLinks[i].id}&course_id=${this.rosterLinks[i].id}&action=search&userInfoSearchKeyString=FIRSTNAME&userInfoSearchOperatorString=Contains&userInfoSearchText=`
   runNext(i){
       nightmare
-      .goto(`https://bbhosted.cuny.edu/webapps/blackboard/execute/displayEmail?navItem=email_select_students&course_id=${this.rosterLinks[i].id}`)
-      .wait(2000)
-      .screenshot(`${this.rosterLinks[i].id}WORKED.png`)
+      .goto(`https://bbhosted.cuny.edu/webapps/blackboard/execute/displayEmail?navItem=email_select_students&course_id=${this.rosterLinks[i].class_id}`)
+      .wait(1000)
+      .screenshot(`${this.rosterLinks[i].class_id}WORKED.png`)
       .evaluate(
         ()=>{
           var students = [];
@@ -97,3 +97,6 @@ var async = require("async");
 
 }
 export default ClassInfoScraper;
+// var scrapper = new ClassInfoScraper('isuru0123','509973006');
+// scrapper.getClasses();
+// {"username":"mmalek1421","password": "Gleo1421"}
