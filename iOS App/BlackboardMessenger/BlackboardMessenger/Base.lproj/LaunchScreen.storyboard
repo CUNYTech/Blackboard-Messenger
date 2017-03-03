@@ -22,19 +22,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blackboard Messenger" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQf-XN-fbw">
-                                <rect key="frame" x="16" y="139" width="343" height="37"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blackboard Messenger" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="zQf-XN-fbw">
+                                <rect key="frame" x="16" y="162" width="343" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.61568627450980395" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="zQf-XN-fbw" secondAttribute="bottom" constant="491" id="FWI-dc-Mig"/>
-                            <constraint firstItem="zQf-XN-fbw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="MT2-AU-jcU"/>
-                            <constraint firstItem="zQf-XN-fbw" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="119" id="arV-uZ-AKg"/>
-                            <constraint firstItem="zQf-XN-fbw" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="sQW-g8-Y4l"/>
+                            <constraint firstItem="zQf-XN-fbw" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="142" id="ATE-P8-gsc"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="zQf-XN-fbw" secondAttribute="leading" id="B0c-SW-bDY"/>
+                            <constraint firstItem="zQf-XN-fbw" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="BTz-oa-r6i"/>
+                            <constraint firstItem="zQf-XN-fbw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="dfj-gg-ddk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zQf-XN-fbw" secondAttribute="trailing" id="lGO-83-3ei"/>
+                            <constraint firstItem="zQf-XN-fbw" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="142" id="tH9-71-1b4"/>
                         </constraints>
                     </view>
                 </viewController>

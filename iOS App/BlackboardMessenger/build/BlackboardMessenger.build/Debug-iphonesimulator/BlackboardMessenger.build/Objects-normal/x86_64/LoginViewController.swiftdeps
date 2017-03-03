@@ -6,11 +6,11 @@ provides-nominal:
 provides-member:
 - ["C19BlackboardMessenger19LoginViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 depends-top-level:
-- "LoginViewController"
 - "UIViewController"
+- "LoginViewController"
 depends-member:
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "init"]
