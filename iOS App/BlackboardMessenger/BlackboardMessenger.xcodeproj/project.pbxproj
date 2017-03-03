@@ -14,6 +14,7 @@
 		3D832F201E5E6E8800B11E00 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D832F1F1E5E6E8800B11E00 /* LoginViewController.swift */; };
 		3D832F221E5E70F400B11E00 /* AnnouncementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D832F211E5E70F400B11E00 /* AnnouncementsTableViewController.swift */; };
 		3D832F241E5E713100B11E00 /* CourseViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D832F231E5E713100B11E00 /* CourseViewTableViewController.swift */; };
+		3D8BA0001E69FD7E005D37A0 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B9FFF1E69FD7E005D37A0 /* SettingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3D832F1F1E5E6E8800B11E00 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3D832F211E5E70F400B11E00 /* AnnouncementsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementsTableViewController.swift; sourceTree = "<group>"; };
 		3D832F231E5E713100B11E00 /* CourseViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseViewTableViewController.swift; sourceTree = "<group>"; };
+		3D8B9FFF1E69FD7E005D37A0 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 				3D832F231E5E713100B11E00 /* CourseViewTableViewController.swift */,
 				3D832F211E5E70F400B11E00 /* AnnouncementsTableViewController.swift */,
 				3D832F1F1E5E6E8800B11E00 /* LoginViewController.swift */,
+				3D8B9FFF1E69FD7E005D37A0 /* SettingsTableViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D832F241E5E713100B11E00 /* CourseViewTableViewController.swift in Sources */,
+				3D8BA0001E69FD7E005D37A0 /* SettingsTableViewController.swift in Sources */,
 				3D832F201E5E6E8800B11E00 /* LoginViewController.swift in Sources */,
 				3D832F221E5E70F400B11E00 /* AnnouncementsTableViewController.swift in Sources */,
 				3D832F081E5E6C4100B11E00 /* AppDelegate.swift in Sources */,
