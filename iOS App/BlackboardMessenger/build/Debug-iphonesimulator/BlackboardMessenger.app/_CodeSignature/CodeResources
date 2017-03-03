@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		PJQ0olOJIkkoM2craYqQijBjYzo=
+		uB4kD9LUpEwQOk/ArBBe1qd19D4=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,31 +14,35 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		gamFJ/Pf15AvwbiXVXTlHsq/D6k=
+		HVcYw+Q8Yt0nI+a5mqE2496sKnE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		6gzcP4DtlgElNZP9cIzK/N9CV5E=
+		RjRrYcQ/W3aMZF8HJXuw9r07dak=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		zYQpYxvk/8W2RpQvGj8iVT8UKbQ=
+		LzYG1jhTNW6Zjol6MjHrHih652o=
 		</data>
 		<key>Base.lproj/Main.storyboardc/LTM-8x-iwf-view-eC6-5S-axL.nib</key>
 		<data>
-		8mjclHkOa7rllsXwmwoND2MQFFc=
+		O6qV6+LBTNG4fcOdUEdxHX2Avrw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-dU7-K1-Z8f.nib</key>
 		<data>
-		EECleQKN7sVZr/NWcL5PjCAYPeM=
+		2rMkZmBKxlkeD5rWH0SGgRg+aPE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		KxS27tDnRC4IkuQoFGh/YQnBKBw=
+		DYeW6v+cE6xFGYQqsRmjG+qMde0=
+		</data>
+		<key>Base.lproj/Main.storyboardc/hD1-j2-Ryc-view-s7x-j9-WcO.nib</key>
+		<data>
+		Gwmmi/3oIQPADtn1t3KoP2RQ4eI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/uTr-Zr-4FG-view-49E-U2-p9N.nib</key>
 		<data>
-		rhA1LKlauUuz3fviYVTm7eqEHLg=
+		00ZNytEzEioIoauQrrvWmKrLcB0=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -95,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PJQ0olOJIkkoM2craYqQijBjYzo=
+			uB4kD9LUpEwQOk/ArBBe1qd19D4=
 			</data>
 			<key>hash2</key>
 			<data>
-			hhfhFckwOxRGyDfrWJQfdXBisePFLzbbEUONL8TKQjs=
+			NTxgvuXLuYLfvBPjjh9TKHvLk2HDUfE+5S3YEWrWjUc=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -117,77 +121,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gamFJ/Pf15AvwbiXVXTlHsq/D6k=
+			HVcYw+Q8Yt0nI+a5mqE2496sKnE=
 			</data>
 			<key>hash2</key>
 			<data>
-			uN1cE2ac59xrIRP9pMPTg8fGriudQK3dhU2v+bJzkIU=
+			KIqMFV/lHLHjCr3MxyUYeHLW2VSqO4gVuf5U/nLROvE=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6gzcP4DtlgElNZP9cIzK/N9CV5E=
+			RjRrYcQ/W3aMZF8HJXuw9r07dak=
 			</data>
 			<key>hash2</key>
 			<data>
-			g9JthJbNVFnrln/x4chRqS5e381yMlb44a/w1YHg//4=
+			ngbFZ3bxP6+6GQCuK5tMr+XZasYweGqR0mFptd6nV5I=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zYQpYxvk/8W2RpQvGj8iVT8UKbQ=
+			LzYG1jhTNW6Zjol6MjHrHih652o=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rspjvb2q7sApjxUuTkE/jLwHWJJCLYcTm8yGTRA9EjA=
+			95q2/mOm5O28PV7mTBioEFb1rerTC4fsa2PyMyj8nTA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/LTM-8x-iwf-view-eC6-5S-axL.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8mjclHkOa7rllsXwmwoND2MQFFc=
+			O6qV6+LBTNG4fcOdUEdxHX2Avrw=
 			</data>
 			<key>hash2</key>
 			<data>
-			OmpVB6xcmJp/zvc/UdjKzofV8TUpG2R9OPWjN54J38Y=
+			dNahprTzv7IAge5H/U2wab+FzitW4Q3LRFWIM7JXzm0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-dU7-K1-Z8f.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EECleQKN7sVZr/NWcL5PjCAYPeM=
+			2rMkZmBKxlkeD5rWH0SGgRg+aPE=
 			</data>
 			<key>hash2</key>
 			<data>
-			1DTLRh8ZIh12dJ71w+1S/FE9cCgbpktwWiXKGzweMJg=
+			cwcmU1McMYDJfAPNEYz8VrCjaiRCCrb0CzxNdhJDmFQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KxS27tDnRC4IkuQoFGh/YQnBKBw=
+			DYeW6v+cE6xFGYQqsRmjG+qMde0=
 			</data>
 			<key>hash2</key>
 			<data>
-			0F6gG/Zfawzpa8XE/+nf23cKrIRAIkY9TKLwctA7boc=
+			pDPXHkd0FLxqACKKdzPleEiV9AkTS05EQCury94KXMg=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/hD1-j2-Ryc-view-s7x-j9-WcO.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Gwmmi/3oIQPADtn1t3KoP2RQ4eI=
+			</data>
+			<key>hash2</key>
+			<data>
+			XHBUW00idXe9QIeO7/nGSEfln4wqs9UhU0m+E1ZMnGc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/uTr-Zr-4FG-view-49E-U2-p9N.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rhA1LKlauUuz3fviYVTm7eqEHLg=
+			00ZNytEzEioIoauQrrvWmKrLcB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			XnYk9FS3r++YMmeoYCEJ/PwiQJ3umM/q2dZ40a6+QY8=
+			YM8io7zaT6yzGspKhZolri/XxZbqGNaY+AHb+7ET+5g=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>

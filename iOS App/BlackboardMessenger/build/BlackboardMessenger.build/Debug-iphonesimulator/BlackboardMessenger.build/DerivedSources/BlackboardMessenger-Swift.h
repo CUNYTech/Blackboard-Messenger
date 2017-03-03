@@ -162,9 +162,14 @@ SWIFT_CLASS("_TtC19BlackboardMessenger29CourseViewTableViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIButton;
+@class UITextField;
 
 SWIFT_CLASS("_TtC19BlackboardMessenger19LoginViewController")
 @interface LoginViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified usernameField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordField;
+- (IBAction)loginButton:(UIButton * _Nonnull)sender;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
