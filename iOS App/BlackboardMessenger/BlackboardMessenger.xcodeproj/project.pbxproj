@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		133989C6B738F1EF262FF896 /* Pods_BlackboardMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC0EE152BFF4D353B22163D /* Pods_BlackboardMessenger.framework */; };
 		3D832F081E5E6C4100B11E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D832F071E5E6C4100B11E00 /* AppDelegate.swift */; };
 		3D832F0D1E5E6C4100B11E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D832F0B1E5E6C4100B11E00 /* Main.storyboard */; };
 		3D832F0F1E5E6C4100B11E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D832F0E1E5E6C4100B11E00 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DE05442221AD8C5AE7EA824 /* Pods-BlackboardMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackboardMessenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlackboardMessenger/Pods-BlackboardMessenger.debug.xcconfig"; sourceTree = "<group>"; };
 		3D832F041E5E6C4100B11E00 /* BlackboardMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackboardMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D832F071E5E6C4100B11E00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D832F0C1E5E6C4100B11E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,6 +30,8 @@
 		3D832F211E5E70F400B11E00 /* AnnouncementsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementsTableViewController.swift; sourceTree = "<group>"; };
 		3D832F231E5E713100B11E00 /* CourseViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseViewTableViewController.swift; sourceTree = "<group>"; };
 		3D8B9FFF1E69FD7E005D37A0 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		4BC0EE152BFF4D353B22163D /* Pods_BlackboardMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackboardMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C213FCFB8C73EB1A6C5C177D /* Pods-BlackboardMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackboardMessenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlackboardMessenger/Pods-BlackboardMessenger.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				133989C6B738F1EF262FF896 /* Pods_BlackboardMessenger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +62,8 @@
 			children = (
 				3D832F061E5E6C4100B11E00 /* BlackboardMessenger */,
 				3D832F051E5E6C4100B11E00 /* Products */,
+				B443F9ADCB9AD018A88AEEB6 /* Pods */,
+				3E2D44914F915D814B665FDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +88,23 @@
 			path = BlackboardMessenger;
 			sourceTree = "<group>";
 		};
+		3E2D44914F915D814B665FDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0EE152BFF4D353B22163D /* Pods_BlackboardMessenger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B443F9ADCB9AD018A88AEEB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DE05442221AD8C5AE7EA824 /* Pods-BlackboardMessenger.debug.xcconfig */,
+				C213FCFB8C73EB1A6C5C177D /* Pods-BlackboardMessenger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D832F161E5E6C4100B11E00 /* Build configuration list for PBXNativeTarget "BlackboardMessenger" */;
 			buildPhases = (
+				8CED3961F481E9D046482296 /* [CP] Check Pods Manifest.lock */,
 				3D832F001E5E6C4000B11E00 /* Sources */,
 				3D832F011E5E6C4000B11E00 /* Frameworks */,
 				3D832F021E5E6C4000B11E00 /* Resources */,
+				D0D0A67C5DB8650BFAF5E415 /* [CP] Embed Pods Frameworks */,
+				894ECBEFD7138AF59D3C2E6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,6 +174,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		894ECBEFD7138AF59D3C2E6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlackboardMessenger/Pods-BlackboardMessenger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CED3961F481E9D046482296 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D0A67C5DB8650BFAF5E415 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlackboardMessenger/Pods-BlackboardMessenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D832F001E5E6C4000B11E00 /* Sources */ = {
@@ -278,6 +353,7 @@
 		};
 		3D832F171E5E6C4100B11E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE05442221AD8C5AE7EA824 /* Pods-BlackboardMessenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlackboardMessenger/Info.plist;
@@ -290,6 +366,7 @@
 		};
 		3D832F181E5E6C4100B11E00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C213FCFB8C73EB1A6C5C177D /* Pods-BlackboardMessenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlackboardMessenger/Info.plist;

@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C19BlackboardMessenger11AppDelegate", ""]
 provides-dynamic-lookup:
-- "application"
+- "applicationDidEnterBackground"
 - "applicationWillEnterForeground"
 - "applicationWillTerminate"
 - "applicationDidBecomeActive"
-- "applicationDidEnterBackground"
-- "applicationWillResignActive"
+- "application"
 - "window"
+- "applicationWillResignActive"
 depends-top-level:
-- !private "BooleanLiteralType"
-- "Bool"
 - "AppDelegate"
 - "UIApplicationLaunchOptionsKey"
 - "UIResponder"
 - "AssignmentPrecedence"
-- "UIApplicationDelegate"
 - "UIApplication"
+- "Bool"
 - "UIWindow"
+- !private "BooleanLiteralType"
+- "UIApplicationDelegate"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]

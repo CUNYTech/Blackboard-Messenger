@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Pods_BlackboardMessenger.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-BlackboardMessenger-umbrella.h",
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Target Support Files/Pods-BlackboardMessenger/Pods-BlackboardMessenger-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_BlackboardMessenger-Swift.h",
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Pods_BlackboardMessenger.framework/Headers/Pods_BlackboardMessenger-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Pods_BlackboardMessenger.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphonesimulator/Pods-BlackboardMessenger.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module Pods_BlackboardMessenger {
+  umbrella header "Pods-BlackboardMessenger-umbrella.h"
+
+  export *
+  module * { export * }
+}

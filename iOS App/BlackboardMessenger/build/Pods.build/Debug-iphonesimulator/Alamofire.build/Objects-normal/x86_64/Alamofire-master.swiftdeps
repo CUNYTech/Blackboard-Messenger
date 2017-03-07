@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "312f8d383fbadcb3bacd941a1b3b00c1"
+build_time: [542166620, 680320000]
+inputs:
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/AFError.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/Alamofire.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/MultipartFormData.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/Notifications.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/ParameterEncoding.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/Request.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/Response.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/ResponseSerialization.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/Result.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/ServerTrustPolicy.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/SessionDelegate.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/SessionManager.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/TaskDelegate.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/Timeline.swift": [542166568, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/Validation.swift": [542166568, 0]

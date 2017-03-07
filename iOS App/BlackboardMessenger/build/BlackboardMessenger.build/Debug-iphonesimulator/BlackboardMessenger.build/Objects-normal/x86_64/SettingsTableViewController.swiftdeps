@@ -6,15 +6,15 @@ provides-nominal:
 provides-member:
 - ["C19BlackboardMessenger27SettingsTableViewController", ""]
 provides-dynamic-lookup:
-- "tableView"
-- "viewDidLoad"
 - "numberOfSections"
+- "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "tableView"
 depends-top-level:
-- "Int"
+- "SettingsTableViewController"
 - "UITableViewController"
 - "UITableView"
-- "SettingsTableViewController"
+- "Int"
 depends-member:
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "init"]

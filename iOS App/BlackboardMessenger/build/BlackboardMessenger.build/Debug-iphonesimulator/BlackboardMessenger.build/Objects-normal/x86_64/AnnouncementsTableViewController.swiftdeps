@@ -6,15 +6,15 @@ provides-nominal:
 provides-member:
 - ["C19BlackboardMessenger32AnnouncementsTableViewController", ""]
 provides-dynamic-lookup:
+- "tableView"
+- "viewDidLoad"
 - "didReceiveMemoryWarning"
 - "numberOfSections"
-- "viewDidLoad"
-- "tableView"
 depends-top-level:
-- "AnnouncementsTableViewController"
-- "Int"
 - "UITableViewController"
 - "UITableView"
+- "AnnouncementsTableViewController"
+- "Int"
 depends-member:
 - ["C19BlackboardMessenger32AnnouncementsTableViewController", "Int"]
 - ["C19BlackboardMessenger32AnnouncementsTableViewController", "UITableView"]
