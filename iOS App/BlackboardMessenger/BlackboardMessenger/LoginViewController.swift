@@ -7,12 +7,28 @@
 //
 
 import UIKit
+import Alamofire
 
 class LoginViewController: UIViewController {
 	@IBOutlet weak var usernameField: UITextField!
 	@IBOutlet weak var passwordField: UITextField!
 	@IBAction func loginButton(_ sender: UIButton) {
-		
+		Alamofire.request(
+			"https://blackboard-api-isuruv.c9users.io/api/users/sign_in",
+			method: .post,
+			parameters: ["username" : usernameField,
+			             "password" : passwordField]
+			)
+			.responseJSON { response in
+				print(response.request)
+				print(response.response)
+				print(response.data)
+				print(response.result)
+				
+				if let JSON = response.result.value {
+					print("JSON: \(JSON)")
+				}
+		}
 	}
 
     override func viewDidLoad() {
