@@ -7,13 +7,13 @@ provides-member:
 - ["C19BlackboardMessenger10CourseCell", ""]
 provides-dynamic-lookup:
 - "courseName"
-- "awakeFromNib"
 - "setSelected"
+- "awakeFromNib"
 depends-top-level:
+- "CourseCell"
 - "UITableViewCell"
 - "Bool"
 - "UILabel"
-- "CourseCell"
 depends-member:
 - ["Ps9AnyObject", "awakeFromNib"]
 - ["Ps9AnyObject", "courseName"]

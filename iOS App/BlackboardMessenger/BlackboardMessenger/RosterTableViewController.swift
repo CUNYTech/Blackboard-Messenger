@@ -1,18 +1,22 @@
 //
-//  SettingsTableViewController.swift
+//  RosterTableViewController.swift
 //  BlackboardMessenger
 //
-//  Created by William Wu on 3/28/17.
+//  Created by William Wu on 3/29/17.
 //  Copyright © 2017 CUNYCodes. All rights reserved.
 //
 
 import UIKit
 
-class SettingsTableViewController: UITableViewController {
-	@IBOutlet weak var logOutCell: UITableViewCell!
-
+class RosterTableViewController: UITableViewController {
+	var roster : NSArray!
+	var userDefaults : UserDefaults!
+	
     override func viewDidLoad() {
         super.viewDidLoad()
+		userDefaults = UserDefaults.standard
+		roster = userDefaults.object(forKey: "courseRoster") as! NSArray!
+		//print(userDefaults.object(forKey: "courseRoster"))
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -27,26 +31,30 @@ class SettingsTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-/*
+
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+		if let rosterCount = self.roster?.count {
+			return rosterCount
+		}
+		else {
+			return 0
+		}
     }
-*/
-    /*
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "RosterCell", for: indexPath) as! RosterCell
+		
+		let student = userDefaults.object(forKey: "courseRoster") as! NSArray
+		cell.rosterNameCell.text = student[indexPath.row] as? String
 
         // Configure the cell...
 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.

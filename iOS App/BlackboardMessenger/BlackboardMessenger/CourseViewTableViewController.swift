@@ -16,7 +16,7 @@ class CourseViewTableViewController: UITableViewController {
 	
     override func viewDidLoad() {
         super.viewDidLoad()
-		tableView.contentInset.top = 20
+		//tableView.contentInset.top = 20
 
 		userDefaults = UserDefaults.standard
 		/*
@@ -26,11 +26,6 @@ class CourseViewTableViewController: UITableViewController {
 		*/
 		studentInfo = userDefaults.object(forKey: "student") as! [String : Any]
 		courseInfo = userDefaults.object(forKey: "userClasses") as! NSArray
-		/*
-		for i in 0...courseInfo.count - 1 {
-			course = courseInfo[i] as! [String : Any]
-			print(course["roster"]!)
-		}*/
 		
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -64,10 +59,19 @@ class CourseViewTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CourseCell", for: indexPath) as! CourseCell
 
 		course = courseInfo.object(at: indexPath.row) as! [String : Any]
-		cell.courseName.text = course["classname"] as! String    // Configure the cell...
-
+		cell.courseName.text = course["classname"] as? String    // Configure the cell...
+		
         return cell
     }
+	
+	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		let selectedCourse = self.courseInfo[indexPath.row] as! [String : Any]
+		userDefaults.set(selectedCourse["roster"], forKey: "courseRoster")
+		userDefaults.set(selectedCourse["classname"], forKey: "className")
+		userDefaults.synchronize()
+		
+		performSegue(withIdentifier: "ShowChat", sender: self)
+	}
 
     /*
     // Override to support conditional editing of the table view.
