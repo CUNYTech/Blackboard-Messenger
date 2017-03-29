@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		133989C6B738F1EF262FF896 /* Pods_BlackboardMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC0EE152BFF4D353B22163D /* Pods_BlackboardMessenger.framework */; };
+		3D69C5B51E8A226D00B0AF7C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69C5B41E8A226D00B0AF7C /* SettingsViewController.swift */; };
+		3D69C5B71E8AD35600B0AF7C /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69C5B61E8AD35600B0AF7C /* SettingsTableViewController.swift */; };
+		3D69C5BB1E8B14C300B0AF7C /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69C5BA1E8B14C300B0AF7C /* CourseCell.swift */; };
 		3D832F081E5E6C4100B11E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D832F071E5E6C4100B11E00 /* AppDelegate.swift */; };
 		3D832F0D1E5E6C4100B11E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D832F0B1E5E6C4100B11E00 /* Main.storyboard */; };
 		3D832F0F1E5E6C4100B11E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D832F0E1E5E6C4100B11E00 /* Assets.xcassets */; };
@@ -15,11 +18,13 @@
 		3D832F201E5E6E8800B11E00 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D832F1F1E5E6E8800B11E00 /* LoginViewController.swift */; };
 		3D832F221E5E70F400B11E00 /* AnnouncementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D832F211E5E70F400B11E00 /* AnnouncementsTableViewController.swift */; };
 		3D832F241E5E713100B11E00 /* CourseViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D832F231E5E713100B11E00 /* CourseViewTableViewController.swift */; };
-		3D8BA0001E69FD7E005D37A0 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B9FFF1E69FD7E005D37A0 /* SettingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DE05442221AD8C5AE7EA824 /* Pods-BlackboardMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackboardMessenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlackboardMessenger/Pods-BlackboardMessenger.debug.xcconfig"; sourceTree = "<group>"; };
+		3D69C5B41E8A226D00B0AF7C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3D69C5B61E8AD35600B0AF7C /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		3D69C5BA1E8B14C300B0AF7C /* CourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
 		3D832F041E5E6C4100B11E00 /* BlackboardMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackboardMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D832F071E5E6C4100B11E00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D832F0C1E5E6C4100B11E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,7 +34,6 @@
 		3D832F1F1E5E6E8800B11E00 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3D832F211E5E70F400B11E00 /* AnnouncementsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementsTableViewController.swift; sourceTree = "<group>"; };
 		3D832F231E5E713100B11E00 /* CourseViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseViewTableViewController.swift; sourceTree = "<group>"; };
-		3D8B9FFF1E69FD7E005D37A0 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		4BC0EE152BFF4D353B22163D /* Pods_BlackboardMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackboardMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C213FCFB8C73EB1A6C5C177D /* Pods-BlackboardMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackboardMessenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlackboardMessenger/Pods-BlackboardMessenger.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +56,8 @@
 				3D832F231E5E713100B11E00 /* CourseViewTableViewController.swift */,
 				3D832F211E5E70F400B11E00 /* AnnouncementsTableViewController.swift */,
 				3D832F1F1E5E6E8800B11E00 /* LoginViewController.swift */,
-				3D8B9FFF1E69FD7E005D37A0 /* SettingsTableViewController.swift */,
+				3D69C5B41E8A226D00B0AF7C /* SettingsViewController.swift */,
+				3D69C5B61E8AD35600B0AF7C /* SettingsTableViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -83,6 +88,7 @@
 				3D832F071E5E6C4100B11E00 /* AppDelegate.swift */,
 				3D832F131E5E6C4100B11E00 /* Info.plist */,
 				3D832F0E1E5E6C4100B11E00 /* Assets.xcassets */,
+				3D69C5BA1E8B14C300B0AF7C /* CourseCell.swift */,
 				3D368EB21E693A8700C450DD /* View Controllers */,
 			);
 			path = BlackboardMessenger;
@@ -229,9 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D832F241E5E713100B11E00 /* CourseViewTableViewController.swift in Sources */,
-				3D8BA0001E69FD7E005D37A0 /* SettingsTableViewController.swift in Sources */,
 				3D832F201E5E6E8800B11E00 /* LoginViewController.swift in Sources */,
+				3D69C5B71E8AD35600B0AF7C /* SettingsTableViewController.swift in Sources */,
+				3D69C5BB1E8B14C300B0AF7C /* CourseCell.swift in Sources */,
 				3D832F221E5E70F400B11E00 /* AnnouncementsTableViewController.swift in Sources */,
+				3D69C5B51E8A226D00B0AF7C /* SettingsViewController.swift in Sources */,
 				3D832F081E5E6C4100B11E00 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

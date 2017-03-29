@@ -2,13 +2,14 @@
 //  SettingsTableViewController.swift
 //  BlackboardMessenger
 //
-//  Created by William Wu on 3/3/17.
+//  Created by William Wu on 3/28/17.
 //  Copyright © 2017 CUNYCodes. All rights reserved.
 //
 
 import UIKit
 
 class SettingsTableViewController: UITableViewController {
+	@IBOutlet weak var logOutCell: UITableViewCell!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +27,7 @@ class SettingsTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
+/*
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 0
@@ -36,7 +37,7 @@ class SettingsTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
-
+*/
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)

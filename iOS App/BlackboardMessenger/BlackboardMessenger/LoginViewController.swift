@@ -10,47 +10,51 @@ import UIKit
 import Alamofire
 
 class LoginViewController: UIViewController {
+	var userDefaults : UserDefaults?
 	@IBOutlet weak var usernameField: UITextField!
 	@IBOutlet weak var passwordField: UITextField!
+	
 	@IBAction func loginButton(_ sender: UIButton) {
-		Alamofire.request(
-			"https://blackboard-api-isuruv.c9users.io/api/users/sign_in",
-			method: .post,
-			parameters: ["username" : usernameField,
-			             "password" : passwordField]
-			)
+		let requestString = "username=" + usernameField.text! + "&password=" + passwordField.text!
+		let urlRequest = "https://shielded-peak-13145.herokuapp.com/blackboard_scrapers/new?" + requestString
+		
+		Alamofire.request(urlRequest, method: .get,
+		                  encoding: JSONEncoding.default, headers:nil)
 			.responseJSON { response in
-				print(response.request)
-				print(response.response)
-				print(response.data)
-				print(response.result)
-				
-				if let JSON = response.result.value {
-					print("JSON: \(JSON)")
+				guard let json = response.result.value as? [String: Any] else{
+					print("didn't get courses as JSON from api")
+					print("error: \(response.result.error)")
+					return
 				}
+				self.userDefaults = UserDefaults.standard
+				self.userDefaults?.set(json["student"] as! [String: Any], forKey: "student")
+				self.userDefaults?.set(json["classes"], forKey: "userClasses")
+				self.userDefaults?.synchronize()
+				
+				self.performSegue(withIdentifier: "LoadCourses", sender: self)
 		}
 	}
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+		
+		userDefaults = UserDefaults.standard
+		if(userDefaults?.object(forKey: "student") != nil) {
+			performSegue(withIdentifier: "LoadCourses", sender: self)
+		}
         // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
+	
     // MARK: - Navigation
-
+/*
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+		let tabCtrl = segue.destination as! UITabBarController
+		_ = tabCtrl.viewControllers?[0] as! CourseViewTableViewController
     }
-    */
-
+*/
 }

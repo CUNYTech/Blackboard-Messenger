@@ -11,16 +11,16 @@ provides-member:
 - ["O9Alamofire6Result", "flatMap"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "BooleanLiteralType"
-- "Bool"
 - !private "StringLiteralType"
-- "CustomDebugStringConvertible"
-- "String"
-- "Result"
 - !private "!"
-- "Error"
-- "AssignmentPrecedence"
+- "Bool"
+- "String"
+- !private "BooleanLiteralType"
 - "CustomStringConvertible"
+- "Result"
+- "Error"
+- "CustomDebugStringConvertible"
+- "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - ["Sb", "deinit"]

@@ -116,6 +116,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -150,13 +151,31 @@ SWIFT_CLASS("_TtC19BlackboardMessenger11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
+
+SWIFT_CLASS("_TtC19BlackboardMessenger10CourseCell")
+@interface CourseCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified courseName;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSArray;
+@class NSUserDefaults;
 
 SWIFT_CLASS("_TtC19BlackboardMessenger29CourseViewTableViewController")
 @interface CourseViewTableViewController : UITableViewController
+@property (nonatomic, copy) NSDictionary<NSString *, id> * _Null_unspecified course;
+@property (nonatomic, strong) NSArray * _Null_unspecified courseInfo;
+@property (nonatomic, copy) NSDictionary<NSString *, id> * _Null_unspecified studentInfo;
+@property (nonatomic, strong) NSUserDefaults * _Null_unspecified userDefaults;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -167,6 +186,7 @@ SWIFT_CLASS("_TtC19BlackboardMessenger29CourseViewTableViewController")
 
 SWIFT_CLASS("_TtC19BlackboardMessenger19LoginViewController")
 @interface LoginViewController : UIViewController
+@property (nonatomic, strong) NSUserDefaults * _Nullable userDefaults;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified usernameField;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordField;
 - (IBAction)loginButton:(UIButton * _Nonnull)sender;
@@ -179,11 +199,19 @@ SWIFT_CLASS("_TtC19BlackboardMessenger19LoginViewController")
 
 SWIFT_CLASS("_TtC19BlackboardMessenger27SettingsTableViewController")
 @interface SettingsTableViewController : UITableViewController
+@property (nonatomic, weak) IBOutlet UITableViewCell * _Null_unspecified logOutCell;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC19BlackboardMessenger22SettingsViewController")
+@interface SettingsViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
