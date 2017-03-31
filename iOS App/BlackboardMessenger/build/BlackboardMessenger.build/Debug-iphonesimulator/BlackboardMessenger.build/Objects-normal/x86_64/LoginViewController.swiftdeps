@@ -7,26 +7,26 @@ provides-member:
 - ["C19BlackboardMessenger19LoginViewController", ""]
 provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
-- "passwordField"
+- "userDefaults"
 - "loginButton"
 - "viewDidLoad"
+- "passwordField"
 - "usernameField"
-- "userDefaults"
 depends-top-level:
-- "UITextField"
 - !private "String"
-- "UIViewController"
 - !private "+"
-- !private "StringLiteralType"
 - !private "!="
-- !private "print"
-- "UIButton"
 - !private "CastingPrecedence"
 - "AssignmentPrecedence"
-- "UserDefaults"
-- !private "Alamofire"
-- !private "JSONEncoding"
 - "LoginViewController"
+- !private "JSONEncoding"
+- "UITextField"
+- !private "StringLiteralType"
+- "UIViewController"
+- !private "Alamofire"
+- "UIButton"
+- !private "print"
+- "UserDefaults"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Stride"]
 - !private ["Ps9AnyObject", "Alamofire"]

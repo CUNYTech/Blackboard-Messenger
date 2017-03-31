@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		133989C6B738F1EF262FF896 /* Pods_BlackboardMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC0EE152BFF4D353B22163D /* Pods_BlackboardMessenger.framework */; };
+		3D0BE3B51E8C7DC200F64A36 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0BE3B41E8C7DC200F64A36 /* ChatViewController.swift */; };
+		3D0BE3B71E8C891000F64A36 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0BE3B61E8C891000F64A36 /* MessageCell.swift */; };
 		3D69C5B51E8A226D00B0AF7C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69C5B41E8A226D00B0AF7C /* SettingsViewController.swift */; };
 		3D69C5BB1E8B14C300B0AF7C /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69C5BA1E8B14C300B0AF7C /* CourseCell.swift */; };
 		3D832F081E5E6C4100B11E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D832F071E5E6C4100B11E00 /* AppDelegate.swift */; };
@@ -17,7 +19,6 @@
 		3D832F201E5E6E8800B11E00 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D832F1F1E5E6E8800B11E00 /* LoginViewController.swift */; };
 		3D832F221E5E70F400B11E00 /* AnnouncementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D832F211E5E70F400B11E00 /* AnnouncementsTableViewController.swift */; };
 		3D832F241E5E713100B11E00 /* CourseViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D832F231E5E713100B11E00 /* CourseViewTableViewController.swift */; };
-		3D89165E1E8C653100A18446 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89165D1E8C653100A18446 /* ChatViewController.swift */; };
 		3D8916601E8C70D000A18446 /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89165F1E8C70D000A18446 /* MessagesTableViewController.swift */; };
 		3DB5CEEA1E8C254E00E0BFC5 /* RosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5CEE91E8C254E00E0BFC5 /* RosterCell.swift */; };
 		3DB5CEEC1E8C25FD00E0BFC5 /* RosterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5CEEB1E8C25FD00E0BFC5 /* RosterTableViewController.swift */; };
@@ -25,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		2DE05442221AD8C5AE7EA824 /* Pods-BlackboardMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackboardMessenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlackboardMessenger/Pods-BlackboardMessenger.debug.xcconfig"; sourceTree = "<group>"; };
+		3D0BE3B41E8C7DC200F64A36 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		3D0BE3B61E8C891000F64A36 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		3D69C5B41E8A226D00B0AF7C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		3D69C5BA1E8B14C300B0AF7C /* CourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
 		3D832F041E5E6C4100B11E00 /* BlackboardMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackboardMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,7 +39,6 @@
 		3D832F1F1E5E6E8800B11E00 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3D832F211E5E70F400B11E00 /* AnnouncementsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementsTableViewController.swift; sourceTree = "<group>"; };
 		3D832F231E5E713100B11E00 /* CourseViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseViewTableViewController.swift; sourceTree = "<group>"; };
-		3D89165D1E8C653100A18446 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = ../ChatViewController.swift; sourceTree = "<group>"; };
 		3D89165F1E8C70D000A18446 /* MessagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
 		3DB5CEE91E8C254E00E0BFC5 /* RosterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RosterCell.swift; sourceTree = "<group>"; };
 		3DB5CEEB1E8C25FD00E0BFC5 /* RosterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RosterTableViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +61,7 @@
 		3D368EB21E693A8700C450DD /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3D89165D1E8C653100A18446 /* ChatViewController.swift */,
+				3D0BE3B41E8C7DC200F64A36 /* ChatViewController.swift */,
 				3D89165F1E8C70D000A18446 /* MessagesTableViewController.swift */,
 				3DB5CEEB1E8C25FD00E0BFC5 /* RosterTableViewController.swift */,
 				3D832F231E5E713100B11E00 /* CourseViewTableViewController.swift */,
@@ -105,6 +107,7 @@
 		3D8916621E8C773200A18446 /* Table Cells */ = {
 			isa = PBXGroup;
 			children = (
+				3D0BE3B61E8C891000F64A36 /* MessageCell.swift */,
 				3DB5CEE91E8C254E00E0BFC5 /* RosterCell.swift */,
 				3D69C5BA1E8B14C300B0AF7C /* CourseCell.swift */,
 			);
@@ -251,14 +254,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0BE3B71E8C891000F64A36 /* MessageCell.swift in Sources */,
 				3DB5CEEC1E8C25FD00E0BFC5 /* RosterTableViewController.swift in Sources */,
 				3D832F241E5E713100B11E00 /* CourseViewTableViewController.swift in Sources */,
+				3D0BE3B51E8C7DC200F64A36 /* ChatViewController.swift in Sources */,
 				3D832F201E5E6E8800B11E00 /* LoginViewController.swift in Sources */,
 				3DB5CEEA1E8C254E00E0BFC5 /* RosterCell.swift in Sources */,
 				3D69C5BB1E8B14C300B0AF7C /* CourseCell.swift in Sources */,
 				3D832F221E5E70F400B11E00 /* AnnouncementsTableViewController.swift in Sources */,
 				3D69C5B51E8A226D00B0AF7C /* SettingsViewController.swift in Sources */,
-				3D89165E1E8C653100A18446 /* ChatViewController.swift in Sources */,
 				3D832F081E5E6C4100B11E00 /* AppDelegate.swift in Sources */,
 				3D8916601E8C70D000A18446 /* MessagesTableViewController.swift in Sources */,
 			);

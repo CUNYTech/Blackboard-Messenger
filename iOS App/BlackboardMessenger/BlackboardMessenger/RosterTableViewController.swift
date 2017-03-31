@@ -16,7 +16,6 @@ class RosterTableViewController: UITableViewController {
         super.viewDidLoad()
 		userDefaults = UserDefaults.standard
 		roster = userDefaults.object(forKey: "courseRoster") as! NSArray!
-		//print(userDefaults.object(forKey: "courseRoster"))
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

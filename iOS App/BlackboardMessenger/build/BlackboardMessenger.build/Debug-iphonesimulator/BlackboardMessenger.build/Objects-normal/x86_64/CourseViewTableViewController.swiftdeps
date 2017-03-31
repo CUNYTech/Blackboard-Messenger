@@ -6,31 +6,33 @@ provides-nominal:
 provides-member:
 - ["C19BlackboardMessenger29CourseViewTableViewController", ""]
 provides-dynamic-lookup:
-- "course"
-- "courseInfo"
-- "numberOfSections"
-- "viewDidLoad"
 - "userDefaults"
+- "courseInfo"
+- "course"
 - "didReceiveMemoryWarning"
 - "tableView"
 - "tableView"
 - "tableView"
+- "viewDidLoad"
+- "numberOfSections"
 - "studentInfo"
 depends-top-level:
-- "Int"
+- "UserDefaults"
+- "IndexPath"
 - "String"
 - "NSArray"
-- "UITableViewController"
-- !private "StringLiteralType"
-- "IndexPath"
-- "CourseViewTableViewController"
-- "UITableViewCell"
-- "AssignmentPrecedence"
 - "CastingPrecedence"
+- "AssignmentPrecedence"
+- !private "StringLiteralType"
 - "UITableView"
+- !private "UIView"
+- "UITableViewController"
+- "UITableViewCell"
+- "Int"
+- "CourseViewTableViewController"
 - !private "CourseCell"
-- "UserDefaults"
 depends-member:
+- !private ["Ps9AnyObject", "UIView"]
 - !private ["Ps9AnyObject", "UserDefaults"]
 - !private ["Ps9AnyObject", "count"]
 - ["Ps9AnyObject", "course"]
@@ -47,6 +49,7 @@ depends-member:
 - ["Ps9AnyObject", "studentInfo"]
 - !private ["Ps9AnyObject", "subscript"]
 - !private ["Ps9AnyObject", "synchronize"]
+- !private ["Ps9AnyObject", "tableFooterView"]
 - ["Ps9AnyObject", "tableView"]
 - !private ["Ps9AnyObject", "text"]
 - ["Ps9AnyObject", "userDefaults"]
@@ -60,12 +63,17 @@ depends-member:
 - ["Sb", "deinit"]
 - !private ["PSo15CALayerDelegate", "courseName"]
 - !private ["PSo15CALayerDelegate", "dequeueReusableCell"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "tableFooterView"]
 - !private ["PSo15CALayerDelegate", "text"]
+- ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "zero"]
 - !private ["Ps7CVarArg", "Index"]
 - !private ["Ps7CVarArg", "IndexDistance"]
 - !private ["Ps7CVarArg", "IntegerLiteralType"]
 - !private ["Ps7CVarArg", "Stride"]
 - !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "UIView"]
 - !private ["Ps7CVarArg", "UserDefaults"]
 - !private ["Ps7CVarArg", "_DisabledRangeIndex"]
 - !private ["Ps7CVarArg", "_Element"]
@@ -84,6 +92,7 @@ depends-member:
 - ["Ps7CVarArg", "studentInfo"]
 - !private ["Ps7CVarArg", "subscript"]
 - !private ["Ps7CVarArg", "synchronize"]
+- !private ["Ps7CVarArg", "tableFooterView"]
 - ["Ps7CVarArg", "tableView"]
 - !private ["Ps7CVarArg", "text"]
 - ["Ps7CVarArg", "userDefaults"]
@@ -111,6 +120,7 @@ depends-member:
 - ["C19BlackboardMessenger29CourseViewTableViewController", "String"]
 - ["C19BlackboardMessenger29CourseViewTableViewController", "UITableView"]
 - ["C19BlackboardMessenger29CourseViewTableViewController", "UITableViewCell"]
+- !private ["C19BlackboardMessenger29CourseViewTableViewController", "UIView"]
 - ["C19BlackboardMessenger29CourseViewTableViewController", "UserDefaults"]
 - ["C19BlackboardMessenger29CourseViewTableViewController", "course"]
 - ["C19BlackboardMessenger29CourseViewTableViewController", "courseInfo"]
@@ -126,6 +136,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "Index"]
 - !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
 - !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UIView"]
 - !private ["Ps28CustomDebugStringConvertible", "UserDefaults"]
 - !private ["Ps28CustomDebugStringConvertible", "_Element"]
 - !private ["Ps28CustomDebugStringConvertible", "count"]
@@ -144,15 +155,18 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "studentInfo"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - !private ["Ps28CustomDebugStringConvertible", "synchronize"]
+- !private ["Ps28CustomDebugStringConvertible", "tableFooterView"]
 - ["Ps28CustomDebugStringConvertible", "tableView"]
 - !private ["Ps28CustomDebugStringConvertible", "text"]
 - ["Ps28CustomDebugStringConvertible", "userDefaults"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "zero"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "zero"]
 - !private ["Ps17CustomReflectable", "Index"]
 - !private ["Ps17CustomReflectable", "IndexDistance"]
 - !private ["Ps17CustomReflectable", "IntegerLiteralType"]
@@ -165,11 +179,13 @@ depends-member:
 - !private ["Ps17CustomReflectable", "object"]
 - !private ["Ps17CustomReflectable", "row"]
 - !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "zero"]
 - !private ["Ps23CustomStringConvertible", "Index"]
 - !private ["Ps23CustomStringConvertible", "IndexDistance"]
 - !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["Ps23CustomStringConvertible", "Stride"]
 - !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UIView"]
 - !private ["Ps23CustomStringConvertible", "UserDefaults"]
 - !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
 - !private ["Ps23CustomStringConvertible", "_Element"]
@@ -189,6 +205,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "studentInfo"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
 - !private ["Ps23CustomStringConvertible", "synchronize"]
+- !private ["Ps23CustomStringConvertible", "tableFooterView"]
 - ["Ps23CustomStringConvertible", "tableView"]
 - !private ["Ps23CustomStringConvertible", "text"]
 - ["Ps23CustomStringConvertible", "userDefaults"]
@@ -203,6 +220,7 @@ depends-member:
 - !private ["Vs15DictionaryIndex", "deinit"]
 - !private ["Ps9Equatable", "IntegerLiteralType"]
 - !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "UIView"]
 - !private ["Ps9Equatable", "UserDefaults"]
 - !private ["Ps9Equatable", "_DisabledRangeIndex"]
 - !private ["Ps9Equatable", "count"]
@@ -221,10 +239,12 @@ depends-member:
 - ["Ps9Equatable", "studentInfo"]
 - !private ["Ps9Equatable", "subscript"]
 - !private ["Ps9Equatable", "synchronize"]
+- !private ["Ps9Equatable", "tableFooterView"]
 - ["Ps9Equatable", "tableView"]
 - !private ["Ps9Equatable", "text"]
 - ["Ps9Equatable", "userDefaults"]
 - ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "zero"]
 - ["Ps9Equatable", ""]
 - !private ["Ps25ExpressibleByArrayLiteral", "count"]
 - !private ["Ps25ExpressibleByArrayLiteral", "object"]
@@ -244,6 +264,7 @@ depends-member:
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Ps8Hashable", "IntegerLiteralType"]
 - !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "UIView"]
 - !private ["Ps8Hashable", "UserDefaults"]
 - !private ["Ps8Hashable", "_DisabledRangeIndex"]
 - !private ["Ps8Hashable", "count"]
@@ -262,6 +283,7 @@ depends-member:
 - ["Ps8Hashable", "studentInfo"]
 - !private ["Ps8Hashable", "subscript"]
 - !private ["Ps8Hashable", "synchronize"]
+- !private ["Ps8Hashable", "tableFooterView"]
 - ["Ps8Hashable", "tableView"]
 - !private ["Ps8Hashable", "text"]
 - ["Ps8Hashable", "userDefaults"]
@@ -308,6 +330,7 @@ depends-member:
 - !private ["CSo7NSArray", "object"]
 - !private ["CSo7NSArray", "subscript"]
 - ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "UIView"]
 - !private ["PSo8NSCoding", "UserDefaults"]
 - !private ["PSo8NSCoding", "count"]
 - ["PSo8NSCoding", "course"]
@@ -321,6 +344,7 @@ depends-member:
 - !private ["PSo8NSCoding", "performSegue"]
 - ["PSo8NSCoding", "studentInfo"]
 - !private ["PSo8NSCoding", "subscript"]
+- !private ["PSo8NSCoding", "tableFooterView"]
 - ["PSo8NSCoding", "tableView"]
 - !private ["PSo8NSCoding", "text"]
 - ["PSo8NSCoding", "userDefaults"]
@@ -330,6 +354,7 @@ depends-member:
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "object"]
 - !private ["PSo9NSCopying", "subscript"]
+- !private ["PSo26NSExtensionRequestHandling", "UIView"]
 - !private ["PSo26NSExtensionRequestHandling", "UserDefaults"]
 - ["PSo26NSExtensionRequestHandling", "course"]
 - ["PSo26NSExtensionRequestHandling", "courseInfo"]
@@ -356,6 +381,7 @@ depends-member:
 - ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "UITableView"]
 - ["CSo8NSObject", "UITableViewCell"]
+- !private ["CSo8NSObject", "UIView"]
 - ["CSo8NSObject", "UserDefaults"]
 - !private ["CSo8NSObject", "count"]
 - ["CSo8NSObject", "course"]
@@ -372,10 +398,12 @@ depends-member:
 - ["CSo8NSObject", "studentInfo"]
 - !private ["CSo8NSObject", "subscript"]
 - !private ["CSo8NSObject", "synchronize"]
+- !private ["CSo8NSObject", "tableFooterView"]
 - ["CSo8NSObject", "tableView"]
 - !private ["CSo8NSObject", "text"]
 - ["CSo8NSObject", "userDefaults"]
 - ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
 - !private ["PSo16NSObjectProtocol", "UserDefaults"]
 - !private ["PSo16NSObjectProtocol", "count"]
 - ["PSo16NSObjectProtocol", "course"]
@@ -392,6 +420,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "studentInfo"]
 - !private ["PSo16NSObjectProtocol", "subscript"]
 - !private ["PSo16NSObjectProtocol", "synchronize"]
+- !private ["PSo16NSObjectProtocol", "tableFooterView"]
 - ["PSo16NSObjectProtocol", "tableView"]
 - !private ["PSo16NSObjectProtocol", "text"]
 - ["PSo16NSObjectProtocol", "userDefaults"]
@@ -436,10 +465,15 @@ depends-member:
 - !private ["Ps20TextOutputStreamable", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "courseName"]
 - !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCell"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "tableFooterView"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo12UIAppearance", "courseName"]
 - !private ["PSo12UIAppearance", "dequeueReusableCell"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "tableFooterView"]
 - !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "UIView"]
 - !private ["PSo21UIAppearanceContainer", "UserDefaults"]
 - ["PSo21UIAppearanceContainer", "course"]
 - ["PSo21UIAppearanceContainer", "courseInfo"]
@@ -450,11 +484,13 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "numberOfSections"]
 - !private ["PSo21UIAppearanceContainer", "performSegue"]
 - ["PSo21UIAppearanceContainer", "studentInfo"]
+- !private ["PSo21UIAppearanceContainer", "tableFooterView"]
 - ["PSo21UIAppearanceContainer", "tableView"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - ["PSo21UIAppearanceContainer", "userDefaults"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "UIView"]
 - !private ["PSo18UIContentContainer", "UserDefaults"]
 - ["PSo18UIContentContainer", "course"]
 - ["PSo18UIContentContainer", "courseInfo"]
@@ -470,10 +506,15 @@ depends-member:
 - !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
 - !private ["PSo17UICoordinateSpace", "courseName"]
 - !private ["PSo17UICoordinateSpace", "dequeueReusableCell"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "tableFooterView"]
 - !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo13UIDynamicItem", "courseName"]
 - !private ["PSo13UIDynamicItem", "dequeueReusableCell"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "tableFooterView"]
 - !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "UIView"]
 - !private ["PSo18UIFocusEnvironment", "UserDefaults"]
 - ["PSo18UIFocusEnvironment", "course"]
 - ["PSo18UIFocusEnvironment", "courseInfo"]
@@ -484,6 +525,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "numberOfSections"]
 - !private ["PSo18UIFocusEnvironment", "performSegue"]
 - ["PSo18UIFocusEnvironment", "studentInfo"]
+- !private ["PSo18UIFocusEnvironment", "tableFooterView"]
 - ["PSo18UIFocusEnvironment", "tableView"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - ["PSo18UIFocusEnvironment", "userDefaults"]
@@ -491,6 +533,8 @@ depends-member:
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["PSo11UIFocusItem", "courseName"]
 - !private ["PSo11UIFocusItem", "dequeueReusableCell"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "tableFooterView"]
 - !private ["PSo11UIFocusItem", "text"]
 - !private ["PSo27UIGestureRecognizerDelegate", "courseName"]
 - !private ["CSo7UILabel", "text"]
@@ -501,6 +545,7 @@ depends-member:
 - ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "UITableView"]
 - ["CSo11UIResponder", "UITableViewCell"]
+- !private ["CSo11UIResponder", "UIView"]
 - ["CSo11UIResponder", "UserDefaults"]
 - ["CSo11UIResponder", "course"]
 - ["CSo11UIResponder", "courseInfo"]
@@ -511,10 +556,12 @@ depends-member:
 - ["CSo11UIResponder", "numberOfSections"]
 - !private ["CSo11UIResponder", "performSegue"]
 - ["CSo11UIResponder", "studentInfo"]
+- !private ["CSo11UIResponder", "tableFooterView"]
 - ["CSo11UIResponder", "tableView"]
 - !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "userDefaults"]
 - ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "UIView"]
 - !private ["PSo30UIResponderStandardEditActions", "UserDefaults"]
 - ["PSo30UIResponderStandardEditActions", "course"]
 - ["PSo30UIResponderStandardEditActions", "courseInfo"]
@@ -525,12 +572,15 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "numberOfSections"]
 - !private ["PSo30UIResponderStandardEditActions", "performSegue"]
 - ["PSo30UIResponderStandardEditActions", "studentInfo"]
+- !private ["PSo30UIResponderStandardEditActions", "tableFooterView"]
 - ["PSo30UIResponderStandardEditActions", "tableView"]
 - !private ["PSo30UIResponderStandardEditActions", "text"]
 - ["PSo30UIResponderStandardEditActions", "userDefaults"]
 - ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - !private ["CSo12UIScrollView", "dequeueReusableCell"]
+- !private ["CSo12UIScrollView", "tableFooterView"]
+- !private ["PSo20UIScrollViewDelegate", "UIView"]
 - !private ["PSo20UIScrollViewDelegate", "UserDefaults"]
 - ["PSo20UIScrollViewDelegate", "course"]
 - ["PSo20UIScrollViewDelegate", "courseInfo"]
@@ -543,6 +593,7 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", "userDefaults"]
 - ["PSo20UIScrollViewDelegate", "viewDidLoad"]
 - ["PSo20UIScrollViewDelegate", ""]
+- !private ["PSo16UIStateRestoring", "UIView"]
 - !private ["PSo16UIStateRestoring", "UserDefaults"]
 - ["PSo16UIStateRestoring", "course"]
 - ["PSo16UIStateRestoring", "courseInfo"]
@@ -557,6 +608,7 @@ depends-member:
 - ["PSo16UIStateRestoring", ""]
 - ["CSo11UITableView", "deinit"]
 - !private ["CSo11UITableView", "dequeueReusableCell"]
+- !private ["CSo11UITableView", "tableFooterView"]
 - !private ["CSo15UITableViewCell", "courseName"]
 - ["CSo15UITableViewCell", "deinit"]
 - !private ["CSo21UITableViewController", "CourseCell"]
@@ -566,6 +618,7 @@ depends-member:
 - ["CSo21UITableViewController", "String"]
 - ["CSo21UITableViewController", "UITableView"]
 - ["CSo21UITableViewController", "UITableViewCell"]
+- !private ["CSo21UITableViewController", "UIView"]
 - ["CSo21UITableViewController", "UserDefaults"]
 - ["CSo21UITableViewController", "course"]
 - ["CSo21UITableViewController", "courseInfo"]
@@ -579,6 +632,7 @@ depends-member:
 - ["CSo21UITableViewController", "userDefaults"]
 - ["CSo21UITableViewController", "viewDidLoad"]
 - ["CSo21UITableViewController", ""]
+- !private ["PSo21UITableViewDataSource", "UIView"]
 - !private ["PSo21UITableViewDataSource", "UserDefaults"]
 - ["PSo21UITableViewDataSource", "course"]
 - ["PSo21UITableViewDataSource", "courseInfo"]
@@ -591,6 +645,7 @@ depends-member:
 - ["PSo21UITableViewDataSource", "userDefaults"]
 - ["PSo21UITableViewDataSource", "viewDidLoad"]
 - ["PSo21UITableViewDataSource", ""]
+- !private ["PSo19UITableViewDelegate", "UIView"]
 - !private ["PSo19UITableViewDelegate", "UserDefaults"]
 - ["PSo19UITableViewDelegate", "course"]
 - ["PSo19UITableViewDelegate", "courseInfo"]
@@ -604,6 +659,7 @@ depends-member:
 - ["PSo19UITableViewDelegate", "viewDidLoad"]
 - ["PSo19UITableViewDelegate", ""]
 - ["OSC16UITableViewStyle", "deinit"]
+- !private ["PSo18UITraitEnvironment", "UIView"]
 - !private ["PSo18UITraitEnvironment", "UserDefaults"]
 - ["PSo18UITraitEnvironment", "course"]
 - ["PSo18UITraitEnvironment", "courseInfo"]
@@ -614,13 +670,17 @@ depends-member:
 - ["PSo18UITraitEnvironment", "numberOfSections"]
 - !private ["PSo18UITraitEnvironment", "performSegue"]
 - ["PSo18UITraitEnvironment", "studentInfo"]
+- !private ["PSo18UITraitEnvironment", "tableFooterView"]
 - ["PSo18UITraitEnvironment", "tableView"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - ["PSo18UITraitEnvironment", "userDefaults"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "courseName"]
+- ["CSo6UIView", "deinit"]
 - !private ["CSo6UIView", "dequeueReusableCell"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "tableFooterView"]
 - !private ["CSo6UIView", "text"]
 - !private ["CSo16UIViewController", "CourseCell"]
 - ["CSo16UIViewController", "IndexPath"]
@@ -629,6 +689,7 @@ depends-member:
 - ["CSo16UIViewController", "String"]
 - ["CSo16UIViewController", "UITableView"]
 - ["CSo16UIViewController", "UITableViewCell"]
+- !private ["CSo16UIViewController", "UIView"]
 - ["CSo16UIViewController", "UserDefaults"]
 - ["CSo16UIViewController", "course"]
 - ["CSo16UIViewController", "courseInfo"]
@@ -648,6 +709,8 @@ depends-member:
 - !private ["CSo12UserDefaults", "synchronize"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "courseName"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "dequeueReusableCell"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "tableFooterView"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
@@ -659,6 +722,7 @@ depends-member:
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "IntegerLiteralType"]
 - !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "UIView"]
 - !private ["Ps9_Hashable", "UserDefaults"]
 - !private ["Ps9_Hashable", "_DisabledRangeIndex"]
 - !private ["Ps9_Hashable", "count"]
@@ -677,6 +741,7 @@ depends-member:
 - ["Ps9_Hashable", "studentInfo"]
 - !private ["Ps9_Hashable", "subscript"]
 - !private ["Ps9_Hashable", "synchronize"]
+- !private ["Ps9_Hashable", "tableFooterView"]
 - ["Ps9_Hashable", "tableView"]
 - !private ["Ps9_Hashable", "text"]
 - ["Ps9_Hashable", "userDefaults"]
@@ -701,6 +766,7 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "row"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "zero"]
 - !private ["Ps14_SignedInteger", "IntegerLiteralType"]
 - !private ["Ps14_SignedInteger", "Stride"]
 - !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
@@ -714,6 +780,7 @@ depends-nominal:
 - !private "Ps17BitwiseOperations"
 - "Sb"
 - !private "PSo15CALayerDelegate"
+- "VSC6CGRect"
 - "Ps7CVarArg"
 - !private "Vs11ClosedRange"
 - !private "Ps10Collection"
@@ -795,7 +862,7 @@ depends-nominal:
 - "PSo19UITableViewDelegate"
 - "OSC16UITableViewStyle"
 - "PSo18UITraitEnvironment"
-- !private "CSo6UIView"
+- "CSo6UIView"
 - "CSo16UIViewController"
 - !private "P9Alamofire14URLConvertible"
 - "CSo12UserDefaults"

@@ -208,6 +208,18 @@ SWIFT_CLASS("_TtC19BlackboardMessenger19LoginViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextView;
+
+SWIFT_CLASS("_TtC19BlackboardMessenger11MessageCell")
+@interface MessageCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified senderName;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified messageContent;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC19BlackboardMessenger27MessagesTableViewController")
 @interface MessagesTableViewController : UITableViewController

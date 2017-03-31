@@ -24,6 +24,8 @@ class CourseViewTableViewController: UITableViewController {
 			performSegue(withIdentifier: "BringToLogin", sender: self)
 		}
 		*/
+		tableView.tableFooterView = UIView(frame: .zero)
+
 		studentInfo = userDefaults.object(forKey: "student") as! [String : Any]
 		courseInfo = userDefaults.object(forKey: "userClasses") as! NSArray
 		

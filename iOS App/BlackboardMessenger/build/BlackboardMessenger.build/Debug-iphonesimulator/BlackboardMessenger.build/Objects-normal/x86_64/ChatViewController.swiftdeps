@@ -6,19 +6,19 @@ provides-nominal:
 provides-member:
 - ["C19BlackboardMessenger18ChatViewController", ""]
 provides-dynamic-lookup:
-- "userDefaults"
 - "didReceiveMemoryWarning"
 - "viewDidLoad"
 - "selectedCourse"
+- "userDefaults"
 depends-top-level:
-- "UserDefaults"
-- "UILabel"
 - "AssignmentPrecedence"
 - "CastingPrecedence"
+- "UserDefaults"
+- "UIViewController"
+- "UILabel"
+- "ChatViewController"
 - !private "StringLiteralType"
 - !private "String"
-- "UIViewController"
-- "ChatViewController"
 depends-member:
 - !private ["Ps9AnyObject", "UserDefaults"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]

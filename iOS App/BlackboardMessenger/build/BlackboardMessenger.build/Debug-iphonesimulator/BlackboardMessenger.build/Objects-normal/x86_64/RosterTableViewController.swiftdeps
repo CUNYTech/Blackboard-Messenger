@@ -6,27 +6,27 @@ provides-nominal:
 provides-member:
 - ["C19BlackboardMessenger25RosterTableViewController", ""]
 provides-dynamic-lookup:
+- "userDefaults"
 - "viewDidLoad"
+- "tableView"
+- "tableView"
+- "numberOfSections"
 - "didReceiveMemoryWarning"
 - "roster"
-- "tableView"
-- "tableView"
-- "userDefaults"
-- "numberOfSections"
 depends-top-level:
-- "UserDefaults"
-- "AssignmentPrecedence"
-- "Int"
-- !private "String"
 - "RosterTableViewController"
-- "CastingPrecedence"
-- "UITableViewCell"
 - !private "RosterCell"
 - !private "StringLiteralType"
-- "UITableViewController"
-- "UITableView"
 - "IndexPath"
+- "UITableViewCell"
+- "UserDefaults"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
 - "NSArray"
+- !private "String"
+- "Int"
+- "UITableView"
+- "UITableViewController"
 depends-member:
 - !private ["Ps9AnyObject", "UserDefaults"]
 - !private ["Ps9AnyObject", "count"]
