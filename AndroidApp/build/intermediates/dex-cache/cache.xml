@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42b6f632abde98f774dafdb68eb9b10009efd8f1">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b049d596f37293943855695ff1ba61941cf2e8b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon.Jung\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_711fa48dcf2b43718e797c6126d36fe8cd17a356\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\845761f81a5ba7ebb11bffcd4f7a8c3ac7d7cb7f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_32b44245428b79455a9d87ed18918908b522e046\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\4898878d41e79bbc18a6198bde63b7f18ec6fbb7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9a216f7afcc3e482cc3c1a6bf90ead20e0e48764\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\1e1f5e60d3a1a9c0d868de9695fdda1c0635d864\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d8e3ee485cbd5926d654b0c7639a50b8b95ec733\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\307cbb5f92267d5dcd2a0e5d178e7e98ecc9a955\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_91eb6156c219674b3dabb4f4dfdabcfda83395bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\9db764177894a2f011ced7ace1e9dc16a5990fc8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e1cda4e3ac46122b9c2ae9c24c1af1694c9898e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\83cc2f8fc8cb201463d3af4a6f90aafb78d86c7b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5202a4224b908cdb1d546ef7a55dbccad594857c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\e532508127395926f57d9719396128443e7f19d9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_32bf8ab59bdb2ff2a95a4dc66a0f117e5e6dcd5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon.Jung\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_033f6ab5dafc6e47ab4fc07a807022ad5c364c10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\ce9d2454eb2ef1906bf5b461c30f468198525ced\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e6d704f921af92e8724b5d118bdb234903024a73\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\74ad62d3e89dcc37ccd0b0fbd407bd2c08e571e2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0baa689255dfdc917bdb0a1df3266813687cc257\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0f9dd57a3d3f72420896f739f9cdc2a670171b30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\0942d7b6afc698fef7e6f9ecb8d0da62da2e0390\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bd7ebb1e80489f5b48f4d2d33f03e657a44dc7e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\36e6e0caebedbc83743455b946d8e4f77bcb8ea8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b288d1f372e6c500f7f876fda56aacd0dac39403\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\ea7e49446df6679cc56df66659b52a67bfb35e66\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f28ad3c2e5011b3d056216bf2c71d51012d3fe8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\5c0b21a2015f7c36042e5c4f9f9af350a821e40f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9d31649a3841bc8b3c1088c2a99da77c28de26e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Heeyeon Jung\.android\build-cache\a3c92e7ac1c2a7129e69d5481bac5fdc214e8160\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_13084d98d940bdd0b8e241e179c8286fffb56a4c\classes.dex" />
+    </item>
+
+</items>

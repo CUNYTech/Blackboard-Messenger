@@ -1,0 +1,90 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [com.android.support:design:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\845761f81a5ba7ebb11bffcd4f7a8c3ac7d7cb7f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\9db764177894a2f011ced7ace1e9dc16a5990fc8\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\e532508127395926f57d9719396128443e7f19d9\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\a3c92e7ac1c2a7129e69d5481bac5fdc214e8160\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\36e6e0caebedbc83743455b946d8e4f77bcb8ea8\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\74ad62d3e89dcc37ccd0b0fbd407bd2c08e571e2\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\1e1f5e60d3a1a9c0d868de9695fdda1c0635d864\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\ea7e49446df6679cc56df66659b52a67bfb35e66\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\5c0b21a2015f7c36042e5c4f9f9af350a821e40f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\ce9d2454eb2ef1906bf5b461c30f468198525ced\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\307cbb5f92267d5dcd2a0e5d178e7e98ecc9a955\output\AndroidManifest.xml:25:5-20
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\Heeyeon Jung\.android\build-cache\0942d7b6afc698fef7e6f9ecb8d0da62da2e0390\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Heeyeon Jung\.android\build-cache\4898878d41e79bbc18a6198bde63b7f18ec6fbb7\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:11:9-35
+	android:allowBackup
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:12:9-52
+activity#com.heeyeonjung.registeration.LoginActivity
+ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:13:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.heeyeonjung.registeration.Navi
+ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:20:9-23:68
+	android:label
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:22:13-56
+	android:theme
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml:21:13-33
+uses-sdk
+INJECTED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\845761f81a5ba7ebb11bffcd4f7a8c3ac7d7cb7f\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\9db764177894a2f011ced7ace1e9dc16a5990fc8\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\e532508127395926f57d9719396128443e7f19d9\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\a3c92e7ac1c2a7129e69d5481bac5fdc214e8160\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\83cc2f8fc8cb201463d3af4a6f90aafb78d86c7b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\36e6e0caebedbc83743455b946d8e4f77bcb8ea8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\74ad62d3e89dcc37ccd0b0fbd407bd2c08e571e2\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\1e1f5e60d3a1a9c0d868de9695fdda1c0635d864\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\ea7e49446df6679cc56df66659b52a67bfb35e66\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\5c0b21a2015f7c36042e5c4f9f9af350a821e40f\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\ce9d2454eb2ef1906bf5b461c30f468198525ced\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\307cbb5f92267d5dcd2a0e5d178e7e98ecc9a955\output\AndroidManifest.xml:21:5-23:58
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\Heeyeon Jung\.android\build-cache\0942d7b6afc698fef7e6f9ecb8d0da62da2e0390\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Heeyeon Jung\.android\build-cache\4898878d41e79bbc18a6198bde63b7f18ec6fbb7\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.2.0] C:\Users\Heeyeon Jung\.android\build-cache\845761f81a5ba7ebb11bffcd4f7a8c3ac7d7cb7f\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Heeyeon.Jung\.android\studio\Registeration\app\src\main\AndroidManifest.xml
