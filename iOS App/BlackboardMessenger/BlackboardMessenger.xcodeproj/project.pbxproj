@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		133989C6B738F1EF262FF896 /* Pods_BlackboardMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC0EE152BFF4D353B22163D /* Pods_BlackboardMessenger.framework */; };
 		3D0BE3B51E8C7DC200F64A36 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0BE3B41E8C7DC200F64A36 /* ChatViewController.swift */; };
-		3D0BE3B71E8C891000F64A36 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0BE3B61E8C891000F64A36 /* MessageCell.swift */; };
+		3D4E35D11E96DB6A004B0C75 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E35D01E96DB6A004B0C75 /* MessageCell.swift */; };
 		3D69C5B51E8A226D00B0AF7C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69C5B41E8A226D00B0AF7C /* SettingsViewController.swift */; };
 		3D69C5BB1E8B14C300B0AF7C /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69C5BA1E8B14C300B0AF7C /* CourseCell.swift */; };
 		3D832F081E5E6C4100B11E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D832F071E5E6C4100B11E00 /* AppDelegate.swift */; };
@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		2DE05442221AD8C5AE7EA824 /* Pods-BlackboardMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackboardMessenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlackboardMessenger/Pods-BlackboardMessenger.debug.xcconfig"; sourceTree = "<group>"; };
 		3D0BE3B41E8C7DC200F64A36 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		3D0BE3B61E8C891000F64A36 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		3D4E35D01E96DB6A004B0C75 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageCell.swift; path = ../MessageCell.swift; sourceTree = "<group>"; };
 		3D69C5B41E8A226D00B0AF7C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		3D69C5BA1E8B14C300B0AF7C /* CourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
 		3D832F041E5E6C4100B11E00 /* BlackboardMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackboardMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,7 +107,7 @@
 		3D8916621E8C773200A18446 /* Table Cells */ = {
 			isa = PBXGroup;
 			children = (
-				3D0BE3B61E8C891000F64A36 /* MessageCell.swift */,
+				3D4E35D01E96DB6A004B0C75 /* MessageCell.swift */,
 				3DB5CEE91E8C254E00E0BFC5 /* RosterCell.swift */,
 				3D69C5BA1E8B14C300B0AF7C /* CourseCell.swift */,
 			);
@@ -254,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0BE3B71E8C891000F64A36 /* MessageCell.swift in Sources */,
+				3D4E35D11E96DB6A004B0C75 /* MessageCell.swift in Sources */,
 				3DB5CEEC1E8C25FD00E0BFC5 /* RosterTableViewController.swift in Sources */,
 				3D832F241E5E713100B11E00 /* CourseViewTableViewController.swift in Sources */,
 				3D0BE3B51E8C7DC200F64A36 /* ChatViewController.swift in Sources */,

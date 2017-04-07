@@ -28,6 +28,8 @@ class LoginViewController: UIViewController {
 				}
 				self.userDefaults = UserDefaults.standard
 				self.userDefaults?.set(json["student"] as! [String: Any], forKey: "student")
+				var temp = self.userDefaults?.object(forKey: "student") as! [String : Any]
+				self.userDefaults?.set(temp["id"], forKey: "user_id")
 				self.userDefaults?.set(json["classes"], forKey: "userClasses")
 				self.userDefaults?.synchronize()
 				
@@ -42,6 +44,7 @@ class LoginViewController: UIViewController {
 		if(userDefaults?.object(forKey: "student") != nil) {
 			performSegue(withIdentifier: "LoadCourses", sender: self)
 		}
+		
         // Do any additional setup after loading the view.
     }
 

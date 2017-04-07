@@ -1,0 +1,631 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChannelIdentifier"
+- "OnReceiveClosure"
+- "Channel"
+- "=="
+provides-nominal:
+- "C17ActionCableClient7Channel"
+provides-member:
+- ["C17ActionCableClient7Channel", ""]
+- ["C17ActionCableClient7Channel", "onMessage"]
+- ["C17ActionCableClient7Channel", "flushBuffer"]
+- ["C17ActionCableClient7Channel", "copyWithZone"]
+- ["C17ActionCableClient7Channel", "copy"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- "=="
+- "Action"
+- "ActionCableClient"
+- !private "ActionCableSerialQueue"
+- "ActionPayload"
+- "AnyObject"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Channel"
+- "ChannelIdentifier"
+- "CustomDebugStringConvertible"
+- "CustomPlaygroundQuickLookable"
+- "Dictionary"
+- !private "DispatchQueue"
+- "Equatable"
+- "Hashable"
+- "Int"
+- "Int32"
+- "Message"
+- "NSZone"
+- "OnReceiveClosure"
+- "PlaygroundQuickLook"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- !private "TransmitError"
+- "UInt32"
+- !private "UnicodeScalarType"
+- "Void"
+- "arc4random_uniform"
+- !private "assert"
+depends-member:
+- !private ["V17ActionCableClient6Action", "init"]
+- !private ["V17ActionCableClient6Action", "name"]
+- !private ["V17ActionCableClient6Action", "params"]
+- !private ["C17ActionCableClient17ActionCableClient", "action"]
+- !private ["C17ActionCableClient17ActionCableClient", "subscribe"]
+- !private ["C17ActionCableClient17ActionCableClient", "subscribed"]
+- !private ["C17ActionCableClient17ActionCableClient", "unsubscribe"]
+- !private ["Ps9AnyObject", "Action"]
+- !private ["Ps9AnyObject", "ActionCableSerialQueue"]
+- ["Ps9AnyObject", "Array"]
+- ["Ps9AnyObject", "Dictionary"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- ["Ps9AnyObject", "Int"]
+- ["Ps9AnyObject", "Int32"]
+- !private ["Ps9AnyObject", "PlaygroundQuickLook"]
+- !private ["Ps9AnyObject", "TransmitError"]
+- ["Ps9AnyObject", "UInt32"]
+- ["Ps9AnyObject", "_toAnyHashable"]
+- !private ["Ps9AnyObject", "action"]
+- !private ["Ps9AnyObject", "actionBuffer"]
+- ["Ps9AnyObject", "arc4random_uniform"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "autoSubscribe"]
+- !private ["Ps9AnyObject", "client"]
+- ["Ps9AnyObject", "customPlaygroundQuickLook"]
+- ["Ps9AnyObject", "debugDescription"]
+- !private ["Ps9AnyObject", "flushBuffer"]
+- ["Ps9AnyObject", "hashValue"]
+- !private ["Ps9AnyObject", "identifier"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isSubscribed"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "onReceive"]
+- !private ["Ps9AnyObject", "onReceiveActionHooks"]
+- !private ["Ps9AnyObject", "onRejected"]
+- !private ["Ps9AnyObject", "onSubscribed"]
+- !private ["Ps9AnyObject", "onUnsubscribed"]
+- !private ["Ps9AnyObject", "shouldBufferActions"]
+- !private ["Ps9AnyObject", "subscribe"]
+- !private ["Ps9AnyObject", "subscribed"]
+- !private ["Ps9AnyObject", "sync"]
+- !private ["Ps9AnyObject", "unsubscribe"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["Sa", "popLast"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "popLast"]
+- ["Ps17BitwiseOperations", "init"]
+- ["Ps17BitwiseOperations", "max"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "async"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "max"]
+- !private ["Ps7CVarArg", "popLast"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "sync"]
+- ["C17ActionCableClient7Channel", "Action"]
+- ["C17ActionCableClient7Channel", "ActionCableClient"]
+- !private ["C17ActionCableClient7Channel", "ActionCableSerialQueue"]
+- ["C17ActionCableClient7Channel", "AnyObject"]
+- ["C17ActionCableClient7Channel", "Array"]
+- ["C17ActionCableClient7Channel", "Bool"]
+- ["C17ActionCableClient7Channel", "ChannelIdentifier"]
+- ["C17ActionCableClient7Channel", "Dictionary"]
+- !private ["C17ActionCableClient7Channel", "DispatchQueue"]
+- ["C17ActionCableClient7Channel", "Int"]
+- ["C17ActionCableClient7Channel", "Int32"]
+- ["C17ActionCableClient7Channel", "Message"]
+- ["C17ActionCableClient7Channel", "NSZone"]
+- ["C17ActionCableClient7Channel", "OnReceiveClosure"]
+- ["C17ActionCableClient7Channel", "PlaygroundQuickLook"]
+- ["C17ActionCableClient7Channel", "String"]
+- ["C17ActionCableClient7Channel", "Swift"]
+- !private ["C17ActionCableClient7Channel", "TransmitError"]
+- ["C17ActionCableClient7Channel", "UInt32"]
+- ["C17ActionCableClient7Channel", "Void"]
+- ["C17ActionCableClient7Channel", "_toAnyHashable"]
+- ["C17ActionCableClient7Channel", "action"]
+- ["C17ActionCableClient7Channel", "actionBuffer"]
+- ["C17ActionCableClient7Channel", "arc4random_uniform"]
+- !private ["C17ActionCableClient7Channel", "assert"]
+- ["C17ActionCableClient7Channel", "autoSubscribe"]
+- ["C17ActionCableClient7Channel", "client"]
+- ["C17ActionCableClient7Channel", "copy"]
+- ["C17ActionCableClient7Channel", "copyWithZone"]
+- ["C17ActionCableClient7Channel", "customPlaygroundQuickLook"]
+- ["C17ActionCableClient7Channel", "debugDescription"]
+- ["C17ActionCableClient7Channel", "deinit"]
+- ["C17ActionCableClient7Channel", "flushBuffer"]
+- ["C17ActionCableClient7Channel", "hashValue"]
+- ["C17ActionCableClient7Channel", "identifier"]
+- ["C17ActionCableClient7Channel", "init"]
+- ["C17ActionCableClient7Channel", "isSubscribed"]
+- ["C17ActionCableClient7Channel", "name"]
+- ["C17ActionCableClient7Channel", "onMessage"]
+- ["C17ActionCableClient7Channel", "onReceive"]
+- ["C17ActionCableClient7Channel", "onReceiveActionHooks"]
+- ["C17ActionCableClient7Channel", "onRejected"]
+- ["C17ActionCableClient7Channel", "onSubscribed"]
+- ["C17ActionCableClient7Channel", "onUnsubscribed"]
+- ["C17ActionCableClient7Channel", "shouldBufferActions"]
+- ["C17ActionCableClient7Channel", "subscribe"]
+- ["C17ActionCableClient7Channel", "subscript"]
+- ["C17ActionCableClient7Channel", "unsubscribe"]
+- !private ["Ps10Collection", "append"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "popLast"]
+- !private ["Ps10Collection", "subscript"]
+- ["Ps10Comparable", "init"]
+- ["Ps10Comparable", "max"]
+- !private ["Ps28CustomDebugStringConvertible", "Action"]
+- !private ["Ps28CustomDebugStringConvertible", "ActionCableSerialQueue"]
+- ["Ps28CustomDebugStringConvertible", "Array"]
+- ["Ps28CustomDebugStringConvertible", "Dictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- ["Ps28CustomDebugStringConvertible", "Int"]
+- ["Ps28CustomDebugStringConvertible", "Int32"]
+- !private ["Ps28CustomDebugStringConvertible", "PlaygroundQuickLook"]
+- !private ["Ps28CustomDebugStringConvertible", "TransmitError"]
+- ["Ps28CustomDebugStringConvertible", "UInt32"]
+- ["Ps28CustomDebugStringConvertible", "_toAnyHashable"]
+- !private ["Ps28CustomDebugStringConvertible", "action"]
+- !private ["Ps28CustomDebugStringConvertible", "actionBuffer"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- ["Ps28CustomDebugStringConvertible", "arc4random_uniform"]
+- !private ["Ps28CustomDebugStringConvertible", "assert"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "autoSubscribe"]
+- !private ["Ps28CustomDebugStringConvertible", "client"]
+- ["Ps28CustomDebugStringConvertible", "customPlaygroundQuickLook"]
+- ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "flushBuffer"]
+- ["Ps28CustomDebugStringConvertible", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isSubscribed"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "onReceive"]
+- !private ["Ps28CustomDebugStringConvertible", "onReceiveActionHooks"]
+- !private ["Ps28CustomDebugStringConvertible", "onRejected"]
+- !private ["Ps28CustomDebugStringConvertible", "onSubscribed"]
+- !private ["Ps28CustomDebugStringConvertible", "onUnsubscribed"]
+- !private ["Ps28CustomDebugStringConvertible", "popLast"]
+- !private ["Ps28CustomDebugStringConvertible", "shouldBufferActions"]
+- !private ["Ps28CustomDebugStringConvertible", "subscribe"]
+- !private ["Ps28CustomDebugStringConvertible", "subscribed"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "sync"]
+- !private ["Ps28CustomDebugStringConvertible", "unsubscribe"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Action"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "ActionCableSerialQueue"]
+- ["Ps29CustomPlaygroundQuickLookable", "Array"]
+- ["Ps29CustomPlaygroundQuickLookable", "Dictionary"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "DispatchQueue"]
+- ["Ps29CustomPlaygroundQuickLookable", "Int"]
+- ["Ps29CustomPlaygroundQuickLookable", "Int32"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "PlaygroundQuickLook"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "TransmitError"]
+- ["Ps29CustomPlaygroundQuickLookable", "UInt32"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "_toAnyHashable"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "action"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "actionBuffer"]
+- ["Ps29CustomPlaygroundQuickLookable", "arc4random_uniform"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "assert"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "autoSubscribe"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "client"]
+- ["Ps29CustomPlaygroundQuickLookable", "customPlaygroundQuickLook"]
+- ["Ps29CustomPlaygroundQuickLookable", "debugDescription"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "flushBuffer"]
+- ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "identifier"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isSubscribed"]
+- ["Ps29CustomPlaygroundQuickLookable", "max"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "name"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onReceive"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onReceiveActionHooks"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onRejected"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onSubscribed"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onUnsubscribed"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "shouldBufferActions"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "subscribe"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "subscribed"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "unsubscribe"]
+- ["Ps29CustomPlaygroundQuickLookable", ""]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "max"]
+- !private ["Ps17CustomReflectable", "popLast"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "max"]
+- !private ["Ps23CustomStringConvertible", "popLast"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "sync"]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo14DispatchObject", "sync"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["CSo13DispatchQueue", "sync"]
+- !private ["Ps9Equatable", "Action"]
+- !private ["Ps9Equatable", "ActionCableSerialQueue"]
+- ["Ps9Equatable", "Array"]
+- ["Ps9Equatable", "Dictionary"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- ["Ps9Equatable", "Int"]
+- ["Ps9Equatable", "Int32"]
+- !private ["Ps9Equatable", "PlaygroundQuickLook"]
+- !private ["Ps9Equatable", "TransmitError"]
+- ["Ps9Equatable", "UInt32"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "action"]
+- !private ["Ps9Equatable", "actionBuffer"]
+- ["Ps9Equatable", "arc4random_uniform"]
+- !private ["Ps9Equatable", "assert"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "autoSubscribe"]
+- ["Ps9Equatable", "cancelSubscription"]
+- !private ["Ps9Equatable", "client"]
+- ["Ps9Equatable", "confirmSubscription"]
+- ["Ps9Equatable", "customPlaygroundQuickLook"]
+- ["Ps9Equatable", "debugDescription"]
+- !private ["Ps9Equatable", "flushBuffer"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "hibernateSubscription"]
+- !private ["Ps9Equatable", "identifier"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isSubscribed"]
+- !private ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "max"]
+- ["Ps9Equatable", "message"]
+- !private ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "notSubscribed"]
+- !private ["Ps9Equatable", "onReceive"]
+- !private ["Ps9Equatable", "onReceiveActionHooks"]
+- !private ["Ps9Equatable", "onRejected"]
+- !private ["Ps9Equatable", "onSubscribed"]
+- !private ["Ps9Equatable", "onUnsubscribed"]
+- ["Ps9Equatable", "rejectSubscription"]
+- !private ["Ps9Equatable", "shouldBufferActions"]
+- !private ["Ps9Equatable", "sync"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "notSubscribed"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "popLast"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "max"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Action"]
+- !private ["Ps8Hashable", "ActionCableSerialQueue"]
+- ["Ps8Hashable", "Array"]
+- ["Ps8Hashable", "Dictionary"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- ["Ps8Hashable", "Int"]
+- ["Ps8Hashable", "Int32"]
+- !private ["Ps8Hashable", "PlaygroundQuickLook"]
+- !private ["Ps8Hashable", "TransmitError"]
+- ["Ps8Hashable", "UInt32"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "action"]
+- !private ["Ps8Hashable", "actionBuffer"]
+- ["Ps8Hashable", "arc4random_uniform"]
+- !private ["Ps8Hashable", "assert"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "autoSubscribe"]
+- ["Ps8Hashable", "cancelSubscription"]
+- !private ["Ps8Hashable", "client"]
+- ["Ps8Hashable", "confirmSubscription"]
+- ["Ps8Hashable", "customPlaygroundQuickLook"]
+- ["Ps8Hashable", "debugDescription"]
+- !private ["Ps8Hashable", "flushBuffer"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "hibernateSubscription"]
+- !private ["Ps8Hashable", "identifier"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isSubscribed"]
+- !private ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "max"]
+- ["Ps8Hashable", "message"]
+- !private ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "notSubscribed"]
+- !private ["Ps8Hashable", "onReceive"]
+- !private ["Ps8Hashable", "onReceiveActionHooks"]
+- !private ["Ps8Hashable", "onRejected"]
+- !private ["Ps8Hashable", "onSubscribed"]
+- !private ["Ps8Hashable", "onUnsubscribed"]
+- ["Ps8Hashable", "rejectSubscription"]
+- !private ["Ps8Hashable", "shouldBufferActions"]
+- !private ["Ps8Hashable", "sync"]
+- ["Ps8Hashable", ""]
+- ["Si", "init"]
+- ["Vs5Int32", "max"]
+- ["Ps7Integer", "init"]
+- ["Ps7Integer", "max"]
+- ["Ps17IntegerArithmetic", "init"]
+- ["Ps17IntegerArithmetic", "max"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["V17ActionCableClient7Message", "actionName"]
+- !private ["V17ActionCableClient7Message", "data"]
+- !private ["V17ActionCableClient7Message", "error"]
+- !private ["V17ActionCableClient7Message", "messageType"]
+- ["O17ActionCableClient11MessageType", "cancelSubscription"]
+- ["O17ActionCableClient11MessageType", "confirmSubscription"]
+- ["O17ActionCableClient11MessageType", "hibernateSubscription"]
+- ["O17ActionCableClient11MessageType", "message"]
+- ["O17ActionCableClient11MessageType", "rejectSubscription"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "popLast"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "async"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "sync"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "sync"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- !private ["CSo9OS_object", "sync"]
+- !private ["Os19PlaygroundQuickLook", "text"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "popLast"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "popLast"]
+- !private ["Ps8Sequence", "append"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "popLast"]
+- !private ["Ps8Sequence", "subscript"]
+- ["Ps13SignedInteger", "init"]
+- ["Ps13SignedInteger", "max"]
+- ["Ps12SignedNumber", "init"]
+- ["Ps12SignedNumber", "max"]
+- !private ["Vs12StaticString", "init"]
+- ["Ps10Strideable", "init"]
+- ["Ps10Strideable", "max"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["O17ActionCableClient13TransmitError", "deinit"]
+- ["O17ActionCableClient13TransmitError", "notSubscribed"]
+- ["Vs6UInt32", "init"]
+- ["Ps15UnsignedInteger", "init"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "popLast"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "popLast"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "popLast"]
+- ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "max"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Action"]
+- !private ["Ps9_Hashable", "ActionCableSerialQueue"]
+- ["Ps9_Hashable", "Array"]
+- ["Ps9_Hashable", "Dictionary"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- ["Ps9_Hashable", "Int"]
+- ["Ps9_Hashable", "Int32"]
+- !private ["Ps9_Hashable", "PlaygroundQuickLook"]
+- !private ["Ps9_Hashable", "TransmitError"]
+- ["Ps9_Hashable", "UInt32"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "action"]
+- !private ["Ps9_Hashable", "actionBuffer"]
+- ["Ps9_Hashable", "arc4random_uniform"]
+- !private ["Ps9_Hashable", "assert"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "autoSubscribe"]
+- ["Ps9_Hashable", "cancelSubscription"]
+- !private ["Ps9_Hashable", "client"]
+- ["Ps9_Hashable", "confirmSubscription"]
+- ["Ps9_Hashable", "customPlaygroundQuickLook"]
+- ["Ps9_Hashable", "debugDescription"]
+- !private ["Ps9_Hashable", "flushBuffer"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "hibernateSubscription"]
+- !private ["Ps9_Hashable", "identifier"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isSubscribed"]
+- !private ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "max"]
+- ["Ps9_Hashable", "message"]
+- !private ["Ps9_Hashable", "name"]
+- ["Ps9_Hashable", "notSubscribed"]
+- !private ["Ps9_Hashable", "onReceive"]
+- !private ["Ps9_Hashable", "onReceiveActionHooks"]
+- !private ["Ps9_Hashable", "onRejected"]
+- !private ["Ps9_Hashable", "onSubscribed"]
+- !private ["Ps9_Hashable", "onUnsubscribed"]
+- ["Ps9_Hashable", "rejectSubscription"]
+- !private ["Ps9_Hashable", "shouldBufferActions"]
+- !private ["Ps9_Hashable", "sync"]
+- ["Ps9_Hashable", ""]
+- ["Ps14_Incrementable", "init"]
+- ["Ps14_Incrementable", "max"]
+- !private ["Ps10_Indexable", "append"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "popLast"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "append"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "popLast"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- ["Ps8_Integer", "init"]
+- ["Ps8_Integer", "max"]
+- ["Ps18_IntegerArithmetic", "init"]
+- ["Ps18_IntegerArithmetic", "max"]
+- !private ["Ps17_MutableIndexable", "append"]
+- ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "popLast"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "max"]
+- !private ["Ps21_ObjectiveCBridgeable", "popLast"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "popLast"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "popLast"]
+- ["Ps14_SignedInteger", "init"]
+- ["Ps14_SignedInteger", "max"]
+- ["Ps11_Strideable", "init"]
+- ["Ps11_Strideable", "max"]
+depends-nominal:
+- !private "V17ActionCableClient6Action"
+- !private "C17ActionCableClient17ActionCableClient"
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- "C17ActionCableClient7Channel"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- "Ps9Equatable"
+- "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Si"
+- "Vs5Int32"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "V17ActionCableClient7Message"
+- "O17ActionCableClient11MessageType"
+- "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo9OS_object"
+- !private "Os19PlaygroundQuickLook"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "Ps8Sequence"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "O17ActionCableClient13TransmitError"
+- "Vs6UInt32"
+- "Ps15UnsignedInteger"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- "Ps24_DestructorSafeContainer"
+- "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Target Support Files/ActionCableClient/ActionCableClient-umbrella.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphonesimulator/ActionCableClient.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
+interface-hash: "71a199455275b79525b8445f76413428"

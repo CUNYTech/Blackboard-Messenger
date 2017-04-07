@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Alamofire
 
 class CourseViewTableViewController: UITableViewController {
 	var course : [String : Any]!
 	var courseInfo : NSArray!
 	var studentInfo : [String : Any]!
 	var userDefaults : UserDefaults!
+	var messageArray : NSArray!
 	
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,11 +70,38 @@ class CourseViewTableViewController: UITableViewController {
 	
 	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		let selectedCourse = self.courseInfo[indexPath.row] as! [String : Any]
+		
 		userDefaults.set(selectedCourse["roster"], forKey: "courseRoster")
 		userDefaults.set(selectedCourse["classname"], forKey: "className")
+		userDefaults.set(selectedCourse["id"], forKey: "class_id")
 		userDefaults.synchronize()
 		
+		getMessages()
+		
 		performSegue(withIdentifier: "ShowChat", sender: self)
+	}
+	
+	func getMessages() {
+		userDefaults = UserDefaults.standard
+		
+		let class_id = userDefaults?.object(forKey: "class_id")
+		let requestString = String(describing: class_id!)
+		let urlRequest = "https://blackboard-rails-api-isuruv.c9users.io/messages?class_id=" + requestString
+		
+		Alamofire.request(urlRequest, method: .get,
+		                  encoding: JSONEncoding.default, headers:nil)
+			.responseJSON { response in
+				guard let json = response.result.value as? [String: Any] else {
+					print("didn't get messages from api")
+					return
+				}
+				self.userDefaults.set([], forKey: "messages")
+				self.messageArray = json["messages"] as? NSArray
+				self.userDefaults.set(self.messageArray, forKey: "messages")
+				print("messages saved for class_ID")
+				print(class_id!)
+				self.userDefaults.synchronize()
+		}
 	}
 
     /*

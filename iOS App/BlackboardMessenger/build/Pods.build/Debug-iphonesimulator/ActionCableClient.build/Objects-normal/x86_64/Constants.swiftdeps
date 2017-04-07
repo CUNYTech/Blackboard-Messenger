@@ -1,0 +1,380 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ActionCableSerialQueue"
+- "ActionCableConcurrentQueue"
+- "Command"
+- "MessageType"
+- "Message"
+- "Action"
+- "exp2"
+- "clamp"
+- "=="
+- "=="
+provides-nominal:
+- "O17ActionCableClient7Command"
+- "O17ActionCableClient11MessageType"
+- "V17ActionCableClient7Message"
+- "V17ActionCableClient6Action"
+provides-member:
+- ["O17ActionCableClient7Command", ""]
+- ["O17ActionCableClient11MessageType", ""]
+- ["V17ActionCableClient7Message", ""]
+- ["V17ActionCableClient6Action", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Action"
+- "ActionCableConcurrentQueue"
+- "ActionCableSerialQueue"
+- "Array"
+- "AssignmentPrecedence"
+- "Channel"
+- "Command"
+- "Comparable"
+- "Dictionary"
+- "DispatchQueue"
+- "Double"
+- !private "Int32"
+- "Message"
+- "MessageType"
+- "String"
+- "StringLiteralType"
+- "Swift"
+- "clamp"
+- "exp2"
+- !private "max"
+- !private "min"
+- !private "vvexp2"
+- !private "~="
+depends-member:
+- ["V17ActionCableClient6Action", "Dictionary"]
+- ["V17ActionCableClient6Action", "String"]
+- ["V17ActionCableClient6Action", "init"]
+- ["V17ActionCableClient6Action", "name"]
+- ["V17ActionCableClient6Action", "params"]
+- ["Ps9AnyObject", "Attributes"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- ["VE8DispatchCSo13DispatchQueue10Attributes", "concurrent"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Ps7CVarArg", "Attributes"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["C17ActionCableClient7Channel", "name"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- ["O17ActionCableClient7Command", "=="]
+- ["O17ActionCableClient7Command", "String"]
+- ["O17ActionCableClient7Command", "_toAnyHashable"]
+- ["O17ActionCableClient7Command", "deinit"]
+- ["O17ActionCableClient7Command", "hashValue"]
+- ["O17ActionCableClient7Command", "message"]
+- ["O17ActionCableClient7Command", "string"]
+- ["O17ActionCableClient7Command", "subscribe"]
+- ["O17ActionCableClient7Command", "unsubscribe"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Attributes"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "name"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "Attributes"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["CSo14DispatchObject", "Attributes"]
+- ["CSo13DispatchQueue", "Attributes"]
+- ["CSo13DispatchQueue", "init"]
+- ["Ps9Equatable", "Attributes"]
+- !private ["Ps9Equatable", "MessageType"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "cancelSubscription"]
+- ["Ps9Equatable", "concurrent"]
+- ["Ps9Equatable", "confirmSubscription"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "hibernateSubscription"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "message"]
+- !private ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "ping"]
+- ["Ps9Equatable", "rejectSubscription"]
+- !private ["Ps9Equatable", "string"]
+- ["Ps9Equatable", "subscribe"]
+- ["Ps9Equatable", "unrecognized"]
+- ["Ps9Equatable", "unsubscribe"]
+- ["Ps9Equatable", "welcome"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "concurrent"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "Attributes"]
+- !private ["Ps8Hashable", "MessageType"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "cancelSubscription"]
+- ["Ps8Hashable", "confirmSubscription"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "hibernateSubscription"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "message"]
+- !private ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "ping"]
+- ["Ps8Hashable", "rejectSubscription"]
+- !private ["Ps8Hashable", "string"]
+- ["Ps8Hashable", "subscribe"]
+- ["Ps8Hashable", "unrecognized"]
+- ["Ps8Hashable", "unsubscribe"]
+- ["Ps8Hashable", "welcome"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Vs5Int32", "init"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["V17ActionCableClient7Message", "Channel"]
+- ["V17ActionCableClient7Message", "Message"]
+- ["V17ActionCableClient7Message", "MessageType"]
+- ["V17ActionCableClient7Message", "String"]
+- ["V17ActionCableClient7Message", "Swift"]
+- ["V17ActionCableClient7Message", "actionName"]
+- ["V17ActionCableClient7Message", "channelName"]
+- ["V17ActionCableClient7Message", "data"]
+- ["V17ActionCableClient7Message", "error"]
+- ["V17ActionCableClient7Message", "init"]
+- ["V17ActionCableClient7Message", "messageType"]
+- ["V17ActionCableClient7Message", "simple"]
+- ["O17ActionCableClient11MessageType", "=="]
+- !private ["O17ActionCableClient11MessageType", "MessageType"]
+- ["O17ActionCableClient11MessageType", "String"]
+- ["O17ActionCableClient11MessageType", "_toAnyHashable"]
+- ["O17ActionCableClient11MessageType", "cancelSubscription"]
+- ["O17ActionCableClient11MessageType", "confirmSubscription"]
+- ["O17ActionCableClient11MessageType", "deinit"]
+- ["O17ActionCableClient11MessageType", "hashValue"]
+- ["O17ActionCableClient11MessageType", "hibernateSubscription"]
+- ["O17ActionCableClient11MessageType", "init"]
+- ["O17ActionCableClient11MessageType", "message"]
+- ["O17ActionCableClient11MessageType", "ping"]
+- ["O17ActionCableClient11MessageType", "rejectSubscription"]
+- ["O17ActionCableClient11MessageType", "string"]
+- ["O17ActionCableClient11MessageType", "unrecognized"]
+- ["O17ActionCableClient11MessageType", "welcome"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Attributes"]
+- ["PSo16NSObjectProtocol", "Attributes"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["CSo9OS_object", "Attributes"]
+- ["Ps9OptionSet", "concurrent"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- ["Ps16RawRepresentable", "concurrent"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- ["Ps10SetAlgebra", "concurrent"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "Attributes"]
+- !private ["Ps9_Hashable", "MessageType"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "cancelSubscription"]
+- ["Ps9_Hashable", "confirmSubscription"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "hibernateSubscription"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "message"]
+- !private ["Ps9_Hashable", "name"]
+- ["Ps9_Hashable", "ping"]
+- ["Ps9_Hashable", "rejectSubscription"]
+- !private ["Ps9_Hashable", "string"]
+- ["Ps9_Hashable", "subscribe"]
+- ["Ps9_Hashable", "unrecognized"]
+- ["Ps9_Hashable", "unsubscribe"]
+- ["Ps9_Hashable", "welcome"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "V17ActionCableClient6Action"
+- "Ps9AnyObject"
+- !private "Sa"
+- "VE8DispatchCSo13DispatchQueue10Attributes"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "C17ActionCableClient7Channel"
+- !private "Ps10Collection"
+- "O17ActionCableClient7Command"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "CSo14DispatchObject"
+- "CSo13DispatchQueue"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- "V17ActionCableClient7Message"
+- "O17ActionCableClient11MessageType"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "CSo9OS_object"
+- "Ps9OptionSet"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Target Support Files/ActionCableClient/ActionCableClient-umbrella.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphonesimulator/ActionCableClient.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
+interface-hash: "2d0abb780cf19cf81ef4b99d6568557f"

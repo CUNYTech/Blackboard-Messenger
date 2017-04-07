@@ -1,12 +1,21 @@
 PODS:
+  - ActionCableClient (0.2.3):
+    - Starscream (~> 2.0.0)
   - Alamofire (4.4.0)
+  - Starscream (2.0.3)
+  - SwiftWebSocket (2.6.5)
 
 DEPENDENCIES:
+  - ActionCableClient
   - Alamofire (~> 4.4)
+  - SwiftWebSocket (~> 2.6.5)
 
 SPEC CHECKSUMS:
+  ActionCableClient: c8a466410d31bfa14e7a9c209b539c1e2d026a5f
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Starscream: 3fdd5c277e57cca6b5c406d274e3f34a7c88f2ce
+  SwiftWebSocket: 1ef8a0efb023544643bdf480c1ec4a62b204f293
 
-PODFILE CHECKSUM: fd75639903bf29aae7e28cdbfe3f6ff85924212f
+PODFILE CHECKSUM: 239f72389224cd8a4019001a38c0364498c7aeb9
 
 COCOAPODS: 1.2.0
