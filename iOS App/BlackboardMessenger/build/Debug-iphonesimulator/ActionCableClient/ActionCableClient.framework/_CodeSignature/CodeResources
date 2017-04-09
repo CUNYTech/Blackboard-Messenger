@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ActionCableClient-Swift.h</key>
 		<data>
-		VSBa2qHmgF+pHDZ+q0e0Mdpbhlo=
+		p0t5S/6HSpZJjB+mkd4oByjOw5Q=
 		</data>
 		<key>Headers/ActionCableClient-umbrella.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eavtr5inc3kVZgAUC8frn+Fgwz8=
+		oT81+JTZp3whxEqNDJZKlgGtYEQ=
 		</data>
 		<key>Modules/ActionCableClient.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		jy1QO44Pt5ag9G8qUSXj7NmLew4=
+		J2a37iwWgtLSr/+6Y4zf3Ko5BgI=
 		</data>
 		<key>Modules/ActionCableClient.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		0rsaELSsnWvMtSFUz8XSsRo1I24=
+		lABNyVW3a+9ocYUhHYjY+3gYI6k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,11 +35,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VSBa2qHmgF+pHDZ+q0e0Mdpbhlo=
+			p0t5S/6HSpZJjB+mkd4oByjOw5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Av301PIwM6e6CeFfDHb9uvRnPWB6N0IPCRaCvKn/NLY=
+			sREqbVCa/7MewQZBLWjYyJ51UAslW1dGPc2CKcYHCiw=
 			</data>
 		</dict>
 		<key>Headers/ActionCableClient-umbrella.h</key>
@@ -57,22 +57,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jy1QO44Pt5ag9G8qUSXj7NmLew4=
+			J2a37iwWgtLSr/+6Y4zf3Ko5BgI=
 			</data>
 			<key>hash2</key>
 			<data>
-			TD8WM0F1qLhiS7wtTkPLXTVudLSr4dFCkn3jA9gRbV0=
+			Y/WliEWZg/XWSjBmcOtNX0ZRKjGaMdvPVS4EGNhdHuA=
 			</data>
 		</dict>
 		<key>Modules/ActionCableClient.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0rsaELSsnWvMtSFUz8XSsRo1I24=
+			lABNyVW3a+9ocYUhHYjY+3gYI6k=
 			</data>
 			<key>hash2</key>
 			<data>
-			lMlfoprkdib+QG3F4H5pvwCHmOKkBI6z4JFGCJW3FYo=
+			tQhNdToL71T32gAQ4qD4voQrejk1ZkExu0J4vznChM4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

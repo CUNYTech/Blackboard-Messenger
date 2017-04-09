@@ -78,7 +78,6 @@ class CourseViewTableViewController: UITableViewController {
 		
 		getMessages()
 		
-		performSegue(withIdentifier: "ShowChat", sender: self)
 	}
 	
 	func getMessages() {
@@ -100,7 +99,9 @@ class CourseViewTableViewController: UITableViewController {
 				self.userDefaults.set(self.messageArray, forKey: "messages")
 				print("messages saved for class_ID")
 				print(class_id!)
+				print(self.messageArray)
 				self.userDefaults.synchronize()
+				self.performSegue(withIdentifier: "ShowChat", sender: self)
 		}
 	}
 

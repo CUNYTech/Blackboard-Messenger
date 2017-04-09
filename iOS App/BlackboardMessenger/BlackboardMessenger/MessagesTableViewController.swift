@@ -72,8 +72,6 @@ class MessagesTableViewController: UITableViewController {
 		}
         return cell
     }
-	
-
 
     /*
     // Override to support conditional editing of the table view.

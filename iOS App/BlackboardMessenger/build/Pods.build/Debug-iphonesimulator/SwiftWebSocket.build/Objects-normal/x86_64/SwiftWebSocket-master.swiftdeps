@@ -1,5 +1,5 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
 options: "55ecc97d3a0489c2f945b1b18ae097c8"
-build_time: [544577882, 318150000]
+build_time: [545025594, 427498000]
 inputs:
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/SwiftWebSocket/Source/WebSocket.swift": [544309394, 0]

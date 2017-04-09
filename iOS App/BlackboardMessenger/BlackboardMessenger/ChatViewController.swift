@@ -14,6 +14,7 @@ class ChatViewController: UIViewController {
 	var userDefaults : UserDefaults!
 	var client : ActionCableClient? = nil
 	@IBOutlet weak var messageContent: UITextField!
+	weak var messageView : MessagesTableViewController?
 	
 	@IBAction func messageButton(_ sender: Any) {
 		if let message = messageContent.text {
@@ -25,9 +26,11 @@ class ChatViewController: UIViewController {
 		                       "user_id" : user_id!])
 			
 			roomChannel?.onReceive = { (JSON : Any?, error : Error?) in
-				print("Received", JSON)
+				print("Received", JSON!)
 			}
 			messageContent.text = ""
+			messageView = self.childViewControllers[0] as? MessagesTableViewController
+			messageView?.tableView.reloadData()
 		}
 	}
 	
@@ -36,7 +39,6 @@ class ChatViewController: UIViewController {
 		userDefaults = UserDefaults.standard
 		selectedCourse.text = userDefaults.object(forKey: "className") as! String?
 		connect()
-
     }
 	
 	func connect() {

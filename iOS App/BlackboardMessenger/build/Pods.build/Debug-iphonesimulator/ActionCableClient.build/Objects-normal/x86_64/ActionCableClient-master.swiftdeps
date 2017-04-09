@@ -1,6 +1,6 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
 options: "c6e66de55e10d65830c86434b067bdb2"
-build_time: [544577890, 905523000]
+build_time: [545025597, 152412000]
 inputs:
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/ActionCableClient/Source/Classes/ActionCableClient.swift": [544577818, 0]
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/ActionCableClient/Source/Classes/Channel.swift": [544577818, 0]
