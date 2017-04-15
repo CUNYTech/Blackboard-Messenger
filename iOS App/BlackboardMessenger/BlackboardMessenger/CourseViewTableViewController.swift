@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Alamofire
 
 class CourseViewTableViewController: UITableViewController {
 	var course : [String : Any]!
 	var courseInfo : NSArray!
 	var studentInfo : [String : Any]!
 	var userDefaults : UserDefaults!
+	var messageArray : [[String : Any?]]!
 	
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +33,8 @@ class CourseViewTableViewController: UITableViewController {
 		
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
+
+		print(userDefaults.object(forKey: "user_id")!)
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
@@ -68,11 +72,36 @@ class CourseViewTableViewController: UITableViewController {
 	
 	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		let selectedCourse = self.courseInfo[indexPath.row] as! [String : Any]
+		
 		userDefaults.set(selectedCourse["roster"], forKey: "courseRoster")
 		userDefaults.set(selectedCourse["classname"], forKey: "className")
+		userDefaults.set(selectedCourse["id"], forKey: "class_id")
 		userDefaults.synchronize()
 		
-		performSegue(withIdentifier: "ShowChat", sender: self)
+		getMessages()
+		
+	}
+	
+	func getMessages() {
+		userDefaults = UserDefaults.standard
+		
+		let class_id = userDefaults?.object(forKey: "class_id")
+		let requestString = String(describing: class_id!)
+		let urlRequest = "https://blackboard-rails-api-isuruv.c9users.io/messages?class_id=" + requestString
+		
+		Alamofire.request(urlRequest, method: .get,
+		                  encoding: JSONEncoding.default, headers:nil)
+			.responseJSON { response in
+				guard let json = response.result.value as? [String: Any] else {
+					print("didn't get messages from api")
+					return
+				}
+				self.userDefaults.set([], forKey: "messages")
+				self.messageArray = json["messages"] as? [[String: Any?]]
+				self.userDefaults.set(self.messageArray, forKey: "messages")
+				self.userDefaults.synchronize()
+				self.performSegue(withIdentifier: "ShowChat", sender: self)
+		}
 	}
 
     /*

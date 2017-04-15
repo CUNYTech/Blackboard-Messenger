@@ -1,0 +1,259 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RetryStrategy"
+- "RetryHandler"
+provides-nominal:
+- "O17ActionCableClient13RetryStrategy"
+- "C17ActionCableClient12RetryHandler"
+provides-member:
+- ["O17ActionCableClient13RetryStrategy", ""]
+- ["C17ActionCableClient12RetryHandler", ""]
+provides-dynamic-lookup:
+- "callback"
+- "fire"
+- "retries"
+- "retry"
+- "timer"
+depends-top-level:
+- !private "*"
+- !private "+="
+- !private ">"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Double"
+- "Int"
+- "NSObject"
+- "RetryHandler"
+- "RetryStrategy"
+- !private "StringLiteralType"
+- "TimeInterval"
+- "Timer"
+- "Void"
+- !private "clamp"
+- !private "exp2"
+- !private "log"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "Timer"]
+- !private ["Ps9AnyObject", "callback"]
+- !private ["Ps9AnyObject", "fire"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "invalidate"]
+- !private ["Ps9AnyObject", "retries"]
+- !private ["Ps9AnyObject", "scheduledTimer"]
+- !private ["Ps9AnyObject", "strategy"]
+- !private ["Ps9AnyObject", "timer"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "Timer"]
+- !private ["Ps7CVarArg", "callback"]
+- !private ["Ps7CVarArg", "fire"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "invalidate"]
+- !private ["Ps7CVarArg", "retries"]
+- !private ["Ps7CVarArg", "scheduledTimer"]
+- !private ["Ps7CVarArg", "strategy"]
+- !private ["Ps7CVarArg", "timer"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Timer"]
+- !private ["Ps28CustomDebugStringConvertible", "callback"]
+- !private ["Ps28CustomDebugStringConvertible", "fire"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "invalidate"]
+- !private ["Ps28CustomDebugStringConvertible", "retries"]
+- !private ["Ps28CustomDebugStringConvertible", "scheduledTimer"]
+- !private ["Ps28CustomDebugStringConvertible", "strategy"]
+- !private ["Ps28CustomDebugStringConvertible", "timer"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Timer"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "callback"]
+- !private ["Ps23CustomStringConvertible", "fire"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "invalidate"]
+- !private ["Ps23CustomStringConvertible", "retries"]
+- !private ["Ps23CustomStringConvertible", "scheduledTimer"]
+- !private ["Ps23CustomStringConvertible", "strategy"]
+- !private ["Ps23CustomStringConvertible", "timer"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "Timer"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "callback"]
+- !private ["Ps9Equatable", "fire"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "invalidate"]
+- !private ["Ps9Equatable", "retries"]
+- !private ["Ps9Equatable", "scheduledTimer"]
+- !private ["Ps9Equatable", "strategy"]
+- !private ["Ps9Equatable", "timer"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "Timer"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "callback"]
+- !private ["Ps8Hashable", "fire"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "invalidate"]
+- !private ["Ps8Hashable", "retries"]
+- !private ["Ps8Hashable", "scheduledTimer"]
+- !private ["Ps8Hashable", "strategy"]
+- !private ["Ps8Hashable", "timer"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "RetryStrategy"]
+- !private ["CSo8NSObject", "TimeInterval"]
+- ["CSo8NSObject", "Timer"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "callback"]
+- ["CSo8NSObject", "fire"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "invalidate"]
+- ["CSo8NSObject", "retries"]
+- ["CSo8NSObject", "retry"]
+- !private ["CSo8NSObject", "scheduledTimer"]
+- ["CSo8NSObject", "strategy"]
+- ["CSo8NSObject", "timer"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Timer"]
+- !private ["PSo16NSObjectProtocol", "callback"]
+- !private ["PSo16NSObjectProtocol", "fire"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "invalidate"]
+- !private ["PSo16NSObjectProtocol", "retries"]
+- !private ["PSo16NSObjectProtocol", "scheduledTimer"]
+- !private ["PSo16NSObjectProtocol", "strategy"]
+- !private ["PSo16NSObjectProtocol", "timer"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C17ActionCableClient12RetryHandler", "Int"]
+- ["C17ActionCableClient12RetryHandler", "RetryStrategy"]
+- !private ["C17ActionCableClient12RetryHandler", "TimeInterval"]
+- ["C17ActionCableClient12RetryHandler", "Timer"]
+- ["C17ActionCableClient12RetryHandler", "Void"]
+- ["C17ActionCableClient12RetryHandler", "callback"]
+- ["C17ActionCableClient12RetryHandler", "deinit"]
+- ["C17ActionCableClient12RetryHandler", "fire"]
+- ["C17ActionCableClient12RetryHandler", "init"]
+- ["C17ActionCableClient12RetryHandler", "retries"]
+- ["C17ActionCableClient12RetryHandler", "retry"]
+- ["C17ActionCableClient12RetryHandler", "strategy"]
+- ["C17ActionCableClient12RetryHandler", "timer"]
+- !private ["O17ActionCableClient13RetryStrategy", "Double"]
+- ["O17ActionCableClient13RetryStrategy", "Int"]
+- ["O17ActionCableClient13RetryStrategy", "TimeInterval"]
+- ["O17ActionCableClient13RetryStrategy", "calculateInterval"]
+- !private ["O17ActionCableClient13RetryStrategy", "clamp"]
+- !private ["O17ActionCableClient13RetryStrategy", "exp2"]
+- ["O17ActionCableClient13RetryStrategy", "exponentialBackoff"]
+- ["O17ActionCableClient13RetryStrategy", "linear"]
+- !private ["O17ActionCableClient13RetryStrategy", "log"]
+- ["O17ActionCableClient13RetryStrategy", "logarithmicBackoff"]
+- ["O17ActionCableClient13RetryStrategy", "none"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["CSo5Timer", "invalidate"]
+- !private ["CSo5Timer", "scheduledTimer"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "Timer"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "callback"]
+- !private ["Ps9_Hashable", "fire"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "invalidate"]
+- !private ["Ps9_Hashable", "retries"]
+- !private ["Ps9_Hashable", "scheduledTimer"]
+- !private ["Ps9_Hashable", "strategy"]
+- !private ["Ps9_Hashable", "timer"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C17ActionCableClient12RetryHandler"
+- "O17ActionCableClient13RetryStrategy"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "CSo5Timer"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Target Support Files/ActionCableClient/ActionCableClient-umbrella.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphoneos/ActionCableClient.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/arm.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphoneos/Starscream.build/module.modulemap"
+interface-hash: "2a1f50f232eecb00c7a47f2acc1b6eb8"

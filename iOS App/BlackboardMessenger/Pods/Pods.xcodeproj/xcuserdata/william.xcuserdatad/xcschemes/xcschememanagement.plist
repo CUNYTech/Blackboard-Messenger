@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ActionCableClient.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -14,15 +19,40 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Starscream.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftWebSocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<key>03CB4D54F5038052072CB9B00FABA545</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8E287AFE9DC524BC76899018ADC8F877</key>
+		<key>0F42ECB7DFFA08681077FE3FE1C2C8CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>43E53FD40E19D4F67D9CAC61A61D8E95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6AAFB67359D4071A901E493D4FA4BD41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>

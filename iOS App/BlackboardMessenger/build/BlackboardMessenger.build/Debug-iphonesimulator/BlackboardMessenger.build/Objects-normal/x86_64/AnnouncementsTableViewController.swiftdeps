@@ -6,16 +6,16 @@ provides-nominal:
 provides-member:
 - ["C19BlackboardMessenger32AnnouncementsTableViewController", ""]
 provides-dynamic-lookup:
-- "numberOfSections"
 - "didReceiveMemoryWarning"
-- "viewDidLoad"
+- "numberOfSections"
 - "tableView"
+- "viewDidLoad"
 depends-top-level:
-- "UITableView"
-- "AssignmentPrecedence"
-- "UITableViewController"
-- "Int"
 - "AnnouncementsTableViewController"
+- "AssignmentPrecedence"
+- "Int"
+- "UITableView"
+- "UITableViewController"
 - !private "UIView"
 depends-member:
 - ["C19BlackboardMessenger32AnnouncementsTableViewController", "Int"]
@@ -28,77 +28,66 @@ depends-member:
 - ["C19BlackboardMessenger32AnnouncementsTableViewController", "tableView"]
 - ["C19BlackboardMessenger32AnnouncementsTableViewController", "viewDidLoad"]
 - !private ["Ps9AnyObject", "UIView"]
-- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "init"]
-- ["Ps9AnyObject", "numberOfSections"]
 - !private ["Ps9AnyObject", "tableFooterView"]
-- ["Ps9AnyObject", "tableView"]
-- ["Ps9AnyObject", "viewDidLoad"]
+- !private ["Ps9AnyObject", "tableView"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
 - !private ["PSo15CALayerDelegate", "init"]
 - !private ["PSo15CALayerDelegate", "tableFooterView"]
-- ["VSC6CGRect", "deinit"]
 - !private ["VSC6CGRect", "zero"]
 - !private ["Ps7CVarArg", "UIView"]
-- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
 - !private ["Ps7CVarArg", "init"]
-- ["Ps7CVarArg", "numberOfSections"]
 - !private ["Ps7CVarArg", "tableFooterView"]
-- ["Ps7CVarArg", "tableView"]
-- ["Ps7CVarArg", "viewDidLoad"]
+- !private ["Ps7CVarArg", "tableView"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", ""]
 - !private ["Ps28CustomDebugStringConvertible", "UIView"]
-- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
-- ["Ps28CustomDebugStringConvertible", "numberOfSections"]
 - !private ["Ps28CustomDebugStringConvertible", "tableFooterView"]
-- ["Ps28CustomDebugStringConvertible", "tableView"]
-- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "tableView"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - !private ["Ps28CustomDebugStringConvertible", "zero"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "zero"]
 - !private ["Ps17CustomReflectable", "zero"]
 - !private ["Ps23CustomStringConvertible", "UIView"]
-- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
 - !private ["Ps23CustomStringConvertible", "init"]
-- ["Ps23CustomStringConvertible", "numberOfSections"]
 - !private ["Ps23CustomStringConvertible", "tableFooterView"]
-- ["Ps23CustomStringConvertible", "tableView"]
-- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- !private ["Ps23CustomStringConvertible", "tableView"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["Ps9Equatable", "UIView"]
-- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
 - !private ["Ps9Equatable", "init"]
-- ["Ps9Equatable", "numberOfSections"]
 - !private ["Ps9Equatable", "tableFooterView"]
-- ["Ps9Equatable", "tableView"]
-- ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "tableView"]
+- !private ["Ps9Equatable", "viewDidLoad"]
 - !private ["Ps9Equatable", "zero"]
 - ["Ps9Equatable", ""]
 - !private ["Ps8Hashable", "UIView"]
-- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
 - !private ["Ps8Hashable", "init"]
-- ["Ps8Hashable", "numberOfSections"]
 - !private ["Ps8Hashable", "tableFooterView"]
-- ["Ps8Hashable", "tableView"]
-- ["Ps8Hashable", "viewDidLoad"]
+- !private ["Ps8Hashable", "tableView"]
+- !private ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
-- ["Si", "deinit"]
-- ["CSo7NSCoder", "deinit"]
 - !private ["PSo8NSCoding", "UIView"]
-- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - !private ["PSo8NSCoding", "init"]
-- ["PSo8NSCoding", "numberOfSections"]
 - !private ["PSo8NSCoding", "tableFooterView"]
-- ["PSo8NSCoding", "tableView"]
-- ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "tableView"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo26NSExtensionRequestHandling", "UIView"]
-- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
-- ["PSo26NSExtensionRequestHandling", "numberOfSections"]
-- ["PSo26NSExtensionRequestHandling", "tableView"]
-- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- !private ["PSo26NSExtensionRequestHandling", "tableView"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - ["CSo8NSObject", "Int"]
 - ["CSo8NSObject", "UITableView"]
@@ -110,44 +99,39 @@ depends-member:
 - ["CSo8NSObject", "tableView"]
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["PSo16NSObjectProtocol", "UIView"]
-- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - !private ["PSo16NSObjectProtocol", "init"]
-- ["PSo16NSObjectProtocol", "numberOfSections"]
 - !private ["PSo16NSObjectProtocol", "tableFooterView"]
-- ["PSo16NSObjectProtocol", "tableView"]
-- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "tableView"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
-- ["Sq", "deinit"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "tableFooterView"]
 - !private ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "tableFooterView"]
 - !private ["PSo21UIAppearanceContainer", "UIView"]
-- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - !private ["PSo21UIAppearanceContainer", "init"]
-- ["PSo21UIAppearanceContainer", "numberOfSections"]
 - !private ["PSo21UIAppearanceContainer", "tableFooterView"]
-- ["PSo21UIAppearanceContainer", "tableView"]
-- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- !private ["PSo21UIAppearanceContainer", "tableView"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["PSo18UIContentContainer", "UIView"]
-- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - !private ["PSo18UIContentContainer", "init"]
-- ["PSo18UIContentContainer", "numberOfSections"]
-- ["PSo18UIContentContainer", "tableView"]
-- ["PSo18UIContentContainer", "viewDidLoad"]
+- !private ["PSo18UIContentContainer", "tableView"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
 - !private ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "tableFooterView"]
 - !private ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "tableFooterView"]
 - !private ["PSo18UIFocusEnvironment", "UIView"]
-- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - !private ["PSo18UIFocusEnvironment", "init"]
-- ["PSo18UIFocusEnvironment", "numberOfSections"]
 - !private ["PSo18UIFocusEnvironment", "tableFooterView"]
-- ["PSo18UIFocusEnvironment", "tableView"]
-- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- !private ["PSo18UIFocusEnvironment", "tableView"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["PSo11UIFocusItem", "init"]
 - !private ["PSo11UIFocusItem", "tableFooterView"]
@@ -161,33 +145,29 @@ depends-member:
 - ["CSo11UIResponder", "tableView"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["PSo30UIResponderStandardEditActions", "UIView"]
-- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
-- ["PSo30UIResponderStandardEditActions", "numberOfSections"]
 - !private ["PSo30UIResponderStandardEditActions", "tableFooterView"]
-- ["PSo30UIResponderStandardEditActions", "tableView"]
-- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "tableView"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - !private ["CSo12UIScrollView", "tableFooterView"]
 - !private ["PSo20UIScrollViewDelegate", "UIView"]
-- ["PSo20UIScrollViewDelegate", "didReceiveMemoryWarning"]
+- !private ["PSo20UIScrollViewDelegate", "didReceiveMemoryWarning"]
 - !private ["PSo20UIScrollViewDelegate", "init"]
-- ["PSo20UIScrollViewDelegate", "numberOfSections"]
-- ["PSo20UIScrollViewDelegate", "tableView"]
-- ["PSo20UIScrollViewDelegate", "viewDidLoad"]
+- !private ["PSo20UIScrollViewDelegate", "tableView"]
+- !private ["PSo20UIScrollViewDelegate", "viewDidLoad"]
 - ["PSo20UIScrollViewDelegate", ""]
 - !private ["PSo16UIStateRestoring", "UIView"]
-- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - !private ["PSo16UIStateRestoring", "init"]
-- ["PSo16UIStateRestoring", "numberOfSections"]
-- ["PSo16UIStateRestoring", "tableView"]
-- ["PSo16UIStateRestoring", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "tableView"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["CSo11UITableView", "tableFooterView"]
 - ["CSo21UITableViewController", "Int"]
 - ["CSo21UITableViewController", "UITableView"]
 - !private ["CSo21UITableViewController", "UIView"]
-- ["CSo21UITableViewController", "deinit"]
 - ["CSo21UITableViewController", "didReceiveMemoryWarning"]
 - ["CSo21UITableViewController", "init"]
 - ["CSo21UITableViewController", "numberOfSections"]
@@ -195,29 +175,24 @@ depends-member:
 - ["CSo21UITableViewController", "viewDidLoad"]
 - ["CSo21UITableViewController", ""]
 - !private ["PSo21UITableViewDataSource", "UIView"]
-- ["PSo21UITableViewDataSource", "didReceiveMemoryWarning"]
+- !private ["PSo21UITableViewDataSource", "didReceiveMemoryWarning"]
 - !private ["PSo21UITableViewDataSource", "init"]
-- ["PSo21UITableViewDataSource", "numberOfSections"]
-- ["PSo21UITableViewDataSource", "tableView"]
-- ["PSo21UITableViewDataSource", "viewDidLoad"]
+- !private ["PSo21UITableViewDataSource", "tableView"]
+- !private ["PSo21UITableViewDataSource", "viewDidLoad"]
 - ["PSo21UITableViewDataSource", ""]
 - !private ["PSo19UITableViewDelegate", "UIView"]
-- ["PSo19UITableViewDelegate", "didReceiveMemoryWarning"]
+- !private ["PSo19UITableViewDelegate", "didReceiveMemoryWarning"]
 - !private ["PSo19UITableViewDelegate", "init"]
-- ["PSo19UITableViewDelegate", "numberOfSections"]
-- ["PSo19UITableViewDelegate", "tableView"]
-- ["PSo19UITableViewDelegate", "viewDidLoad"]
+- !private ["PSo19UITableViewDelegate", "tableView"]
+- !private ["PSo19UITableViewDelegate", "viewDidLoad"]
 - ["PSo19UITableViewDelegate", ""]
-- ["OSC16UITableViewStyle", "deinit"]
 - !private ["PSo18UITraitEnvironment", "UIView"]
-- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - !private ["PSo18UITraitEnvironment", "init"]
-- ["PSo18UITraitEnvironment", "numberOfSections"]
 - !private ["PSo18UITraitEnvironment", "tableFooterView"]
-- ["PSo18UITraitEnvironment", "tableView"]
-- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- !private ["PSo18UITraitEnvironment", "tableView"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
-- ["CSo6UIView", "deinit"]
 - !private ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "tableFooterView"]
 - ["CSo16UIViewController", "Int"]
@@ -231,19 +206,18 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "tableFooterView"]
 - !private ["Ps9_Hashable", "UIView"]
-- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
 - !private ["Ps9_Hashable", "init"]
-- ["Ps9_Hashable", "numberOfSections"]
 - !private ["Ps9_Hashable", "tableFooterView"]
-- ["Ps9_Hashable", "tableView"]
-- ["Ps9_Hashable", "viewDidLoad"]
+- !private ["Ps9_Hashable", "tableView"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
 - ["Ps9_Hashable", ""]
 - !private ["Ps21_ObjectiveCBridgeable", "zero"]
 depends-nominal:
 - "C19BlackboardMessenger32AnnouncementsTableViewController"
 - "Ps9AnyObject"
 - !private "PSo15CALayerDelegate"
-- "VSC6CGRect"
+- !private "VSC6CGRect"
 - "Ps7CVarArg"
 - "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
@@ -251,13 +225,10 @@ depends-nominal:
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
 - "Ps8Hashable"
-- "Si"
-- "CSo7NSCoder"
 - "PSo8NSCoding"
 - "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- "Sq"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
@@ -275,9 +246,8 @@ depends-nominal:
 - "CSo21UITableViewController"
 - "PSo21UITableViewDataSource"
 - "PSo19UITableViewDelegate"
-- "OSC16UITableViewStyle"
 - "PSo18UITraitEnvironment"
-- "CSo6UIView"
+- !private "CSo6UIView"
 - "CSo16UIViewController"
 - !private "Ps37_DefaultCustomPlaygroundQuickLookable"
 - "Ps9_Hashable"
@@ -288,14 +258,28 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/ActionCableClient/ActionCableClient.framework/Modules/ActionCableClient.swiftmodule/x86_64.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/ActionCableClient/ActionCableClient.framework/Headers/ActionCableClient-Swift.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/ActionCableClient/ActionCableClient.framework/Headers/ActionCableClient-umbrella.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/ActionCableClient/ActionCableClient.framework/Modules/module.modulemap"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/module.modulemap"
 interface-hash: "ba33221a7672546dfa8796b784141c54"

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Alamofire-Swift.h</key>
 		<data>
-		eVeVOEwf+aFAi5h3IQ3ujdyhBxo=
+		RaXJXJfCdEjqjGZ/SZQHg/ll/5w=
 		</data>
 		<key>Headers/Alamofire-umbrella.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2VOezwpQ5HtQomk4b5VIvazdJ54=
+		dUKNtLoldFuBupY6IaMI9ByJjYU=
 		</data>
 		<key>Modules/Alamofire.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		pIT05sg4FbipQ3XcgiS3AKufjuM=
+		mxHQ7ZW25Xzm8wwKv+Ck3BZSI3Q=
 		</data>
 		<key>Modules/Alamofire.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		qlcbuWiPLCobauC8XpsvMBNrIs0=
+		I8NEdf0Fh54R/JCBIYSt9o3qb9s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,11 +35,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eVeVOEwf+aFAi5h3IQ3ujdyhBxo=
+			RaXJXJfCdEjqjGZ/SZQHg/ll/5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			0F1cB5VQUQ5egIItbyoQEwERoQZZ5Ydmq+fHyXEC7jw=
+			74nl+uePrerHjF1nfDnUcA1PcCNC4ERfAeTHkQ5IcIc=
 			</data>
 		</dict>
 		<key>Headers/Alamofire-umbrella.h</key>
@@ -57,22 +57,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pIT05sg4FbipQ3XcgiS3AKufjuM=
+			mxHQ7ZW25Xzm8wwKv+Ck3BZSI3Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q1/B+3GMDi7UEu+AC3RhuUCwyLjwfDUE6iXLZ8T4A6s=
+			6XbMHEHwS3ohmZWV42xuKsOz9W4GZRVNdb/7qgYD8vc=
 			</data>
 		</dict>
 		<key>Modules/Alamofire.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qlcbuWiPLCobauC8XpsvMBNrIs0=
+			I8NEdf0Fh54R/JCBIYSt9o3qb9s=
 			</data>
 			<key>hash2</key>
 			<data>
-			BgeQZ1B8jvTt9IuBfUwVmi4zctzV1RZ54+RyWl2YoHA=
+			bIYIa7Ycjh6qg8x8A0lsVPluFx9PhrTHebHqFSJnE6w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

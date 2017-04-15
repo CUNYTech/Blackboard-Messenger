@@ -7,19 +7,35 @@
 //
 
 import UIKit
+import Alamofire
+
+extension UITableView {
+	func scrollToBottom() {
+		let sections = numberOfSections-1
+		if sections >= 0 {
+			let rows = numberOfRows(inSection: sections)-1
+			if rows >= 0 {
+				let indexPath = IndexPath(row: rows, section: sections)
+				DispatchQueue.main.async { [weak self] in
+					self?.scrollToRow(at: indexPath, at: .bottom, animated: true)
+				}
+			}
+		}
+	}
+}
 
 class MessagesTableViewController: UITableViewController {
-
+	var messageArray : [[String : Any?]]!
+	var userDefaults : UserDefaults!
+	
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-    }
-
+		userDefaults = UserDefaults.standard
+		messageArray = userDefaults.object(forKey: "messages") as! [[String : Any?]]
+		tableView.scrollToBottom()
+		print(messageArray)
+	}
+	
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -28,24 +44,37 @@ class MessagesTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+		if let messageCount = self.messageArray?.count {
+			return messageCount
+		}
+		else {
+			return 0
+		}
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
-        return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MessageCell", for: indexPath) as! MessageCell
+		print("reloading view")
+		let currentMessage = messageArray?[indexPath.row]
+		let userContent = currentMessage?["user"] as! [String : Any]
+		let messageContent = currentMessage?["message"] as? [String : Any]
+		cell.userName.text = (userContent["name"] as! String)
+		cell.messageContent.text = messageContent?["content"] as? String
+	
+		if(messageContent?["user_id"] as? Int == userDefaults.object(forKey: "user_id") as? Int) {
+			cell.userName.textAlignment = NSTextAlignment.right
+			cell.messageContent.textAlignment = NSTextAlignment.right
+		}
+		else {
+			cell.userName.textAlignment = NSTextAlignment.left
+			cell.messageContent.textAlignment = NSTextAlignment.left
+		}
+		return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
