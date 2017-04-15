@@ -282,14 +282,14 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Loading" translatesAutoresizingMaskIntoConstraints="NO" id="lIE-lM-8QA">
-                                            <rect key="frame" x="8" y="35" width="390" height="55"/>
+                                            <rect key="frame" x="8" y="35" width="359" height="55"/>
                                             <color key="backgroundColor" red="0.011764705882352941" green="0.60784313725490191" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         </textView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8B-Is-0l9">
-                                            <rect key="frame" x="8" y="8" width="390" height="21"/>
+                                            <rect key="frame" x="8" y="8" width="359" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="A4v-B0-fJX"/>
                                             </constraints>
@@ -338,7 +338,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0078431372550000003" green="0.53333333329999999" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" id="TgW-XM-p2s"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="SettingsIcon" id="TgW-XM-p2s"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Am6-Kt-02E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -435,7 +435,7 @@
                             <outlet property="delegate" destination="uTr-Zr-4FG" id="0A7-DG-wtB"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Announcements" id="UfS-ol-TjZ" userLabel="Announcements"/>
+                    <tabBarItem key="tabBarItem" title="Announcements" image="AnnounceIcon" id="UfS-ol-TjZ" userLabel="Announcements"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FSy-AV-ZIw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -445,7 +445,7 @@
         <scene sceneID="UJg-2T-WBW">
             <objects>
                 <navigationController title="NavBar" automaticallyAdjustsScrollViewInsets="NO" id="lQL-4V-SNW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Courses" id="uC5-zS-CCo"/>
+                    <tabBarItem key="tabBarItem" title="Message" image="MessageUnfocus" id="uC5-zS-CCo"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="uNp-jO-tgK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -467,4 +467,9 @@
             <point key="canvasLocation" x="2004" y="-240.62968515742131"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="AnnounceIcon" width="25" height="25"/>
+        <image name="MessageUnfocus" width="25" height="25"/>
+        <image name="SettingsIcon" width="25" height="25"/>
+    </resources>
 </document>
