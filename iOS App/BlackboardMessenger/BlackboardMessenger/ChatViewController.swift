@@ -25,7 +25,6 @@ class ChatViewController: UIViewController {
 				roomChannel?["speak"](["content" : message,
 				                       "classroom_id" : class_id!,
 				                       "user_id" : user_id!])
-			
 				
 				messageContent.text = ""
 			}
@@ -41,7 +40,6 @@ class ChatViewController: UIViewController {
 		selectedCourse.text = userDefaults.object(forKey: "className") as! String?
 		
 		connect()
-		
     }
 	
 	override func viewDidAppear(_ animated: Bool) {
