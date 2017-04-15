@@ -8,8 +8,6 @@ provides-member:
 provides-dynamic-lookup:
 - "awakeFromNib"
 - "messageContent"
-- "outgoingCell"
-- "outgoingMessage"
 - "setSelected"
 - "userName"
 depends-top-level:
@@ -54,8 +52,6 @@ depends-member:
 - ["C19BlackboardMessenger11MessageCell", "deinit"]
 - ["C19BlackboardMessenger11MessageCell", "init"]
 - ["C19BlackboardMessenger11MessageCell", "messageContent"]
-- ["C19BlackboardMessenger11MessageCell", "outgoingCell"]
-- ["C19BlackboardMessenger11MessageCell", "outgoingMessage"]
 - ["C19BlackboardMessenger11MessageCell", "setSelected"]
 - ["C19BlackboardMessenger11MessageCell", "userName"]
 - !private ["PSo8NSCoding", "awakeFromNib"]
@@ -68,8 +64,6 @@ depends-member:
 - ["CSo8NSObject", "awakeFromNib"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "messageContent"]
-- ["CSo8NSObject", "outgoingCell"]
-- ["CSo8NSObject", "outgoingMessage"]
 - ["CSo8NSObject", "setSelected"]
 - ["CSo8NSObject", "userName"]
 - !private ["PSo16NSObjectProtocol", "awakeFromNib"]
@@ -114,8 +108,6 @@ depends-member:
 - ["CSo11UIResponder", "awakeFromNib"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "messageContent"]
-- ["CSo11UIResponder", "outgoingCell"]
-- ["CSo11UIResponder", "outgoingMessage"]
 - ["CSo11UIResponder", "setSelected"]
 - ["CSo11UIResponder", "userName"]
 - !private ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
@@ -128,8 +120,6 @@ depends-member:
 - ["CSo15UITableViewCell", "awakeFromNib"]
 - ["CSo15UITableViewCell", "init"]
 - ["CSo15UITableViewCell", "messageContent"]
-- ["CSo15UITableViewCell", "outgoingCell"]
-- ["CSo15UITableViewCell", "outgoingMessage"]
 - ["CSo15UITableViewCell", "setSelected"]
 - ["CSo15UITableViewCell", "userName"]
 - ["CSo15UITableViewCell", ""]
@@ -143,8 +133,6 @@ depends-member:
 - ["CSo6UIView", "awakeFromNib"]
 - ["CSo6UIView", "init"]
 - ["CSo6UIView", "messageContent"]
-- ["CSo6UIView", "outgoingCell"]
-- ["CSo6UIView", "outgoingMessage"]
 - ["CSo6UIView", "setSelected"]
 - ["CSo6UIView", "userName"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
@@ -212,4 +200,4 @@ depends-external:
 - "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
 - "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
 - "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/module.modulemap"
-interface-hash: "c1e142394952aa7417f1ed2af62ab0f9"
+interface-hash: "aa8a7f018b66670195aca8519b6dd367"

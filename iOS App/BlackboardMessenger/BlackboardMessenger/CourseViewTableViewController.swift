@@ -14,7 +14,7 @@ class CourseViewTableViewController: UITableViewController {
 	var courseInfo : NSArray!
 	var studentInfo : [String : Any]!
 	var userDefaults : UserDefaults!
-	var messageArray : NSArray!
+	var messageArray : [[String : Any?]]!
 	
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +33,8 @@ class CourseViewTableViewController: UITableViewController {
 		
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
+
+		print(userDefaults.object(forKey: "user_id")!)
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
@@ -95,11 +97,8 @@ class CourseViewTableViewController: UITableViewController {
 					return
 				}
 				self.userDefaults.set([], forKey: "messages")
-				self.messageArray = json["messages"] as? NSArray
+				self.messageArray = json["messages"] as? [[String: Any?]]
 				self.userDefaults.set(self.messageArray, forKey: "messages")
-				print("messages saved for class_ID")
-				print(class_id!)
-				print(self.messageArray)
 				self.userDefaults.synchronize()
 				self.performSegue(withIdentifier: "ShowChat", sender: self)
 		}

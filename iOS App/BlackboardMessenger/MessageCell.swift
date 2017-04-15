@@ -9,10 +9,8 @@
 import UIKit
 
 class MessageCell: UITableViewCell {
-	@IBOutlet weak var messageContent: UITextView!
 	@IBOutlet weak var userName: UILabel!
-	@IBOutlet weak var outgoingCell: UILabel!
-	@IBOutlet weak var outgoingMessage: UITextView!
+	@IBOutlet weak var messageContent: UITextView!
 	
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -1,0 +1,818 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChatViewController"
+provides-nominal:
+- "C19BlackboardMessenger18ChatViewController"
+provides-member:
+- ["C19BlackboardMessenger18ChatViewController", ""]
+provides-dynamic-lookup:
+- "connect"
+- "didReceiveMemoryWarning"
+- "messageButton"
+- "messageContent"
+- "messageView"
+- "selectedCourse"
+- "userDefaults"
+- "viewDidAppear"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- "ActionCableClient"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "Channel"
+- "ChatViewController"
+- !private "Dictionary"
+- !private "DispatchQueue"
+- !private "Error"
+- "MessagesTableViewController"
+- !private "String"
+- !private "StringLiteralType"
+- "UILabel"
+- "UITextField"
+- "UIViewController"
+- !private "URL"
+- "UserDefaults"
+- !private "print"
+depends-member:
+- !private ["C17ActionCableClient17ActionCableClient", "connect"]
+- !private ["C17ActionCableClient17ActionCableClient", "create"]
+- !private ["C17ActionCableClient17ActionCableClient", "init"]
+- !private ["C17ActionCableClient17ActionCableClient", "onConnected"]
+- !private ["C17ActionCableClient17ActionCableClient", "onDisconnected"]
+- !private ["Ps9AnyObject", "ActionCableClient"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "UserDefaults"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "childViewControllers"]
+- !private ["Ps9AnyObject", "client"]
+- !private ["Ps9AnyObject", "connect"]
+- !private ["Ps9AnyObject", "create"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "messageArray"]
+- !private ["Ps9AnyObject", "messageContent"]
+- !private ["Ps9AnyObject", "messageView"]
+- !private ["Ps9AnyObject", "object"]
+- !private ["Ps9AnyObject", "onConnected"]
+- !private ["Ps9AnyObject", "onDisconnected"]
+- !private ["Ps9AnyObject", "onReceive"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "reloadData"]
+- !private ["Ps9AnyObject", "roomChannel"]
+- !private ["Ps9AnyObject", "scrollToBottom"]
+- !private ["Ps9AnyObject", "selectedCourse"]
+- !private ["Ps9AnyObject", "standard"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "tableView"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "userDefaults"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "reloadData"]
+- !private ["PSo15CALayerDelegate", "scrollToBottom"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "ActionCableClient"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "URL"]
+- !private ["Ps7CVarArg", "UserDefaults"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "childViewControllers"]
+- !private ["Ps7CVarArg", "client"]
+- !private ["Ps7CVarArg", "connect"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "messageArray"]
+- !private ["Ps7CVarArg", "messageContent"]
+- !private ["Ps7CVarArg", "messageView"]
+- !private ["Ps7CVarArg", "object"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "reloadData"]
+- !private ["Ps7CVarArg", "roomChannel"]
+- !private ["Ps7CVarArg", "scrollToBottom"]
+- !private ["Ps7CVarArg", "selectedCourse"]
+- !private ["Ps7CVarArg", "standard"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "tableView"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "userDefaults"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["C17ActionCableClient7Channel", "onReceive"]
+- !private ["C17ActionCableClient7Channel", "subscript"]
+- ["C19BlackboardMessenger18ChatViewController", "ActionCableClient"]
+- ["C19BlackboardMessenger18ChatViewController", "Bool"]
+- ["C19BlackboardMessenger18ChatViewController", "Channel"]
+- !private ["C19BlackboardMessenger18ChatViewController", "DispatchQueue"]
+- !private ["C19BlackboardMessenger18ChatViewController", "Error"]
+- ["C19BlackboardMessenger18ChatViewController", "MessagesTableViewController"]
+- !private ["C19BlackboardMessenger18ChatViewController", "String"]
+- ["C19BlackboardMessenger18ChatViewController", "UILabel"]
+- ["C19BlackboardMessenger18ChatViewController", "UITextField"]
+- !private ["C19BlackboardMessenger18ChatViewController", "URL"]
+- ["C19BlackboardMessenger18ChatViewController", "UserDefaults"]
+- !private ["C19BlackboardMessenger18ChatViewController", "childViewControllers"]
+- ["C19BlackboardMessenger18ChatViewController", "client"]
+- ["C19BlackboardMessenger18ChatViewController", "connect"]
+- ["C19BlackboardMessenger18ChatViewController", "deinit"]
+- ["C19BlackboardMessenger18ChatViewController", "didReceiveMemoryWarning"]
+- ["C19BlackboardMessenger18ChatViewController", "init"]
+- ["C19BlackboardMessenger18ChatViewController", "messageButton"]
+- ["C19BlackboardMessenger18ChatViewController", "messageContent"]
+- ["C19BlackboardMessenger18ChatViewController", "messageView"]
+- !private ["C19BlackboardMessenger18ChatViewController", "print"]
+- ["C19BlackboardMessenger18ChatViewController", "roomChannel"]
+- ["C19BlackboardMessenger18ChatViewController", "selectedCourse"]
+- ["C19BlackboardMessenger18ChatViewController", "userDefaults"]
+- ["C19BlackboardMessenger18ChatViewController", "viewDidAppear"]
+- ["C19BlackboardMessenger18ChatViewController", "viewDidLoad"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "ActionCableClient"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "UserDefaults"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "childViewControllers"]
+- !private ["Ps28CustomDebugStringConvertible", "client"]
+- !private ["Ps28CustomDebugStringConvertible", "connect"]
+- !private ["Ps28CustomDebugStringConvertible", "create"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "messageArray"]
+- !private ["Ps28CustomDebugStringConvertible", "messageContent"]
+- !private ["Ps28CustomDebugStringConvertible", "messageView"]
+- !private ["Ps28CustomDebugStringConvertible", "object"]
+- !private ["Ps28CustomDebugStringConvertible", "onConnected"]
+- !private ["Ps28CustomDebugStringConvertible", "onDisconnected"]
+- !private ["Ps28CustomDebugStringConvertible", "onReceive"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "reloadData"]
+- !private ["Ps28CustomDebugStringConvertible", "roomChannel"]
+- !private ["Ps28CustomDebugStringConvertible", "scrollToBottom"]
+- !private ["Ps28CustomDebugStringConvertible", "selectedCourse"]
+- !private ["Ps28CustomDebugStringConvertible", "standard"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "tableView"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "userDefaults"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "connect"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "create"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onConnected"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onDisconnected"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onReceive"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "subscript"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "ActionCableClient"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "UserDefaults"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "childViewControllers"]
+- !private ["Ps23CustomStringConvertible", "client"]
+- !private ["Ps23CustomStringConvertible", "connect"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "messageArray"]
+- !private ["Ps23CustomStringConvertible", "messageContent"]
+- !private ["Ps23CustomStringConvertible", "messageView"]
+- !private ["Ps23CustomStringConvertible", "object"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "reloadData"]
+- !private ["Ps23CustomStringConvertible", "roomChannel"]
+- !private ["Ps23CustomStringConvertible", "scrollToBottom"]
+- !private ["Ps23CustomStringConvertible", "selectedCourse"]
+- !private ["Ps23CustomStringConvertible", "standard"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "tableView"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "userDefaults"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["Ps9Equatable", "ActionCableClient"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "UserDefaults"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "childViewControllers"]
+- !private ["Ps9Equatable", "client"]
+- !private ["Ps9Equatable", "connect"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "messageArray"]
+- !private ["Ps9Equatable", "messageContent"]
+- !private ["Ps9Equatable", "messageView"]
+- !private ["Ps9Equatable", "object"]
+- !private ["Ps9Equatable", "onReceive"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "reloadData"]
+- !private ["Ps9Equatable", "roomChannel"]
+- !private ["Ps9Equatable", "scrollToBottom"]
+- !private ["Ps9Equatable", "selectedCourse"]
+- !private ["Ps9Equatable", "standard"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "tableView"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "userDefaults"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "ActionCableClient"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "UserDefaults"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "childViewControllers"]
+- !private ["Ps8Hashable", "client"]
+- !private ["Ps8Hashable", "connect"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "messageArray"]
+- !private ["Ps8Hashable", "messageContent"]
+- !private ["Ps8Hashable", "messageView"]
+- !private ["Ps8Hashable", "object"]
+- !private ["Ps8Hashable", "onReceive"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "reloadData"]
+- !private ["Ps8Hashable", "roomChannel"]
+- !private ["Ps8Hashable", "scrollToBottom"]
+- !private ["Ps8Hashable", "selectedCourse"]
+- !private ["Ps8Hashable", "standard"]
+- !private ["Ps8Hashable", "subscript"]
+- !private ["Ps8Hashable", "tableView"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "userDefaults"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["C19BlackboardMessenger27MessagesTableViewController", "deinit"]
+- !private ["C19BlackboardMessenger27MessagesTableViewController", "messageArray"]
+- !private ["C19BlackboardMessenger27MessagesTableViewController", "tableView"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "ActionCableClient"]
+- !private ["PSo8NSCoding", "DispatchQueue"]
+- !private ["PSo8NSCoding", "URL"]
+- !private ["PSo8NSCoding", "UserDefaults"]
+- !private ["PSo8NSCoding", "childViewControllers"]
+- !private ["PSo8NSCoding", "client"]
+- !private ["PSo8NSCoding", "connect"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "messageArray"]
+- !private ["PSo8NSCoding", "messageContent"]
+- !private ["PSo8NSCoding", "messageView"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "reloadData"]
+- !private ["PSo8NSCoding", "roomChannel"]
+- !private ["PSo8NSCoding", "scrollToBottom"]
+- !private ["PSo8NSCoding", "selectedCourse"]
+- !private ["PSo8NSCoding", "tableView"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "userDefaults"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "ActionCableClient"]
+- !private ["PSo26NSExtensionRequestHandling", "DispatchQueue"]
+- !private ["PSo26NSExtensionRequestHandling", "URL"]
+- !private ["PSo26NSExtensionRequestHandling", "UserDefaults"]
+- !private ["PSo26NSExtensionRequestHandling", "childViewControllers"]
+- !private ["PSo26NSExtensionRequestHandling", "client"]
+- !private ["PSo26NSExtensionRequestHandling", "connect"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "messageArray"]
+- !private ["PSo26NSExtensionRequestHandling", "messageContent"]
+- !private ["PSo26NSExtensionRequestHandling", "messageView"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "roomChannel"]
+- !private ["PSo26NSExtensionRequestHandling", "selectedCourse"]
+- !private ["PSo26NSExtensionRequestHandling", "tableView"]
+- !private ["PSo26NSExtensionRequestHandling", "userDefaults"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "ActionCableClient"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Channel"]
+- !private ["CSo8NSObject", "DispatchQueue"]
+- !private ["CSo8NSObject", "Error"]
+- ["CSo8NSObject", "MessagesTableViewController"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "URL"]
+- ["CSo8NSObject", "UserDefaults"]
+- !private ["CSo8NSObject", "async"]
+- !private ["CSo8NSObject", "childViewControllers"]
+- ["CSo8NSObject", "client"]
+- ["CSo8NSObject", "connect"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "messageArray"]
+- ["CSo8NSObject", "messageButton"]
+- ["CSo8NSObject", "messageContent"]
+- ["CSo8NSObject", "messageView"]
+- !private ["CSo8NSObject", "object"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "reloadData"]
+- ["CSo8NSObject", "roomChannel"]
+- !private ["CSo8NSObject", "scrollToBottom"]
+- ["CSo8NSObject", "selectedCourse"]
+- !private ["CSo8NSObject", "standard"]
+- !private ["CSo8NSObject", "tableView"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "userDefaults"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "ActionCableClient"]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "UserDefaults"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "childViewControllers"]
+- !private ["PSo16NSObjectProtocol", "client"]
+- !private ["PSo16NSObjectProtocol", "connect"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "messageArray"]
+- !private ["PSo16NSObjectProtocol", "messageContent"]
+- !private ["PSo16NSObjectProtocol", "messageView"]
+- !private ["PSo16NSObjectProtocol", "object"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "reloadData"]
+- !private ["PSo16NSObjectProtocol", "roomChannel"]
+- !private ["PSo16NSObjectProtocol", "scrollToBottom"]
+- !private ["PSo16NSObjectProtocol", "selectedCourse"]
+- !private ["PSo16NSObjectProtocol", "standard"]
+- !private ["PSo16NSObjectProtocol", "tableView"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "userDefaults"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "reloadData"]
+- !private ["PSo29UIAccessibilityIdentification", "scrollToBottom"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "reloadData"]
+- !private ["PSo12UIAppearance", "scrollToBottom"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "ActionCableClient"]
+- !private ["PSo21UIAppearanceContainer", "DispatchQueue"]
+- !private ["PSo21UIAppearanceContainer", "URL"]
+- !private ["PSo21UIAppearanceContainer", "UserDefaults"]
+- !private ["PSo21UIAppearanceContainer", "childViewControllers"]
+- !private ["PSo21UIAppearanceContainer", "client"]
+- !private ["PSo21UIAppearanceContainer", "connect"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "messageArray"]
+- !private ["PSo21UIAppearanceContainer", "messageContent"]
+- !private ["PSo21UIAppearanceContainer", "messageView"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "reloadData"]
+- !private ["PSo21UIAppearanceContainer", "roomChannel"]
+- !private ["PSo21UIAppearanceContainer", "scrollToBottom"]
+- !private ["PSo21UIAppearanceContainer", "selectedCourse"]
+- !private ["PSo21UIAppearanceContainer", "tableView"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "userDefaults"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "ActionCableClient"]
+- !private ["PSo18UIContentContainer", "DispatchQueue"]
+- !private ["PSo18UIContentContainer", "URL"]
+- !private ["PSo18UIContentContainer", "UserDefaults"]
+- !private ["PSo18UIContentContainer", "childViewControllers"]
+- !private ["PSo18UIContentContainer", "client"]
+- !private ["PSo18UIContentContainer", "connect"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "messageArray"]
+- !private ["PSo18UIContentContainer", "messageContent"]
+- !private ["PSo18UIContentContainer", "messageView"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "roomChannel"]
+- !private ["PSo18UIContentContainer", "selectedCourse"]
+- !private ["PSo18UIContentContainer", "tableView"]
+- !private ["PSo18UIContentContainer", "userDefaults"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "reloadData"]
+- !private ["PSo17UICoordinateSpace", "scrollToBottom"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "reloadData"]
+- !private ["PSo13UIDynamicItem", "scrollToBottom"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "ActionCableClient"]
+- !private ["PSo18UIFocusEnvironment", "DispatchQueue"]
+- !private ["PSo18UIFocusEnvironment", "URL"]
+- !private ["PSo18UIFocusEnvironment", "UserDefaults"]
+- !private ["PSo18UIFocusEnvironment", "childViewControllers"]
+- !private ["PSo18UIFocusEnvironment", "client"]
+- !private ["PSo18UIFocusEnvironment", "connect"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "messageArray"]
+- !private ["PSo18UIFocusEnvironment", "messageContent"]
+- !private ["PSo18UIFocusEnvironment", "messageView"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "reloadData"]
+- !private ["PSo18UIFocusEnvironment", "roomChannel"]
+- !private ["PSo18UIFocusEnvironment", "scrollToBottom"]
+- !private ["PSo18UIFocusEnvironment", "selectedCourse"]
+- !private ["PSo18UIFocusEnvironment", "tableView"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "userDefaults"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "reloadData"]
+- !private ["PSo11UIFocusItem", "scrollToBottom"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "ActionCableClient"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Channel"]
+- !private ["CSo11UIResponder", "DispatchQueue"]
+- !private ["CSo11UIResponder", "Error"]
+- ["CSo11UIResponder", "MessagesTableViewController"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITextField"]
+- !private ["CSo11UIResponder", "URL"]
+- ["CSo11UIResponder", "UserDefaults"]
+- !private ["CSo11UIResponder", "childViewControllers"]
+- ["CSo11UIResponder", "client"]
+- ["CSo11UIResponder", "connect"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "messageArray"]
+- ["CSo11UIResponder", "messageButton"]
+- ["CSo11UIResponder", "messageContent"]
+- ["CSo11UIResponder", "messageView"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "reloadData"]
+- ["CSo11UIResponder", "roomChannel"]
+- !private ["CSo11UIResponder", "scrollToBottom"]
+- ["CSo11UIResponder", "selectedCourse"]
+- !private ["CSo11UIResponder", "tableView"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "userDefaults"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "ActionCableClient"]
+- !private ["PSo30UIResponderStandardEditActions", "DispatchQueue"]
+- !private ["PSo30UIResponderStandardEditActions", "URL"]
+- !private ["PSo30UIResponderStandardEditActions", "UserDefaults"]
+- !private ["PSo30UIResponderStandardEditActions", "childViewControllers"]
+- !private ["PSo30UIResponderStandardEditActions", "client"]
+- !private ["PSo30UIResponderStandardEditActions", "connect"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "messageArray"]
+- !private ["PSo30UIResponderStandardEditActions", "messageContent"]
+- !private ["PSo30UIResponderStandardEditActions", "messageView"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "reloadData"]
+- !private ["PSo30UIResponderStandardEditActions", "roomChannel"]
+- !private ["PSo30UIResponderStandardEditActions", "scrollToBottom"]
+- !private ["PSo30UIResponderStandardEditActions", "selectedCourse"]
+- !private ["PSo30UIResponderStandardEditActions", "tableView"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "userDefaults"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo12UIScrollView", "reloadData"]
+- !private ["CSo12UIScrollView", "scrollToBottom"]
+- !private ["PSo20UIScrollViewDelegate", "messageArray"]
+- !private ["PSo20UIScrollViewDelegate", "tableView"]
+- !private ["PSo16UIStateRestoring", "ActionCableClient"]
+- !private ["PSo16UIStateRestoring", "DispatchQueue"]
+- !private ["PSo16UIStateRestoring", "URL"]
+- !private ["PSo16UIStateRestoring", "UserDefaults"]
+- !private ["PSo16UIStateRestoring", "childViewControllers"]
+- !private ["PSo16UIStateRestoring", "client"]
+- !private ["PSo16UIStateRestoring", "connect"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "messageArray"]
+- !private ["PSo16UIStateRestoring", "messageContent"]
+- !private ["PSo16UIStateRestoring", "messageView"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "roomChannel"]
+- !private ["PSo16UIStateRestoring", "selectedCourse"]
+- !private ["PSo16UIStateRestoring", "tableView"]
+- !private ["PSo16UIStateRestoring", "userDefaults"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITableView", "reloadData"]
+- !private ["CSo11UITableView", "scrollToBottom"]
+- !private ["CSo21UITableViewController", "messageArray"]
+- !private ["CSo21UITableViewController", "tableView"]
+- !private ["PSo21UITableViewDataSource", "messageArray"]
+- !private ["PSo21UITableViewDataSource", "tableView"]
+- !private ["PSo19UITableViewDelegate", "messageArray"]
+- !private ["PSo19UITableViewDelegate", "tableView"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "ActionCableClient"]
+- !private ["PSo18UITraitEnvironment", "DispatchQueue"]
+- !private ["PSo18UITraitEnvironment", "URL"]
+- !private ["PSo18UITraitEnvironment", "UserDefaults"]
+- !private ["PSo18UITraitEnvironment", "childViewControllers"]
+- !private ["PSo18UITraitEnvironment", "client"]
+- !private ["PSo18UITraitEnvironment", "connect"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "messageArray"]
+- !private ["PSo18UITraitEnvironment", "messageContent"]
+- !private ["PSo18UITraitEnvironment", "messageView"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "reloadData"]
+- !private ["PSo18UITraitEnvironment", "roomChannel"]
+- !private ["PSo18UITraitEnvironment", "scrollToBottom"]
+- !private ["PSo18UITraitEnvironment", "selectedCourse"]
+- !private ["PSo18UITraitEnvironment", "tableView"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "userDefaults"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "reloadData"]
+- !private ["CSo6UIView", "scrollToBottom"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "ActionCableClient"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "Channel"]
+- !private ["CSo16UIViewController", "DispatchQueue"]
+- !private ["CSo16UIViewController", "Error"]
+- ["CSo16UIViewController", "MessagesTableViewController"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UITextField"]
+- !private ["CSo16UIViewController", "URL"]
+- ["CSo16UIViewController", "UserDefaults"]
+- !private ["CSo16UIViewController", "childViewControllers"]
+- ["CSo16UIViewController", "client"]
+- ["CSo16UIViewController", "connect"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "messageArray"]
+- ["CSo16UIViewController", "messageButton"]
+- ["CSo16UIViewController", "messageContent"]
+- ["CSo16UIViewController", "messageView"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "roomChannel"]
+- ["CSo16UIViewController", "selectedCourse"]
+- !private ["CSo16UIViewController", "tableView"]
+- ["CSo16UIViewController", "userDefaults"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["V10Foundation3URL", "init"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["CSo12UserDefaults", "object"]
+- !private ["CSo12UserDefaults", "standard"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "reloadData"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "scrollToBottom"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "ActionCableClient"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "URL"]
+- !private ["Ps9_Hashable", "UserDefaults"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "childViewControllers"]
+- !private ["Ps9_Hashable", "client"]
+- !private ["Ps9_Hashable", "connect"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "messageArray"]
+- !private ["Ps9_Hashable", "messageContent"]
+- !private ["Ps9_Hashable", "messageView"]
+- !private ["Ps9_Hashable", "object"]
+- !private ["Ps9_Hashable", "onReceive"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "reloadData"]
+- !private ["Ps9_Hashable", "roomChannel"]
+- !private ["Ps9_Hashable", "scrollToBottom"]
+- !private ["Ps9_Hashable", "selectedCourse"]
+- !private ["Ps9_Hashable", "standard"]
+- !private ["Ps9_Hashable", "subscript"]
+- !private ["Ps9_Hashable", "tableView"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "userDefaults"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- !private "C17ActionCableClient17ActionCableClient"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "C17ActionCableClient7Channel"
+- "C19BlackboardMessenger18ChatViewController"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "C19BlackboardMessenger27MessagesTableViewController"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo9OS_object"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITableView"
+- !private "CSo21UITableViewController"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "V10Foundation3URL"
+- !private "P9Alamofire14URLConvertible"
+- !private "CSo12UserDefaults"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/ActionCableClient/ActionCableClient.framework/Modules/ActionCableClient.swiftmodule/arm64.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/ActionCableClient/ActionCableClient.framework/Headers/ActionCableClient-Swift.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/ActionCableClient/ActionCableClient.framework/Headers/ActionCableClient-umbrella.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/ActionCableClient/ActionCableClient.framework/Modules/module.modulemap"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/arm64.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/module.modulemap"
+interface-hash: "5f9d99f8df005bf0414cc6f23c7cc410"

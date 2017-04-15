@@ -181,6 +181,7 @@ SWIFT_CLASS("_TtC19BlackboardMessenger18ChatViewController")
 @property (nonatomic, weak) MessagesTableViewController * _Nullable messageView;
 - (IBAction)messageButton:(id _Nonnull)sender;
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)connect;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -205,7 +206,6 @@ SWIFT_CLASS("_TtC19BlackboardMessenger29CourseViewTableViewController")
 @property (nonatomic, strong) NSArray * _Null_unspecified courseInfo;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Null_unspecified studentInfo;
 @property (nonatomic, strong) NSUserDefaults * _Null_unspecified userDefaults;
-@property (nonatomic, strong) NSArray * _Null_unspecified messageArray;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
@@ -236,10 +236,8 @@ SWIFT_CLASS("_TtC19BlackboardMessenger19LoginViewController")
 
 SWIFT_CLASS("_TtC19BlackboardMessenger11MessageCell")
 @interface MessageCell : UITableViewCell
-@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified messageContent;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified userName;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified outgoingCell;
-@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified outgoingMessage;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified messageContent;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
@@ -249,7 +247,6 @@ SWIFT_CLASS("_TtC19BlackboardMessenger11MessageCell")
 
 SWIFT_CLASS("_TtC19BlackboardMessenger27MessagesTableViewController")
 @interface MessagesTableViewController : UITableViewController
-@property (nonatomic, strong) NSArray * _Null_unspecified messageArray;
 @property (nonatomic, strong) NSUserDefaults * _Null_unspecified userDefaults;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;

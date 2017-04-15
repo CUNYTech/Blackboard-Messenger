@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
+options: "d2f5686f1509916ba721ae68f330fd90"
+build_time: [545368582, 577525000]
+inputs:
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/ActionCableClient/Source/Classes/ActionCableClient.swift": [544577818, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/ActionCableClient/Source/Classes/Channel.swift": [544577818, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/ActionCableClient/Source/Classes/Constants.swift": [544577818, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/ActionCableClient/Source/Classes/Error.swift": [544577818, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/ActionCableClient/Source/Classes/JSONSerializer.swift": [544577818, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/ActionCableClient/Source/Classes/RetryHandler.swift": [544577818, 0]

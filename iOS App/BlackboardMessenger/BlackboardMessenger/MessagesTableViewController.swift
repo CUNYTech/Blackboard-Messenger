@@ -25,16 +25,17 @@ extension UITableView {
 }
 
 class MessagesTableViewController: UITableViewController {
-	var messageArray : NSArray!
+	var messageArray : [[String : Any?]]!
 	var userDefaults : UserDefaults!
 	
     override func viewDidLoad() {
         super.viewDidLoad()
 		userDefaults = UserDefaults.standard
-		messageArray = userDefaults.object(forKey: "messages") as! NSArray!
+		messageArray = userDefaults.object(forKey: "messages") as! [[String : Any?]]
 		tableView.scrollToBottom()
+		print(messageArray)
 	}
-
+	
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -57,20 +58,22 @@ class MessagesTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MessageCell", for: indexPath) as! MessageCell
-		
-		let currentMessage = messageArray?[indexPath.row] as! [String : Any]
-		let userContent = currentMessage["user"] as! [String : Any]
-		let messageContent = currentMessage["message"] as! [String : Any]
-		
-		if(userContent["id"] as! Int == userDefaults.object(forKey: "user_id") as! Int) {
-			cell.outgoingCell.text = userContent["name"] as? String
-			cell.outgoingMessage.text = messageContent["content"] as! String
+		print("reloading view")
+		let currentMessage = messageArray?[indexPath.row]
+		let userContent = currentMessage?["user"] as! [String : Any]
+		let messageContent = currentMessage?["message"] as? [String : Any]
+		cell.userName.text = (userContent["name"] as! String)
+		cell.messageContent.text = messageContent?["content"] as? String
+	
+		if(messageContent?["user_id"] as? Int == userDefaults.object(forKey: "user_id") as? Int) {
+			cell.userName.textAlignment = NSTextAlignment.right
+			cell.messageContent.textAlignment = NSTextAlignment.right
 		}
 		else {
-			cell.userName.text = userContent["name"] as? String
-			cell.messageContent.text = messageContent["content"] as! String
+			cell.userName.textAlignment = NSTextAlignment.left
+			cell.messageContent.textAlignment = NSTextAlignment.left
 		}
-        return cell
+		return cell
     }
 
     /*

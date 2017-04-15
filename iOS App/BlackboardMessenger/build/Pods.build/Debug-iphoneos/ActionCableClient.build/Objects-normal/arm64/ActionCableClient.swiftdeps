@@ -1,0 +1,774 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ActionPayload"
+- "ActionCableClient"
+provides-nominal:
+- "C17ActionCableClient17ActionCableClient"
+provides-member:
+- ["C17ActionCableClient17ActionCableClient", ""]
+- ["C17ActionCableClient17ActionCableClient", "create"]
+- ["C17ActionCableClient17ActionCableClient", "create"]
+- ["C17ActionCableClient17ActionCableClient", "subscript"]
+- ["C17ActionCableClient17ActionCableClient", "subscribed"]
+- ["C17ActionCableClient17ActionCableClient", "subscribe"]
+- ["C17ActionCableClient17ActionCableClient", "unsubscribe"]
+- ["C17ActionCableClient17ActionCableClient", "action"]
+- ["C17ActionCableClient17ActionCableClient", "copyWithZone"]
+- ["C17ActionCableClient17ActionCableClient", "copy"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "=="
+- "ActionCableClient"
+- !private "ActionCableConcurrentQueue"
+- "ActionPayload"
+- "AnyObject"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Channel"
+- "ChannelIdentifier"
+- "Command"
+- "ConnectionError"
+- "CustomDebugStringConvertible"
+- "CustomPlaygroundQuickLookable"
+- !private "Data"
+- "Dictionary"
+- !private "DispatchQueue"
+- "FloatLiteralType"
+- "Foundation"
+- "IntegerLiteralType"
+- !private "JSONSerializer"
+- !private "Message"
+- !private "MessageType"
+- "NSZone"
+- "PlaygroundQuickLook"
+- "RetryHandler"
+- "RetryStrategy"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- !private "TransmitError"
+- "URL"
+- !private "UnicodeScalarType"
+- !private "Unmanaged"
+- "Void"
+- "WebSocket"
+- !private "assert"
+- !private "debugPrint"
+- !private "print"
+depends-member:
+- ["C17ActionCableClient17ActionCableClient", "ActionCableClient"]
+- !private ["C17ActionCableClient17ActionCableClient", "ActionCableConcurrentQueue"]
+- ["C17ActionCableClient17ActionCableClient", "ActionPayload"]
+- ["C17ActionCableClient17ActionCableClient", "AnyObject"]
+- ["C17ActionCableClient17ActionCableClient", "Array"]
+- ["C17ActionCableClient17ActionCableClient", "Bool"]
+- ["C17ActionCableClient17ActionCableClient", "Channel"]
+- ["C17ActionCableClient17ActionCableClient", "ChannelIdentifier"]
+- ["C17ActionCableClient17ActionCableClient", "Command"]
+- ["C17ActionCableClient17ActionCableClient", "ConnectionError"]
+- !private ["C17ActionCableClient17ActionCableClient", "Data"]
+- ["C17ActionCableClient17ActionCableClient", "Dictionary"]
+- !private ["C17ActionCableClient17ActionCableClient", "DispatchQueue"]
+- ["C17ActionCableClient17ActionCableClient", "Foundation"]
+- !private ["C17ActionCableClient17ActionCableClient", "JSONSerializer"]
+- !private ["C17ActionCableClient17ActionCableClient", "Message"]
+- !private ["C17ActionCableClient17ActionCableClient", "MessageType"]
+- ["C17ActionCableClient17ActionCableClient", "NSZone"]
+- ["C17ActionCableClient17ActionCableClient", "PlaygroundQuickLook"]
+- ["C17ActionCableClient17ActionCableClient", "RetryHandler"]
+- ["C17ActionCableClient17ActionCableClient", "RetryStrategy"]
+- ["C17ActionCableClient17ActionCableClient", "String"]
+- ["C17ActionCableClient17ActionCableClient", "Swift"]
+- !private ["C17ActionCableClient17ActionCableClient", "TransmitError"]
+- ["C17ActionCableClient17ActionCableClient", "URL"]
+- !private ["C17ActionCableClient17ActionCableClient", "Unmanaged"]
+- ["C17ActionCableClient17ActionCableClient", "Void"]
+- ["C17ActionCableClient17ActionCableClient", "WebSocket"]
+- ["C17ActionCableClient17ActionCableClient", "action"]
+- !private ["C17ActionCableClient17ActionCableClient", "assert"]
+- !private ["C17ActionCableClient17ActionCableClient", "channelArray"]
+- ["C17ActionCableClient17ActionCableClient", "channels"]
+- ["C17ActionCableClient17ActionCableClient", "connect"]
+- ["C17ActionCableClient17ActionCableClient", "copy"]
+- ["C17ActionCableClient17ActionCableClient", "copyWithZone"]
+- ["C17ActionCableClient17ActionCableClient", "create"]
+- ["C17ActionCableClient17ActionCableClient", "customPlaygroundQuickLook"]
+- ["C17ActionCableClient17ActionCableClient", "debugDescription"]
+- !private ["C17ActionCableClient17ActionCableClient", "debugPrint"]
+- ["C17ActionCableClient17ActionCableClient", "deinit"]
+- !private ["C17ActionCableClient17ActionCableClient", "didConnect"]
+- !private ["C17ActionCableClient17ActionCableClient", "didDisconnect"]
+- !private ["C17ActionCableClient17ActionCableClient", "didPong"]
+- ["C17ActionCableClient17ActionCableClient", "disconnect"]
+- ["C17ActionCableClient17ActionCableClient", "headers"]
+- ["C17ActionCableClient17ActionCableClient", "init"]
+- ["C17ActionCableClient17ActionCableClient", "isConnected"]
+- !private ["C17ActionCableClient17ActionCableClient", "manualDisconnectFlag"]
+- ["C17ActionCableClient17ActionCableClient", "onChannelReceive"]
+- ["C17ActionCableClient17ActionCableClient", "onChannelRejected"]
+- ["C17ActionCableClient17ActionCableClient", "onChannelSubscribed"]
+- ["C17ActionCableClient17ActionCableClient", "onChannelUnsubscribed"]
+- ["C17ActionCableClient17ActionCableClient", "onConnected"]
+- !private ["C17ActionCableClient17ActionCableClient", "onData"]
+- ["C17ActionCableClient17ActionCableClient", "onDisconnected"]
+- !private ["C17ActionCableClient17ActionCableClient", "onMessage"]
+- ["C17ActionCableClient17ActionCableClient", "onPing"]
+- ["C17ActionCableClient17ActionCableClient", "onRejected"]
+- !private ["C17ActionCableClient17ActionCableClient", "onText"]
+- ["C17ActionCableClient17ActionCableClient", "origin"]
+- !private ["C17ActionCableClient17ActionCableClient", "print"]
+- ["C17ActionCableClient17ActionCableClient", "reconnect"]
+- !private ["C17ActionCableClient17ActionCableClient", "reconnectionState"]
+- ["C17ActionCableClient17ActionCableClient", "reconnectionStrategy"]
+- !private ["C17ActionCableClient17ActionCableClient", "setupWebSocket"]
+- ["C17ActionCableClient17ActionCableClient", "socket"]
+- ["C17ActionCableClient17ActionCableClient", "subscribe"]
+- ["C17ActionCableClient17ActionCableClient", "subscribed"]
+- ["C17ActionCableClient17ActionCableClient", "subscript"]
+- ["C17ActionCableClient17ActionCableClient", "transmit"]
+- !private ["C17ActionCableClient17ActionCableClient", "unconfirmedChannels"]
+- ["C17ActionCableClient17ActionCableClient", "unsubscribe"]
+- ["C17ActionCableClient17ActionCableClient", "url"]
+- ["C17ActionCableClient17ActionCableClient", "willConnect"]
+- ["C17ActionCableClient17ActionCableClient", "willReconnect"]
+- !private ["Ps9AnyObject", "ActionCableConcurrentQueue"]
+- !private ["Ps9AnyObject", "ActionPayload"]
+- ["Ps9AnyObject", "Array"]
+- !private ["Ps9AnyObject", "Channel"]
+- !private ["Ps9AnyObject", "Command"]
+- !private ["Ps9AnyObject", "ConnectionError"]
+- ["Ps9AnyObject", "Dictionary"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "JSONSerializer"]
+- !private ["Ps9AnyObject", "Message"]
+- !private ["Ps9AnyObject", "MessageType"]
+- !private ["Ps9AnyObject", "PlaygroundQuickLook"]
+- !private ["Ps9AnyObject", "RetryHandler"]
+- !private ["Ps9AnyObject", "TransmitError"]
+- !private ["Ps9AnyObject", "Unmanaged"]
+- !private ["Ps9AnyObject", "WebSocket"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "autoSubscribe"]
+- !private ["Ps9AnyObject", "channels"]
+- !private ["Ps9AnyObject", "connect"]
+- !private ["Ps9AnyObject", "create"]
+- !private ["Ps9AnyObject", "currentURL"]
+- ["Ps9AnyObject", "customPlaygroundQuickLook"]
+- ["Ps9AnyObject", "debugDescription"]
+- !private ["Ps9AnyObject", "debugPrint"]
+- !private ["Ps9AnyObject", "deserialize"]
+- !private ["Ps9AnyObject", "didConnect"]
+- !private ["Ps9AnyObject", "didDisconnect"]
+- !private ["Ps9AnyObject", "didPong"]
+- !private ["Ps9AnyObject", "disconnect"]
+- !private ["Ps9AnyObject", "headers"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isConnected"]
+- !private ["Ps9AnyObject", "isSubscribed"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "manualDisconnectFlag"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "onChannelReceive"]
+- !private ["Ps9AnyObject", "onChannelRejected"]
+- !private ["Ps9AnyObject", "onChannelSubscribed"]
+- !private ["Ps9AnyObject", "onChannelUnsubscribed"]
+- !private ["Ps9AnyObject", "onConnect"]
+- !private ["Ps9AnyObject", "onConnected"]
+- !private ["Ps9AnyObject", "onData"]
+- !private ["Ps9AnyObject", "onDisconnect"]
+- !private ["Ps9AnyObject", "onDisconnected"]
+- !private ["Ps9AnyObject", "onMessage"]
+- !private ["Ps9AnyObject", "onPing"]
+- !private ["Ps9AnyObject", "onPong"]
+- !private ["Ps9AnyObject", "onText"]
+- !private ["Ps9AnyObject", "origin"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "reconnect"]
+- !private ["Ps9AnyObject", "reconnectionState"]
+- !private ["Ps9AnyObject", "reconnectionStrategy"]
+- !private ["Ps9AnyObject", "retry"]
+- !private ["Ps9AnyObject", "serialize"]
+- !private ["Ps9AnyObject", "setupWebSocket"]
+- !private ["Ps9AnyObject", "socket"]
+- !private ["Ps9AnyObject", "subscribe"]
+- !private ["Ps9AnyObject", "transmit"]
+- !private ["Ps9AnyObject", "unconfirmedChannels"]
+- !private ["Ps9AnyObject", "willConnect"]
+- !private ["Ps9AnyObject", "willReconnect"]
+- !private ["Ps9AnyObject", "write"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "init"]
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "connect"]
+- !private ["Ps7CVarArg", "currentURL"]
+- !private ["Ps7CVarArg", "disconnect"]
+- !private ["Ps7CVarArg", "headers"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isConnected"]
+- !private ["Ps7CVarArg", "keys"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "onConnect"]
+- !private ["Ps7CVarArg", "onData"]
+- !private ["Ps7CVarArg", "onDisconnect"]
+- !private ["Ps7CVarArg", "onPong"]
+- !private ["Ps7CVarArg", "onText"]
+- !private ["Ps7CVarArg", "origin"]
+- !private ["Ps7CVarArg", "removeValue"]
+- !private ["Ps7CVarArg", "retry"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "updateValue"]
+- !private ["Ps7CVarArg", "write"]
+- !private ["C17ActionCableClient7Channel", "autoSubscribe"]
+- !private ["C17ActionCableClient7Channel", "init"]
+- !private ["C17ActionCableClient7Channel", "isSubscribed"]
+- !private ["C17ActionCableClient7Channel", "name"]
+- !private ["C17ActionCableClient7Channel", "onMessage"]
+- !private ["Ps10Collection", "contains"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "keys"]
+- !private ["Ps10Collection", "removeValue"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Collection", "updateValue"]
+- !private ["O17ActionCableClient7Command", "deinit"]
+- !private ["O17ActionCableClient7Command", "message"]
+- !private ["O17ActionCableClient7Command", "subscribe"]
+- !private ["O17ActionCableClient7Command", "unsubscribe"]
+- !private ["Ps10Comparable", "init"]
+- !private ["O17ActionCableClient15ConnectionError", "init"]
+- !private ["O17ActionCableClient15ConnectionError", "recoverable"]
+- !private ["Ps28CustomDebugStringConvertible", "ActionCableConcurrentQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "ActionPayload"]
+- ["Ps28CustomDebugStringConvertible", "Array"]
+- !private ["Ps28CustomDebugStringConvertible", "Channel"]
+- !private ["Ps28CustomDebugStringConvertible", "Command"]
+- !private ["Ps28CustomDebugStringConvertible", "ConnectionError"]
+- ["Ps28CustomDebugStringConvertible", "Dictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONSerializer"]
+- !private ["Ps28CustomDebugStringConvertible", "Message"]
+- !private ["Ps28CustomDebugStringConvertible", "MessageType"]
+- !private ["Ps28CustomDebugStringConvertible", "PlaygroundQuickLook"]
+- !private ["Ps28CustomDebugStringConvertible", "RetryHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "TransmitError"]
+- !private ["Ps28CustomDebugStringConvertible", "Unmanaged"]
+- !private ["Ps28CustomDebugStringConvertible", "WebSocket"]
+- !private ["Ps28CustomDebugStringConvertible", "absoluteString"]
+- !private ["Ps28CustomDebugStringConvertible", "assert"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "autoSubscribe"]
+- !private ["Ps28CustomDebugStringConvertible", "channels"]
+- !private ["Ps28CustomDebugStringConvertible", "connect"]
+- !private ["Ps28CustomDebugStringConvertible", "create"]
+- !private ["Ps28CustomDebugStringConvertible", "currentURL"]
+- ["Ps28CustomDebugStringConvertible", "customPlaygroundQuickLook"]
+- ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "debugPrint"]
+- !private ["Ps28CustomDebugStringConvertible", "didConnect"]
+- !private ["Ps28CustomDebugStringConvertible", "didDisconnect"]
+- !private ["Ps28CustomDebugStringConvertible", "didPong"]
+- !private ["Ps28CustomDebugStringConvertible", "disconnect"]
+- !private ["Ps28CustomDebugStringConvertible", "headers"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isConnected"]
+- !private ["Ps28CustomDebugStringConvertible", "isSubscribed"]
+- !private ["Ps28CustomDebugStringConvertible", "keys"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "manualDisconnectFlag"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "onChannelReceive"]
+- !private ["Ps28CustomDebugStringConvertible", "onChannelRejected"]
+- !private ["Ps28CustomDebugStringConvertible", "onChannelSubscribed"]
+- !private ["Ps28CustomDebugStringConvertible", "onChannelUnsubscribed"]
+- !private ["Ps28CustomDebugStringConvertible", "onConnect"]
+- !private ["Ps28CustomDebugStringConvertible", "onConnected"]
+- !private ["Ps28CustomDebugStringConvertible", "onData"]
+- !private ["Ps28CustomDebugStringConvertible", "onDisconnect"]
+- !private ["Ps28CustomDebugStringConvertible", "onDisconnected"]
+- !private ["Ps28CustomDebugStringConvertible", "onMessage"]
+- !private ["Ps28CustomDebugStringConvertible", "onPing"]
+- !private ["Ps28CustomDebugStringConvertible", "onPong"]
+- !private ["Ps28CustomDebugStringConvertible", "onText"]
+- !private ["Ps28CustomDebugStringConvertible", "origin"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "reconnect"]
+- !private ["Ps28CustomDebugStringConvertible", "reconnectionState"]
+- !private ["Ps28CustomDebugStringConvertible", "reconnectionStrategy"]
+- !private ["Ps28CustomDebugStringConvertible", "removeValue"]
+- !private ["Ps28CustomDebugStringConvertible", "retry"]
+- !private ["Ps28CustomDebugStringConvertible", "setupWebSocket"]
+- !private ["Ps28CustomDebugStringConvertible", "socket"]
+- !private ["Ps28CustomDebugStringConvertible", "subscribe"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "transmit"]
+- !private ["Ps28CustomDebugStringConvertible", "unconfirmedChannels"]
+- !private ["Ps28CustomDebugStringConvertible", "updateValue"]
+- !private ["Ps28CustomDebugStringConvertible", "willConnect"]
+- !private ["Ps28CustomDebugStringConvertible", "willReconnect"]
+- !private ["Ps28CustomDebugStringConvertible", "write"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "ActionCableConcurrentQueue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "ActionPayload"]
+- ["Ps29CustomPlaygroundQuickLookable", "Array"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Channel"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Command"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "ConnectionError"]
+- ["Ps29CustomPlaygroundQuickLookable", "Dictionary"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "DispatchQueue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "JSONSerializer"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Message"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "MessageType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "PlaygroundQuickLook"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "RetryHandler"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "TransmitError"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Unmanaged"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "WebSocket"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "absoluteString"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "assert"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "autoSubscribe"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "channels"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "create"]
+- ["Ps29CustomPlaygroundQuickLookable", "customPlaygroundQuickLook"]
+- ["Ps29CustomPlaygroundQuickLookable", "debugDescription"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "debugPrint"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "didConnect"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "didDisconnect"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "didPong"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isConnected"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isSubscribed"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "manualDisconnectFlag"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "name"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onChannelReceive"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onChannelRejected"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onChannelSubscribed"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onChannelUnsubscribed"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onConnected"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onData"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onDisconnected"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onMessage"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onPing"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "onText"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "print"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "reconnect"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "reconnectionState"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "reconnectionStrategy"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "setupWebSocket"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "socket"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "subscribe"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "transmit"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "unconfirmedChannels"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "willConnect"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "willReconnect"]
+- ["Ps29CustomPlaygroundQuickLookable", ""]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "keys"]
+- !private ["Ps17CustomReflectable", "removeValue"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "updateValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "absoluteString"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "connect"]
+- !private ["Ps23CustomStringConvertible", "currentURL"]
+- !private ["Ps23CustomStringConvertible", "disconnect"]
+- !private ["Ps23CustomStringConvertible", "headers"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isConnected"]
+- !private ["Ps23CustomStringConvertible", "keys"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "onConnect"]
+- !private ["Ps23CustomStringConvertible", "onData"]
+- !private ["Ps23CustomStringConvertible", "onDisconnect"]
+- !private ["Ps23CustomStringConvertible", "onPong"]
+- !private ["Ps23CustomStringConvertible", "onText"]
+- !private ["Ps23CustomStringConvertible", "origin"]
+- !private ["Ps23CustomStringConvertible", "removeValue"]
+- !private ["Ps23CustomStringConvertible", "retry"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "updateValue"]
+- !private ["Ps23CustomStringConvertible", "write"]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "keys"]
+- !private ["Vs10Dictionary", "removeValue"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs10Dictionary", "updateValue"]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "absoluteString"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "autoSubscribe"]
+- !private ["Ps9Equatable", "cancelSubscription"]
+- !private ["Ps9Equatable", "confirmSubscription"]
+- !private ["Ps9Equatable", "connect"]
+- !private ["Ps9Equatable", "currentURL"]
+- !private ["Ps9Equatable", "disconnect"]
+- !private ["Ps9Equatable", "headers"]
+- !private ["Ps9Equatable", "hibernateSubscription"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isConnected"]
+- !private ["Ps9Equatable", "isSubscribed"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "message"]
+- !private ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "notConnected"]
+- !private ["Ps9Equatable", "notSubscribed"]
+- !private ["Ps9Equatable", "onConnect"]
+- !private ["Ps9Equatable", "onData"]
+- !private ["Ps9Equatable", "onDisconnect"]
+- !private ["Ps9Equatable", "onMessage"]
+- !private ["Ps9Equatable", "onPong"]
+- !private ["Ps9Equatable", "onText"]
+- !private ["Ps9Equatable", "origin"]
+- !private ["Ps9Equatable", "ping"]
+- !private ["Ps9Equatable", "rejectSubscription"]
+- !private ["Ps9Equatable", "retry"]
+- !private ["Ps9Equatable", "subscribe"]
+- !private ["Ps9Equatable", "unrecognized"]
+- !private ["Ps9Equatable", "unsubscribe"]
+- !private ["Ps9Equatable", "welcome"]
+- !private ["Ps9Equatable", "write"]
+- !private ["Ps5Error", "init"]
+- !private ["Ps5Error", "notConnected"]
+- !private ["Ps5Error", "notSubscribed"]
+- !private ["Ps5Error", "recoverable"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "keys"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "removeValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "updateValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "absoluteString"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "autoSubscribe"]
+- !private ["Ps8Hashable", "cancelSubscription"]
+- !private ["Ps8Hashable", "confirmSubscription"]
+- !private ["Ps8Hashable", "connect"]
+- !private ["Ps8Hashable", "currentURL"]
+- !private ["Ps8Hashable", "disconnect"]
+- !private ["Ps8Hashable", "headers"]
+- !private ["Ps8Hashable", "hibernateSubscription"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isConnected"]
+- !private ["Ps8Hashable", "isSubscribed"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "message"]
+- !private ["Ps8Hashable", "name"]
+- !private ["Ps8Hashable", "notConnected"]
+- !private ["Ps8Hashable", "notSubscribed"]
+- !private ["Ps8Hashable", "onConnect"]
+- !private ["Ps8Hashable", "onData"]
+- !private ["Ps8Hashable", "onDisconnect"]
+- !private ["Ps8Hashable", "onMessage"]
+- !private ["Ps8Hashable", "onPong"]
+- !private ["Ps8Hashable", "onText"]
+- !private ["Ps8Hashable", "origin"]
+- !private ["Ps8Hashable", "ping"]
+- !private ["Ps8Hashable", "rejectSubscription"]
+- !private ["Ps8Hashable", "retry"]
+- !private ["Ps8Hashable", "subscribe"]
+- !private ["Ps8Hashable", "unrecognized"]
+- !private ["Ps8Hashable", "unsubscribe"]
+- !private ["Ps8Hashable", "welcome"]
+- !private ["Ps8Hashable", "write"]
+- !private ["C17ActionCableClient14JSONSerializer", "deserialize"]
+- !private ["C17ActionCableClient14JSONSerializer", "serialize"]
+- !private ["Ps22LazyCollectionProtocol", "contains"]
+- !private ["Vs17LazyMapCollection", "contains"]
+- !private ["Ps20LazySequenceProtocol", "contains"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["V17ActionCableClient7Message", "channelName"]
+- !private ["V17ActionCableClient7Message", "data"]
+- !private ["V17ActionCableClient7Message", "error"]
+- !private ["V17ActionCableClient7Message", "init"]
+- !private ["V17ActionCableClient7Message", "messageType"]
+- !private ["O17ActionCableClient11MessageType", "cancelSubscription"]
+- !private ["O17ActionCableClient11MessageType", "confirmSubscription"]
+- !private ["O17ActionCableClient11MessageType", "hibernateSubscription"]
+- !private ["O17ActionCableClient11MessageType", "message"]
+- !private ["O17ActionCableClient11MessageType", "ping"]
+- !private ["O17ActionCableClient11MessageType", "rejectSubscription"]
+- !private ["O17ActionCableClient11MessageType", "unrecognized"]
+- !private ["O17ActionCableClient11MessageType", "welcome"]
+- !private ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "async"]
+- !private ["CSo8NSObject", "connect"]
+- !private ["CSo8NSObject", "currentURL"]
+- !private ["CSo8NSObject", "disconnect"]
+- !private ["CSo8NSObject", "headers"]
+- !private ["CSo8NSObject", "isConnected"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "onConnect"]
+- !private ["CSo8NSObject", "onData"]
+- !private ["CSo8NSObject", "onDisconnect"]
+- !private ["CSo8NSObject", "onPong"]
+- !private ["CSo8NSObject", "onText"]
+- !private ["CSo8NSObject", "origin"]
+- !private ["CSo8NSObject", "retry"]
+- !private ["CSo8NSObject", "write"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "connect"]
+- !private ["PSo16NSObjectProtocol", "currentURL"]
+- !private ["PSo16NSObjectProtocol", "disconnect"]
+- !private ["PSo16NSObjectProtocol", "headers"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isConnected"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "onConnect"]
+- !private ["PSo16NSObjectProtocol", "onData"]
+- !private ["PSo16NSObjectProtocol", "onDisconnect"]
+- !private ["PSo16NSObjectProtocol", "onPong"]
+- !private ["PSo16NSObjectProtocol", "onText"]
+- !private ["PSo16NSObjectProtocol", "origin"]
+- !private ["PSo16NSObjectProtocol", "retry"]
+- !private ["PSo16NSObjectProtocol", "write"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- !private ["Os19PlaygroundQuickLook", "url"]
+- ["Ps22RandomAccessCollection", "init"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "absoluteString"]
+- !private ["C17ActionCableClient12RetryHandler", "deinit"]
+- !private ["C17ActionCableClient12RetryHandler", "init"]
+- !private ["C17ActionCableClient12RetryHandler", "retry"]
+- !private ["O17ActionCableClient13RetryStrategy", "exponentialBackoff"]
+- !private ["O17ActionCableClient13RetryStrategy", "linear"]
+- ["O17ActionCableClient13RetryStrategy", "logarithmicBackoff"]
+- !private ["O17ActionCableClient13RetryStrategy", "none"]
+- !private ["Ps8Sequence", "contains"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "keys"]
+- !private ["Ps8Sequence", "removeValue"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps8Sequence", "updateValue"]
+- !private ["Vs12StaticString", "init"]
+- !private ["PSo14StreamDelegate", "connect"]
+- !private ["PSo14StreamDelegate", "currentURL"]
+- !private ["PSo14StreamDelegate", "disconnect"]
+- !private ["PSo14StreamDelegate", "headers"]
+- !private ["PSo14StreamDelegate", "init"]
+- !private ["PSo14StreamDelegate", "isConnected"]
+- !private ["PSo14StreamDelegate", "onConnect"]
+- !private ["PSo14StreamDelegate", "onData"]
+- !private ["PSo14StreamDelegate", "onDisconnect"]
+- !private ["PSo14StreamDelegate", "onPong"]
+- !private ["PSo14StreamDelegate", "onText"]
+- !private ["PSo14StreamDelegate", "origin"]
+- !private ["PSo14StreamDelegate", "write"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["O17ActionCableClient13TransmitError", "deinit"]
+- !private ["O17ActionCableClient13TransmitError", "notConnected"]
+- !private ["O17ActionCableClient13TransmitError", "notSubscribed"]
+- !private ["V10Foundation3URL", "absoluteString"]
+- !private ["Vs9Unmanaged", "passUnretained"]
+- !private ["Vs9Unmanaged", "toOpaque"]
+- !private ["C10Starscream9WebSocket", "connect"]
+- !private ["C10Starscream9WebSocket", "currentURL"]
+- !private ["C10Starscream9WebSocket", "disconnect"]
+- !private ["C10Starscream9WebSocket", "headers"]
+- !private ["C10Starscream9WebSocket", "init"]
+- !private ["C10Starscream9WebSocket", "isConnected"]
+- !private ["C10Starscream9WebSocket", "onConnect"]
+- !private ["C10Starscream9WebSocket", "onData"]
+- !private ["C10Starscream9WebSocket", "onDisconnect"]
+- !private ["C10Starscream9WebSocket", "onPong"]
+- !private ["C10Starscream9WebSocket", "onText"]
+- !private ["C10Starscream9WebSocket", "origin"]
+- !private ["C10Starscream9WebSocket", "write"]
+- ["Ps14_ArrayProtocol", "init"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "absoluteString"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "absoluteString"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "autoSubscribe"]
+- !private ["Ps9_Hashable", "cancelSubscription"]
+- !private ["Ps9_Hashable", "confirmSubscription"]
+- !private ["Ps9_Hashable", "connect"]
+- !private ["Ps9_Hashable", "currentURL"]
+- !private ["Ps9_Hashable", "disconnect"]
+- !private ["Ps9_Hashable", "headers"]
+- !private ["Ps9_Hashable", "hibernateSubscription"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isConnected"]
+- !private ["Ps9_Hashable", "isSubscribed"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "message"]
+- !private ["Ps9_Hashable", "name"]
+- !private ["Ps9_Hashable", "notConnected"]
+- !private ["Ps9_Hashable", "notSubscribed"]
+- !private ["Ps9_Hashable", "onConnect"]
+- !private ["Ps9_Hashable", "onData"]
+- !private ["Ps9_Hashable", "onDisconnect"]
+- !private ["Ps9_Hashable", "onMessage"]
+- !private ["Ps9_Hashable", "onPong"]
+- !private ["Ps9_Hashable", "onText"]
+- !private ["Ps9_Hashable", "origin"]
+- !private ["Ps9_Hashable", "ping"]
+- !private ["Ps9_Hashable", "rejectSubscription"]
+- !private ["Ps9_Hashable", "retry"]
+- !private ["Ps9_Hashable", "subscribe"]
+- !private ["Ps9_Hashable", "unrecognized"]
+- !private ["Ps9_Hashable", "unsubscribe"]
+- !private ["Ps9_Hashable", "welcome"]
+- !private ["Ps9_Hashable", "write"]
+- !private ["Ps10_Indexable", "contains"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "keys"]
+- !private ["Ps10_Indexable", "removeValue"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps10_Indexable", "updateValue"]
+- !private ["Ps14_IndexableBase", "contains"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "keys"]
+- !private ["Ps14_IndexableBase", "removeValue"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps14_IndexableBase", "updateValue"]
+- ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "absoluteString"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "keys"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "updateValue"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+depends-nominal:
+- "C17ActionCableClient17ActionCableClient"
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "C17ActionCableClient7Channel"
+- "Ps10Collection"
+- !private "O17ActionCableClient7Command"
+- !private "Ps10Comparable"
+- !private "O17ActionCableClient15ConnectionError"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "C17ActionCableClient14JSONSerializer"
+- !private "Ps22LazyCollectionProtocol"
+- !private "Vs17LazyMapCollection"
+- !private "Ps20LazySequenceProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "V17ActionCableClient7Message"
+- !private "O17ActionCableClient11MessageType"
+- !private "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo9OS_object"
+- !private "Os19PlaygroundQuickLook"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "C17ActionCableClient12RetryHandler"
+- "O17ActionCableClient13RetryStrategy"
+- "Ps8Sequence"
+- !private "Vs12StaticString"
+- !private "PSo14StreamDelegate"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "O17ActionCableClient13TransmitError"
+- !private "V10Foundation3URL"
+- !private "Vs9Unmanaged"
+- !private "C10Starscream9WebSocket"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Target Support Files/ActionCableClient/ActionCableClient-umbrella.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphoneos/ActionCableClient.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/arm64.swiftmodule"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphoneos/Starscream.build/module.modulemap"
+interface-hash: "e535adf9480a8353b8e9c0803500c476"

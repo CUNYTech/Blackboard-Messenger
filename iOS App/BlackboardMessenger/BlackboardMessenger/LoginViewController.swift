@@ -16,14 +16,14 @@ class LoginViewController: UIViewController {
 	
 	@IBAction func loginButton(_ sender: UIButton) {
 		let requestString = "username=" + usernameField.text! + "&password=" + passwordField.text!
-		let urlRequest = "https://shielded-peak-13145.herokuapp.com/blackboard_scrapers/new?" + requestString
+		let urlRequest = "https://blackboard-rails-api-isuruv.c9users.io/blackboard_scrapers/new?" + requestString
 		
 		Alamofire.request(urlRequest, method: .get,
 		                  encoding: JSONEncoding.default, headers:nil)
 			.responseJSON { response in
 				guard let json = response.result.value as? [String: Any] else{
 					print("didn't get courses as JSON from api")
-					print("error: \(response.result.error)")
+					print("error: \(String(describing: String(describing: response.result.error)))")
 					return
 				}
 				self.userDefaults = UserDefaults.standard
@@ -44,6 +44,7 @@ class LoginViewController: UIViewController {
 		if(userDefaults?.object(forKey: "student") != nil) {
 			performSegue(withIdentifier: "LoadCourses", sender: self)
 		}
+		
 		
         // Do any additional setup after loading the view.
     }

@@ -10,7 +10,6 @@ provides-dynamic-lookup:
 - "courseInfo"
 - "didReceiveMemoryWarning"
 - "getMessages"
-- "messageArray"
 - "numberOfSections"
 - "studentInfo"
 - "tableView"
@@ -891,4 +890,4 @@ depends-external:
 - "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
 - "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
 - "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/module.modulemap"
-interface-hash: "59c08c116f6bf7f93f511437af41c9f2"
+interface-hash: "00433aec32ad87408442f2b86749ce6b"
