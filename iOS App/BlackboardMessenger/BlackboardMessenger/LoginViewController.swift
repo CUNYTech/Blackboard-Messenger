@@ -9,10 +9,11 @@
 import UIKit
 import Alamofire
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, UITextFieldDelegate {
 	var userDefaults : UserDefaults?
 	@IBOutlet weak var usernameField: UITextField!
 	@IBOutlet weak var passwordField: UITextField!
+	@IBOutlet weak var scrollView: UIScrollView!
 	
 	@IBAction func loginButton(_ sender: UIButton) {
 		let requestString = "username=" + usernameField.text! + "&password=" + passwordField.text!
@@ -35,6 +36,19 @@ class LoginViewController: UIViewController {
 				
 				self.performSegue(withIdentifier: "LoadCourses", sender: self)
 		}
+	}
+	
+	func textFieldDidBeginEditing(_ textField: UITextField) {
+		scrollView.setContentOffset(CGPoint(x: 0.0, y: 150.0), animated: true)
+	}
+	
+	func textFieldDidEndEditing(_ textField: UITextField) {
+		scrollView.setContentOffset(CGPoint(x: 0.0, y: 0.0), animated: true)
+	}
+	
+	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+		textField.resignFirstResponder()
+		return true
 	}
 
     override func viewDidLoad() {

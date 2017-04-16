@@ -133,6 +133,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreGraphics;
 @import Foundation;
 #endif
 
@@ -172,17 +173,24 @@ SWIFT_CLASS("_TtC19BlackboardMessenger11AppDelegate")
 @class NSUserDefaults;
 @class UITextField;
 @class MessagesTableViewController;
+@class UIScrollView;
+@class NSNotification;
 
 SWIFT_CLASS("_TtC19BlackboardMessenger18ChatViewController")
-@interface ChatViewController : UIViewController
+@interface ChatViewController : UIViewController <UITextFieldDelegate>
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified selectedCourse;
 @property (nonatomic, strong) NSUserDefaults * _Null_unspecified userDefaults;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified messageContent;
 @property (nonatomic, weak) MessagesTableViewController * _Nullable messageView;
+@property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
 - (IBAction)messageButton:(id _Nonnull)sender;
 - (void)viewDidLoad;
+- (CGFloat)keyboardShownWithNotification:(NSNotification * _Nonnull)notification SWIFT_WARN_UNUSED_RESULT;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)connect;
+- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -221,11 +229,15 @@ SWIFT_CLASS("_TtC19BlackboardMessenger29CourseViewTableViewController")
 @class UIButton;
 
 SWIFT_CLASS("_TtC19BlackboardMessenger19LoginViewController")
-@interface LoginViewController : UIViewController
+@interface LoginViewController : UIViewController <UITextFieldDelegate>
 @property (nonatomic, strong) NSUserDefaults * _Nullable userDefaults;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified usernameField;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordField;
+@property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
 - (IBAction)loginButton:(UIButton * _Nonnull)sender;
+- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

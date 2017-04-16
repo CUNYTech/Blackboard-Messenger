@@ -9,14 +9,14 @@
 import UIKit
 import ActionCableClient
 
-class ChatViewController: UIViewController {
-	@IBOutlet weak var selectedCourse: UILabel!
+class ChatViewController: UIViewController, UITextFieldDelegate {
+	@IBOutlet weak var selectedCourse : UILabel!
 	var userDefaults : UserDefaults!
 	var client : ActionCableClient? = nil
-	@IBOutlet weak var messageContent: UITextField!
+	@IBOutlet weak var messageContent : UITextField!
 	weak var messageView : MessagesTableViewController?
 	var roomChannel : Channel!
-	
+	@IBOutlet weak var scrollView : UIScrollView!
 	@IBAction func messageButton(_ sender: Any) {
 		if messageContent.text != nil {
 			if let message = messageContent.text {
@@ -25,7 +25,6 @@ class ChatViewController: UIViewController {
 				roomChannel?["speak"](["content" : message,
 				                       "classroom_id" : class_id!,
 				                       "user_id" : user_id!])
-			
 				
 				messageContent.text = ""
 			}
@@ -35,14 +34,21 @@ class ChatViewController: UIViewController {
 		}
 	}
 	
-    override func viewDidLoad() {
+	override func viewDidLoad() {
         super.viewDidLoad()
 		userDefaults = UserDefaults.standard
 		selectedCourse.text = userDefaults.object(forKey: "className") as! String?
 		
-		connect()
+		NotificationCenter.default.addObserver(self, selector: #selector(keyboardShown), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
 		
+		connect()
     }
+	
+	func keyboardShown(notification: NSNotification) -> CGFloat {
+		let info = notification.userInfo!
+		let keyboardFrame: CGRect = (info[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+		return keyboardFrame.height
+	}
 	
 	override func viewDidAppear(_ animated: Bool) {
 		DispatchQueue.main.async {
@@ -69,6 +75,19 @@ class ChatViewController: UIViewController {
 		}
 	}
 
+	func textFieldDidBeginEditing(_ textField: UITextField) {
+		scrollView.setContentOffset(CGPoint(x: 0.0, y: 225), animated: true)
+	}
+	
+	func textFieldDidEndEditing(_ textField: UITextField) {
+		scrollView.setContentOffset(CGPoint(x: 0.0, y: 0.0), animated: true)
+	}
+	
+	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+		textField.resignFirstResponder()
+		return true
+	}
+	
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
