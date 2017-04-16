@@ -39,17 +39,37 @@ class ChatViewController: UIViewController, UITextFieldDelegate {
 		userDefaults = UserDefaults.standard
 		selectedCourse.text = userDefaults.object(forKey: "className") as! String?
 		
-		NotificationCenter.default.addObserver(self, selector: #selector(keyboardShown), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-		
+		//NotificationCenter.default.addObserver(self, selector: #selector(keyboardShown), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
 		connect()
+		NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+		//NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
     }
 	
-	func keyboardShown(notification: NSNotification) -> CGFloat {
+	func keyboardWillShow(notification: NSNotification) {
+		if let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+			if self.scrollView.frame.origin.y == 0 {
+				let userDefaults = UserDefaults.standard
+				let tabBarHeight = userDefaults.object(forKey: "tabHeight") as! CGFloat
+				scrollView.setContentOffset(CGPoint(x: 0.0, y: keyboardSize.height - tabBarHeight), animated: true)
+			}
+		}
+	}
+	/*
+	func keyboardWillHide(notification: NSNotification) {
+		if let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+			if self.scrollView.frame.origin.y != 0 {
+				scrollView.setContentOffset(CGPoint(x: 0.0, y: self.scrollView.frame.origin.y - keyboardSize.height), animated: true)
+			}
+		}
+	}
+	*/
+	/*
+	func keyboardShown(notification: NSNotification) {
 		let info = notification.userInfo!
 		let keyboardFrame: CGRect = (info[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
-		return keyboardFrame.height
+		print(keyboardFrame.height)
 	}
-	
+	*/
 	override func viewDidAppear(_ animated: Bool) {
 		DispatchQueue.main.async {
 			self.roomChannel?.onReceive = { (JSON : Any?, error : Error?) in
@@ -74,15 +94,15 @@ class ChatViewController: UIViewController, UITextFieldDelegate {
 			print("Disconnected!")
 		}
 	}
-
+	/*
 	func textFieldDidBeginEditing(_ textField: UITextField) {
 		scrollView.setContentOffset(CGPoint(x: 0.0, y: 225), animated: true)
 	}
-	
+	*/
 	func textFieldDidEndEditing(_ textField: UITextField) {
 		scrollView.setContentOffset(CGPoint(x: 0.0, y: 0.0), animated: true)
 	}
-	
+
 	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
 		textField.resignFirstResponder()
 		return true

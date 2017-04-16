@@ -133,7 +133,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
-@import CoreGraphics;
 @import Foundation;
 #endif
 
@@ -185,10 +184,9 @@ SWIFT_CLASS("_TtC19BlackboardMessenger18ChatViewController")
 @property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
 - (IBAction)messageButton:(id _Nonnull)sender;
 - (void)viewDidLoad;
-- (CGFloat)keyboardShownWithNotification:(NSNotification * _Nonnull)notification SWIFT_WARN_UNUSED_RESULT;
+- (void)keyboardWillShowWithNotification:(NSNotification * _Nonnull)notification;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)connect;
-- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
 - (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
 - (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 - (void)didReceiveMemoryWarning;

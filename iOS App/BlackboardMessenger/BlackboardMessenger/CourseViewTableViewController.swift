@@ -72,10 +72,12 @@ class CourseViewTableViewController: UITableViewController {
 	
 	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		let selectedCourse = self.courseInfo[indexPath.row] as! [String : Any]
-		
+		let tabBarHeight = self.tabBarController?.tabBar.frame.size.height
+
 		userDefaults.set(selectedCourse["roster"], forKey: "courseRoster")
 		userDefaults.set(selectedCourse["classname"], forKey: "className")
 		userDefaults.set(selectedCourse["id"], forKey: "class_id")
+		userDefaults.set(tabBarHeight, forKey: "tabHeight")
 		userDefaults.synchronize()
 		
 		getMessages()

@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/ActionCableClient/ActionCableClient.framework/Headers",
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/ActionCableClient/ActionCableClient.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "ActionCableClient-Swift.h",
-          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/ActionCableClient/ActionCableClient.framework/Headers/ActionCableClient-Swift.h"
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/ActionCableClient/ActionCableClient.framework/Headers/ActionCableClient-Swift.h"
         },
         {
           'type': 'file',
@@ -20,23 +20,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/ActionCableClient/ActionCableClient.framework/Modules",
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/ActionCableClient/ActionCableClient.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphoneos/ActionCableClient.build/module.modulemap"
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphonesimulator/ActionCableClient.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
         },
         {
           'type': 'file',
@@ -47,18 +47,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Pods_BlackboardMessenger.framework/Headers",
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Pods_BlackboardMessenger.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -68,29 +68,29 @@
         {
           'type': 'file',
           'name': "Pods_BlackboardMessenger-Swift.h",
-          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Pods_BlackboardMessenger.framework/Headers/Pods_BlackboardMessenger-Swift.h"
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Pods_BlackboardMessenger.framework/Headers/Pods_BlackboardMessenger-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Pods_BlackboardMessenger.framework/Modules",
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Pods_BlackboardMessenger.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphoneos/Pods-BlackboardMessenger.build/module.modulemap"
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphonesimulator/Pods-BlackboardMessenger.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Starscream/Starscream.framework/Headers",
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Starscream-Swift.h",
-          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
         },
         {
           'type': 'file',
@@ -101,23 +101,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/Starscream/Starscream.framework/Modules",
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphoneos/Starscream.build/module.modulemap"
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/SwiftWebSocket/SwiftWebSocket.framework/Headers",
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/SwiftWebSocket/SwiftWebSocket.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SwiftWebSocket-Swift.h",
-          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/SwiftWebSocket/SwiftWebSocket.framework/Headers/SwiftWebSocket-Swift.h"
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/SwiftWebSocket/SwiftWebSocket.framework/Headers/SwiftWebSocket-Swift.h"
         },
         {
           'type': 'file',
@@ -128,12 +128,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphoneos/SwiftWebSocket/SwiftWebSocket.framework/Modules",
+      'name': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Debug-iphonesimulator/SwiftWebSocket/SwiftWebSocket.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphoneos/SwiftWebSocket.build/module.modulemap"
+          'external-contents': "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/build/Pods.build/Debug-iphonesimulator/SwiftWebSocket.build/module.modulemap"
         }
       ]
     }
