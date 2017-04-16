@@ -58,7 +58,6 @@ class MessagesTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MessageCell", for: indexPath) as! MessageCell
-		print("reloading view")
 		let currentMessage = messageArray?[indexPath.row]
 		let userContent = currentMessage?["user"] as! [String : Any]
 		let messageContent = currentMessage?["message"] as? [String : Any]
