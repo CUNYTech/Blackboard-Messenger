@@ -17,20 +17,17 @@ class ChatViewController: UIViewController, UITextFieldDelegate {
 	weak var messageView : MessagesTableViewController?
 	var roomChannel : Channel!
 	@IBOutlet weak var scrollView : UIScrollView!
+	
 	@IBAction func messageButton(_ sender: Any) {
-		if messageContent.text != nil {
+		if messageContent.text != "" {
 			if let message = messageContent.text {
 				let user_id = self.userDefaults.object(forKey: "user_id")
 				let class_id = self.userDefaults.object(forKey: "class_id")
 				roomChannel?["speak"](["content" : message,
 				                       "classroom_id" : class_id!,
 				                       "user_id" : user_id!])
-				
 				messageContent.text = ""
 			}
-		}
-		else {
-			print("no message")
 		}
 	}
 	
@@ -39,10 +36,8 @@ class ChatViewController: UIViewController, UITextFieldDelegate {
 		userDefaults = UserDefaults.standard
 		selectedCourse.text = userDefaults.object(forKey: "className") as! String?
 		
-		//NotificationCenter.default.addObserver(self, selector: #selector(keyboardShown), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
 		connect()
 		NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-		//NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
     }
 	
 	func keyboardWillShow(notification: NSNotification) {
@@ -54,27 +49,11 @@ class ChatViewController: UIViewController, UITextFieldDelegate {
 			}
 		}
 	}
-	/*
-	func keyboardWillHide(notification: NSNotification) {
-		if let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
-			if self.scrollView.frame.origin.y != 0 {
-				scrollView.setContentOffset(CGPoint(x: 0.0, y: self.scrollView.frame.origin.y - keyboardSize.height), animated: true)
-			}
-		}
-	}
-	*/
-	/*
-	func keyboardShown(notification: NSNotification) {
-		let info = notification.userInfo!
-		let keyboardFrame: CGRect = (info[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
-		print(keyboardFrame.height)
-	}
-	*/
+	
 	override func viewDidAppear(_ animated: Bool) {
 		DispatchQueue.main.async {
 			self.roomChannel?.onReceive = { (JSON : Any?, error : Error?) in
 				self.messageView = self.childViewControllers[0] as? MessagesTableViewController
-				print("Received", JSON!)
 				self.messageView?.messageArray.append(JSON! as! [String: Any?])
 				self.messageView?.tableView.reloadData()
 				self.messageView?.tableView.scrollToBottom()
@@ -94,11 +73,7 @@ class ChatViewController: UIViewController, UITextFieldDelegate {
 			print("Disconnected!")
 		}
 	}
-	/*
-	func textFieldDidBeginEditing(_ textField: UITextField) {
-		scrollView.setContentOffset(CGPoint(x: 0.0, y: 225), animated: true)
-	}
-	*/
+	
 	func textFieldDidEndEditing(_ textField: UITextField) {
 		scrollView.setContentOffset(CGPoint(x: 0.0, y: 0.0), animated: true)
 	}

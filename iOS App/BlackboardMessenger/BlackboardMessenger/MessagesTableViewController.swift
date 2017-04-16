@@ -33,7 +33,6 @@ class MessagesTableViewController: UITableViewController {
 		userDefaults = UserDefaults.standard
 		messageArray = userDefaults.object(forKey: "messages") as! [[String : Any?]]
 		tableView.scrollToBottom()
-		print(messageArray)
 	}
 	
     override func didReceiveMemoryWarning() {

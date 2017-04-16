@@ -47,7 +47,15 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 	}
 	
 	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-		textField.resignFirstResponder()
+		let nextTag = textField.tag + 1 as Int
+		let nextField : UIResponder? = textField.superview?.viewWithTag(nextTag)
+		
+		if let field : UIResponder = nextField {
+			field.becomeFirstResponder()
+		}
+		else {
+			textField.resignFirstResponder()
+		}
 		return true
 	}
 
