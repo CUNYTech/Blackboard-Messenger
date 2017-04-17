@@ -37,9 +37,25 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 				self.performSegue(withIdentifier: "LoadCourses", sender: self)
 		}
 	}
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+		
+		userDefaults = UserDefaults.standard
+		if(userDefaults?.object(forKey: "student") != nil) {
+			performSegue(withIdentifier: "LoadCourses", sender: self)
+		}
+		
+		let tap = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))
+		view.addGestureRecognizer(tap)
+	}
+
+	func dismissKeyboard() {
+		view.endEditing(true)
+	}
 	
 	func textFieldDidBeginEditing(_ textField: UITextField) {
-		scrollView.setContentOffset(CGPoint(x: 0.0, y: 150.0), animated: true)
+		scrollView.setContentOffset(CGPoint(x: 0.0, y: 230.0), animated: true)
 	}
 	
 	func textFieldDidEndEditing(_ textField: UITextField) {
@@ -58,19 +74,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 		}
 		return true
 	}
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-		
-		userDefaults = UserDefaults.standard
-		if(userDefaults?.object(forKey: "student") != nil) {
-			performSegue(withIdentifier: "LoadCourses", sender: self)
-		}
-		
-		
-        // Do any additional setup after loading the view.
-    }
-
+	
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

@@ -233,10 +233,11 @@ SWIFT_CLASS("_TtC19BlackboardMessenger19LoginViewController")
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordField;
 @property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
 - (IBAction)loginButton:(UIButton * _Nonnull)sender;
+- (void)viewDidLoad;
+- (void)dismissKeyboard;
 - (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
 - (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
 - (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
-- (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
