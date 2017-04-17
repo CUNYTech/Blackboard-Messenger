@@ -25,23 +25,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Gx-k3-9Fp">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ge-F6-O9D">
-                                        <rect key="frame" x="16" y="245" width="288" height="30"/>
-                                        <color key="backgroundColor" red="0.011764705882352941" green="0.60784313725490191" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
-                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <outlet property="delegate" destination="BYZ-38-t0r" id="9ig-lB-T22"/>
-                                        </connections>
-                                    </textField>
                                     <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dbn-aO-5dT">
-                                        <rect key="frame" x="16" y="308" width="288" height="30"/>
+                                        <rect key="frame" x="16" y="311" width="288" height="30"/>
                                         <color key="backgroundColor" red="0.011764705882352941" green="0.60784313725490191" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -56,7 +41,7 @@
                                         </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STc-Mp-t5Z">
-                                        <rect key="frame" x="66" y="366" width="187" height="30"/>
+                                        <rect key="frame" x="66" y="368" width="187" height="30"/>
                                         <color key="backgroundColor" red="1" green="0.79607843137254897" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                         <state key="normal" title="Log In">
@@ -68,32 +53,54 @@
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hNV-4x-gbU">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="205"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="227"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="td6-lB-MbP">
-                                                <rect key="frame" x="100" y="29" width="121" height="147"/>
+                                                <rect key="frame" x="100" y="29" width="121" height="169"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blackboard Messenger" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="f1y-N5-UzB">
+                                                <rect key="frame" x="-11" y="191" width="343" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.011764705882352941" green="0.60784313725490191" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
+                                    <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ge-F6-O9D">
+                                        <rect key="frame" x="15" y="254" width="288" height="30"/>
+                                        <color key="backgroundColor" red="0.011764705882352941" green="0.60784313725490191" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="9ig-lB-T22"/>
+                                        </connections>
+                                    </textField>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="hNV-4x-gbU" firstAttribute="leading" secondItem="6Gx-k3-9Fp" secondAttribute="leading" id="DsC-OC-Dkv"/>
                                     <constraint firstItem="STc-Mp-t5Z" firstAttribute="leading" secondItem="6Gx-k3-9Fp" secondAttribute="leading" constant="66" id="H9e-MB-B6V"/>
                                     <constraint firstItem="Dbn-aO-5dT" firstAttribute="centerX" secondItem="STc-Mp-t5Z" secondAttribute="centerX" id="LH2-UC-41N"/>
-                                    <constraint firstItem="Dbn-aO-5dT" firstAttribute="top" secondItem="5ge-F6-O9D" secondAttribute="bottom" constant="33" id="LJj-Gh-gfU"/>
-                                    <constraint firstItem="5ge-F6-O9D" firstAttribute="leading" secondItem="6Gx-k3-9Fp" secondAttribute="leading" constant="16" id="MBS-14-Qsz"/>
-                                    <constraint firstItem="5ge-F6-O9D" firstAttribute="trailing" secondItem="Dbn-aO-5dT" secondAttribute="trailing" id="N2K-vT-Kl5"/>
-                                    <constraint firstItem="hNV-4x-gbU" firstAttribute="centerX" secondItem="5ge-F6-O9D" secondAttribute="centerX" id="Q3b-pG-3jC"/>
-                                    <constraint firstItem="5ge-F6-O9D" firstAttribute="centerY" secondItem="6Gx-k3-9Fp" secondAttribute="centerY" id="b7c-ra-BSs"/>
-                                    <constraint firstItem="STc-Mp-t5Z" firstAttribute="top" secondItem="Dbn-aO-5dT" secondAttribute="bottom" constant="28" id="exR-cA-Wr4"/>
+                                    <constraint firstItem="Dbn-aO-5dT" firstAttribute="top" secondItem="5ge-F6-O9D" secondAttribute="bottom" constant="27" id="LJj-Gh-gfU"/>
+                                    <constraint firstItem="5ge-F6-O9D" firstAttribute="leading" secondItem="6Gx-k3-9Fp" secondAttribute="leading" constant="15" id="MBS-14-Qsz"/>
+                                    <constraint firstItem="5ge-F6-O9D" firstAttribute="trailing" secondItem="Dbn-aO-5dT" secondAttribute="trailing" constant="-1" id="N2K-vT-Kl5"/>
+                                    <constraint firstItem="hNV-4x-gbU" firstAttribute="centerX" secondItem="5ge-F6-O9D" secondAttribute="centerX" constant="1" id="Q3b-pG-3jC"/>
+                                    <constraint firstItem="5ge-F6-O9D" firstAttribute="centerY" secondItem="6Gx-k3-9Fp" secondAttribute="centerY" constant="9.5" id="b7c-ra-BSs"/>
+                                    <constraint firstItem="STc-Mp-t5Z" firstAttribute="top" secondItem="Dbn-aO-5dT" secondAttribute="bottom" constant="27" id="exR-cA-Wr4"/>
                                     <constraint firstAttribute="trailing" secondItem="hNV-4x-gbU" secondAttribute="trailing" id="inP-KP-RH9"/>
-                                    <constraint firstItem="5ge-F6-O9D" firstAttribute="top" secondItem="hNV-4x-gbU" secondAttribute="bottom" constant="40" id="qCE-2r-Zgm"/>
+                                    <constraint firstItem="5ge-F6-O9D" firstAttribute="top" secondItem="hNV-4x-gbU" secondAttribute="bottom" constant="27" id="qCE-2r-Zgm"/>
                                     <constraint firstItem="hNV-4x-gbU" firstAttribute="centerX" secondItem="6Gx-k3-9Fp" secondAttribute="centerX" id="sEn-fS-d6E"/>
                                     <constraint firstItem="hNV-4x-gbU" firstAttribute="top" secondItem="6Gx-k3-9Fp" secondAttribute="top" id="vgg-9r-Ppk"/>
-                                    <constraint firstAttribute="bottom" secondItem="STc-Mp-t5Z" secondAttribute="bottom" constant="123" id="yJF-tE-kqa"/>
-                                    <constraint firstItem="5ge-F6-O9D" firstAttribute="leading" secondItem="Dbn-aO-5dT" secondAttribute="leading" id="zMY-Ww-OPW"/>
+                                    <constraint firstAttribute="bottom" secondItem="STc-Mp-t5Z" secondAttribute="bottom" constant="130.5" id="yJF-tE-kqa"/>
+                                    <constraint firstItem="5ge-F6-O9D" firstAttribute="leading" secondItem="Dbn-aO-5dT" secondAttribute="leading" constant="-1" id="zMY-Ww-OPW"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -185,22 +192,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a message" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TcC-xU-d1Z">
-                                        <rect key="frame" x="8" y="414" width="260" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                        <color key="backgroundColor" red="0.011764705882352941" green="0.60784313725490191" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
-                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <outlet property="delegate" destination="d2F-7F-djO" id="yY8-vk-GL5"/>
-                                        </connections>
-                                    </textField>
                                     <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kqm-5f-h4w">
                                         <rect key="frame" x="0.0" y="34" width="320" height="375"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -226,6 +217,22 @@
                                             <action selector="messageButton:" destination="d2F-7F-djO" eventType="touchUpInside" id="MDm-Un-eO8"/>
                                         </connections>
                                     </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a message" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TcC-xU-d1Z">
+                                        <rect key="frame" x="8" y="417" width="260" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.011764705882352941" green="0.60784313725490191" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="delegate" destination="d2F-7F-djO" id="yY8-vk-GL5"/>
+                                        </connections>
+                                    </textField>
                                 </subviews>
                             </scrollView>
                         </subviews>
