@@ -16,25 +16,58 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 	@IBOutlet weak var scrollView: UIScrollView!
 	
 	@IBAction func loginButton(_ sender: UIButton) {
-		let requestString = "username=" + usernameField.text! + "&password=" + passwordField.text!
-		let urlRequest = "https://blackboard-rails-api-isuruv.c9users.io/blackboard_scrapers/new?" + requestString
-		
-		Alamofire.request(urlRequest, method: .get,
-		                  encoding: JSONEncoding.default, headers:nil)
-			.responseJSON { response in
-				guard let json = response.result.value as? [String: Any] else{
-					print("didn't get courses as JSON from api")
-					print("error: \(String(describing: String(describing: response.result.error)))")
-					return
-				}
-				self.userDefaults = UserDefaults.standard
-				self.userDefaults?.set(json["student"] as! [String: Any], forKey: "student")
-				var temp = self.userDefaults?.object(forKey: "student") as! [String : Any]
-				self.userDefaults?.set(temp["id"], forKey: "user_id")
-				self.userDefaults?.set(json["classes"], forKey: "userClasses")
-				self.userDefaults?.synchronize()
-				
-				self.performSegue(withIdentifier: "LoadCourses", sender: self)
+		if usernameField.text! == "" || passwordField.text! == "" {
+			let controller : UIAlertController = UIAlertController(
+				title: "Invalid form",
+				message: "Please enter your cuny.edu credentials.",
+			    preferredStyle: UIAlertControllerStyle.alert)
+			
+			let okAction : UIAlertAction = UIAlertAction(
+				title : "Okay",
+				style : UIAlertActionStyle.default,
+				handler: {
+					(alert: UIAlertAction!) in controller.dismiss(animated: true, completion: nil)}
+			)
+			
+			controller.addAction(okAction)
+			self.present(controller, animated: true, completion: nil)
+		}
+			
+		else {
+			let requestString = "username=" + usernameField.text! + "&password=" + passwordField.text!
+			let urlRequest = "https://blackboard-rails-api-isuruv.c9users.io/blackboard_scrapers/new?" + requestString
+			
+			Alamofire.request(urlRequest, method: .get,
+			                  encoding: JSONEncoding.default, headers:nil)
+				.responseJSON { response in
+					guard let json = response.result.value as? [String: Any] else{
+						print("didn't get courses as JSON from api")
+						print("error: \(String(describing: String(describing: response.result.error)))")
+						let controller : UIAlertController = UIAlertController(
+							title: "Something went wrong",
+							message: "Either the server is down or your credentials were wrong.",
+							preferredStyle: UIAlertControllerStyle.alert)
+						
+						let okAction : UIAlertAction = UIAlertAction(
+							title : "Okay",
+							style : UIAlertActionStyle.default,
+							handler: {
+								(alert: UIAlertAction!) in controller.dismiss(animated: true, completion: nil)}
+						)
+						
+						controller.addAction(okAction)
+						self.present(controller, animated: true, completion: nil)
+						return
+					}
+					self.userDefaults = UserDefaults.standard
+					self.userDefaults?.set(json["student"] as! [String: Any], forKey: "student")
+					var temp = self.userDefaults?.object(forKey: "student") as! [String : Any]
+					self.userDefaults?.set(temp["id"], forKey: "user_id")
+					self.userDefaults?.set(json["classes"], forKey: "userClasses")
+					self.userDefaults?.synchronize()
+					
+					self.performSegue(withIdentifier: "LoadCourses", sender: self)
+			}
 		}
 	}
 
@@ -42,8 +75,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
 		
 		userDefaults = UserDefaults.standard
+		
 		if(userDefaults?.object(forKey: "student") != nil) {
-			performSegue(withIdentifier: "LoadCourses", sender: self)
+			self.performSegue(withIdentifier: "LoadCourses", sender: self)
 		}
 		
 		let tap = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))

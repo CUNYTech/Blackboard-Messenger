@@ -241,7 +241,7 @@
                     <navigationItem key="navigationItem" title="Chat" id="vZj-lk-2PK">
                         <barButtonItem key="rightBarButtonItem" title="ToRoster" style="plain" id="a9Z-R1-eS0">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xEK-WD-aEJ">
-                                <rect key="frame" x="326" y="7" width="68" height="30"/>
+                                <rect key="frame" x="236" y="7" width="68" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="hfh-Gg-eaO"/>

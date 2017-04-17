@@ -1,12 +1,12 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
 options: "78799c5609c822aa81f6d9b4e692e461"
-build_time: [545708239, 508333000]
+build_time: [545717302, 417985000]
 inputs:
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/BlackboardMessenger/MessageCell.swift": [545632048, 0]
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/BlackboardMessenger/RosterTableViewController.swift": [545599001, 0]
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/BlackboardMessenger/CourseViewTableViewController.swift": [545641624, 0]
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/BlackboardMessenger/ChatViewController.swift": [545642336, 0]
-  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/BlackboardMessenger/LoginViewController.swift": [545708238, 0]
+  "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/BlackboardMessenger/LoginViewController.swift": [545717299, 0]
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/BlackboardMessenger/RosterCell.swift": [544825433, 0]
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/BlackboardMessenger/CourseCell.swift": [544054408, 0]
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/BlackboardMessenger/AnnouncementsTableViewController.swift": [544146972, 0]
