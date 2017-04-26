@@ -14,8 +14,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 	@IBOutlet weak var usernameField: UITextField!
 	@IBOutlet weak var passwordField: UITextField!
 	@IBOutlet weak var scrollView: UIScrollView!
+	var activityIndicator:UIActivityIndicatorView = UIActivityIndicatorView()
 	
 	@IBAction func loginButton(_ sender: UIButton) {
+		dismissKeyboard()
 		if usernameField.text! == "" || passwordField.text! == "" {
 			let controller : UIAlertController = UIAlertController(
 				title: "Invalid form",
@@ -34,6 +36,14 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 		}
 			
 		else {
+			activityIndicator.center = self.view.center
+			activityIndicator.hidesWhenStopped = true
+			activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
+			view.addSubview(activityIndicator)
+			
+			activityIndicator.startAnimating()
+			UIApplication.shared.beginIgnoringInteractionEvents()
+			
 			let requestString = "username=" + usernameField.text! + "&password=" + passwordField.text!
 			let urlRequest = "https://blackboard-messenger.herokuapp.com/blackboard_scrapers/new?" + requestString
 			
@@ -54,7 +64,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 							handler: {
 								(alert: UIAlertAction!) in controller.dismiss(animated: true, completion: nil)}
 						)
-						
+						UIApplication.shared.endIgnoringInteractionEvents()
 						controller.addAction(okAction)
 						self.present(controller, animated: true, completion: nil)
 						return
@@ -65,7 +75,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 					self.userDefaults?.set(temp["id"], forKey: "user_id")
 					self.userDefaults?.set(json["classes"], forKey: "userClasses")
 					self.userDefaults?.synchronize()
-					
+					self.activityIndicator.stopAnimating()
+					UIApplication.shared.endIgnoringInteractionEvents()
 					self.performSegue(withIdentifier: "LoadCourses", sender: self)
 			}
 		}

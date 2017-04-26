@@ -224,6 +224,7 @@ SWIFT_CLASS("_TtC19BlackboardMessenger29CourseViewTableViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIActivityIndicatorView;
 @class UIButton;
 
 SWIFT_CLASS("_TtC19BlackboardMessenger19LoginViewController")
@@ -232,6 +233,7 @@ SWIFT_CLASS("_TtC19BlackboardMessenger19LoginViewController")
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified usernameField;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordField;
 @property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
+@property (nonatomic, strong) UIActivityIndicatorView * _Nonnull activityIndicator;
 - (IBAction)loginButton:(UIButton * _Nonnull)sender;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
