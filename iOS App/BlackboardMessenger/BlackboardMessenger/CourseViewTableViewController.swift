@@ -18,31 +18,20 @@ class CourseViewTableViewController: UITableViewController {
 	
     override func viewDidLoad() {
         super.viewDidLoad()
-		//tableView.contentInset.top = 20
 
 		userDefaults = UserDefaults.standard
-		/*
-		if(userDefaults.object(forKey: "student") == nil) {
-			performSegue(withIdentifier: "BringToLogin", sender: self)
-		}
-		*/
+		
 		tableView.tableFooterView = UIView(frame: .zero)
 
 		studentInfo = userDefaults.object(forKey: "student") as! [String : Any]
 		courseInfo = userDefaults.object(forKey: "userClasses") as! NSArray
 		
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
 		print(userDefaults.object(forKey: "user_id")!)
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     // MARK: - Table view data source
@@ -89,7 +78,7 @@ class CourseViewTableViewController: UITableViewController {
 		
 		let class_id = userDefaults?.object(forKey: "class_id")
 		let requestString = String(describing: class_id!)
-		let urlRequest = "https://blackboard-rails-api-isuruv.c9users.io/messages?class_id=" + requestString
+		let urlRequest = "https://blackboard-messenger.herokuapp.com/messages?class_id=" + requestString
 		
 		Alamofire.request(urlRequest, method: .get,
 		                  encoding: JSONEncoding.default, headers:nil)
@@ -99,6 +88,8 @@ class CourseViewTableViewController: UITableViewController {
 					return
 				}
 				self.userDefaults.set([], forKey: "messages")
+				print(self.userDefaults.object(forKey: "messages"))
+				print(json)
 				self.messageArray = json["messages"] as? [[String: Any?]]
 				self.userDefaults.set(self.messageArray, forKey: "messages")
 				self.userDefaults.synchronize()

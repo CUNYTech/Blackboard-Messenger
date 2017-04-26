@@ -1,6 +1,6 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "7cf82a31c8483bc37f461d596009737f"
-build_time: [545627222, 943859000]
+build_time: [546393090, 317085000]
 inputs:
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/AFError.swift": [542694039, 0]
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Alamofire/Source/Alamofire.swift": [542694039, 0]

@@ -35,7 +35,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 			
 		else {
 			let requestString = "username=" + usernameField.text! + "&password=" + passwordField.text!
-			let urlRequest = "https://blackboard-rails-api-isuruv.c9users.io/blackboard_scrapers/new?" + requestString
+			let urlRequest = "https://blackboard-messenger.herokuapp.com/blackboard_scrapers/new?" + requestString
 			
 			Alamofire.request(urlRequest, method: .get,
 			                  encoding: JSONEncoding.default, headers:nil)
@@ -76,20 +76,30 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 		
 		userDefaults = UserDefaults.standard
 		
+		let tap = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))
+		
+		view.addGestureRecognizer(tap)
+		
+		NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+	}
+
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
 		if(userDefaults?.object(forKey: "student") != nil) {
 			self.performSegue(withIdentifier: "LoadCourses", sender: self)
 		}
-		
-		let tap = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))
-		view.addGestureRecognizer(tap)
-	}
-
-	func dismissKeyboard() {
-		view.endEditing(true)
 	}
 	
-	func textFieldDidBeginEditing(_ textField: UITextField) {
-		scrollView.setContentOffset(CGPoint(x: 0.0, y: 230.0), animated: true)
+	func keyboardWillShow(notification: NSNotification) {
+		if let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+			if self.scrollView.frame.origin.y == 0 {
+				scrollView.setContentOffset(CGPoint(x: 0.0, y: keyboardSize.height), animated: true)
+			}
+		}
+	}
+	
+	func dismissKeyboard() {
+		view.endEditing(true)
 	}
 	
 	func textFieldDidEndEditing(_ textField: UITextField) {

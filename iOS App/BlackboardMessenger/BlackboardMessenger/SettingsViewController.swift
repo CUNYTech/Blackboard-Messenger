@@ -9,10 +9,16 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
+	var userDefaults : UserDefaults?
+	
+	@IBAction func logOutButton(_ sender: Any) {
+		userDefaults?.removeObject(forKey: "student")
+		performSegue(withIdentifier: "logOutSegue", sender: self)
+	}
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+		userDefaults = UserDefaults.standard
         // Do any additional setup after loading the view.
     }
 

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SwiftWebSocket-Swift.h</key>
 		<data>
-		OwV3hRN7oc88aLILPkhTYMh1hT4=
+		pAQ7UfQlGQ6hF+hogD8sUz3Fvks=
 		</data>
 		<key>Headers/SwiftWebSocket-umbrella.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ldzNdWww6CECQpD32apNM00wMuE=
+		EGUVPo+WrfdEIkdlxpaL+p1L9J0=
 		</data>
 		<key>Modules/SwiftWebSocket.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		yYnsousE/LUeDiPqhiKv3dL56AA=
+		GPOHM09arGeM7h/jHhFSbbKVHP8=
 		</data>
 		<key>Modules/SwiftWebSocket.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		FWATKHncaUnZyTOBqBcMbQI3ajk=
+		BpIiimvwWzsqjGtESWgW5sBOBBk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,11 +35,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OwV3hRN7oc88aLILPkhTYMh1hT4=
+			pAQ7UfQlGQ6hF+hogD8sUz3Fvks=
 			</data>
 			<key>hash2</key>
 			<data>
-			bkTYkKOkLWkOXRJCoz2wG5J1z0jVUMXEyRpDFTQtgGs=
+			Un5iGiJrQ/mmTtdgaxVSheJ59Fwmi+C1v4FnAj5lZYA=
 			</data>
 		</dict>
 		<key>Headers/SwiftWebSocket-umbrella.h</key>
@@ -57,22 +57,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yYnsousE/LUeDiPqhiKv3dL56AA=
+			GPOHM09arGeM7h/jHhFSbbKVHP8=
 			</data>
 			<key>hash2</key>
 			<data>
-			M3r9KypmEABNAHM5oD91ZzmLQgCn2fuKbK4sbJv62zw=
+			d0RvXOZzctc8dggGDZ8KBS/3ltgpaktPktnZHktyDnA=
 			</data>
 		</dict>
 		<key>Modules/SwiftWebSocket.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FWATKHncaUnZyTOBqBcMbQI3ajk=
+			BpIiimvwWzsqjGtESWgW5sBOBBk=
 			</data>
 			<key>hash2</key>
 			<data>
-			VI2m92ylIkoJVRQ3diTAxaVhpD+YCjV0dyEr8kticho=
+			1wBK9mV3BP1miaYH1jDSEjzH4IJTRAZD/Eh+2QwEnB4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

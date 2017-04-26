@@ -26,7 +26,15 @@ class ChatViewController: UIViewController, UITextFieldDelegate {
 				roomChannel?["speak"](["content" : message,
 				                       "classroom_id" : class_id!,
 				                       "user_id" : user_id!])
+				
 				messageContent.text = ""
+				
+				self.roomChannel?.onReceive = { (JSON : Any?, error : Error?) in
+					self.messageView = self.childViewControllers[0] as? MessagesTableViewController
+					self.messageView?.messageArray.append(JSON! as! [String: Any?])
+					self.messageView?.tableView.reloadData()
+					self.messageView?.tableView.scrollToBottom()
+				}
 			}
 		}
 	}
@@ -62,7 +70,7 @@ class ChatViewController: UIViewController, UITextFieldDelegate {
 	}
 	
 	func connect() {
-		self.client = ActionCableClient(url: URL(string: "ws://blackboard-rails-api-isuruv.c9users.io/cable")!)
+		self.client = ActionCableClient(url: URL(string: "ws://blackboard-messenger.herokuapp.com/cable")!)
 		self.client!.connect()
 		print("Connecting")
 		client?.onConnected = {

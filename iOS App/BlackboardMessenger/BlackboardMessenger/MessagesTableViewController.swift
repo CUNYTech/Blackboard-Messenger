@@ -31,7 +31,9 @@ class MessagesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		userDefaults = UserDefaults.standard
-		messageArray = userDefaults.object(forKey: "messages") as! [[String : Any?]]
+		messageArray = userDefaults.object(forKey: "messages") as? [[String : Any?]]
+		//tableView.rowHeight = UITableViewAutomaticDimension
+		//tableView.estimatedRowHeight = 140
 		tableView.scrollToBottom()
 	}
 	
@@ -66,10 +68,12 @@ class MessagesTableViewController: UITableViewController {
 		if(messageContent?["user_id"] as? Int == userDefaults.object(forKey: "user_id") as? Int) {
 			cell.userName.textAlignment = NSTextAlignment.right
 			cell.messageContent.textAlignment = NSTextAlignment.right
+			cell.backgroundColor = UIColor(red: 3.0/255, green: 155.0/255, blue: 229.0/255, alpha: 1)
 		}
 		else {
 			cell.userName.textAlignment = NSTextAlignment.left
 			cell.messageContent.textAlignment = NSTextAlignment.left
+			cell.backgroundColor = UIColor(red: 2.0/255, green: 136.0/255, blue: 209.0/255, alpha: 1)
 		}
 		return cell
     }

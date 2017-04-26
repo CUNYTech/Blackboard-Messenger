@@ -1,6 +1,6 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "decea6b2174f0720845eb6bd96951ccc"
-build_time: [545602169, 832105000]
+build_time: [546562421, 591605000]
 inputs:
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Starscream/Source/SSLSecurity.swift": [545600246, 0]
   "/Users/william/Projects/Blackboard-Messenger/iOS App/BlackboardMessenger/Pods/Starscream/Source/WebSocket.swift": [545600246, 0]
